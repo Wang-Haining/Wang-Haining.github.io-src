@@ -1,4 +1,4 @@
-PY?=python3
+pip install MarkdownPY?=python3
 PELICAN?=pelican
 PELICANOPTS=
 
