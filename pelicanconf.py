@@ -44,8 +44,8 @@ DEFAULT_LANG = 'en'
 OG_LOCALE = 'en_US'
 LOCALE = 'en_US'
 
-PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['post_stats']
+# PLUGIN_PATHS = ['pelican-plugins']
+# PLUGINS = ['post_stats']
 
 DISPLAY_PAGES_ON_MENU = False
 DEFAULT_PAGINATION = 5
@@ -139,7 +139,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 LOAD_CONTENT_CACHE = False
 FILENAME_METADATA = '(?P<title>.*)'
-DELETE_OUTPUT_DIRECTORY = True
+DELETE_OUTPUT_DIRECTORY = False
 
 OUTPUT_PATH = 'output/blog'
 INDEX_SAVE_AS = 'blog/index.html'
