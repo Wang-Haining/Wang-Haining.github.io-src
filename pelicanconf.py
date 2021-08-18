@@ -52,7 +52,7 @@ SUMMARY_MAX_LENGTH = 175
 
 # Appearance
 THEME = "../pelican-themes/Flex"
-# TYPOGRIFY = True
+TYPOGRIFY = True
 
 # Feeds
 FEED_ALL_ATOM = None
@@ -130,6 +130,7 @@ LOAD_CONTENT_CACHE = False
 FILENAME_METADATA = '(?P<title>.*)'
 DELETE_OUTPUT_DIRECTORY = False
 
+OUTPUT_RETENTION = [".gitignore", ".git"]
 # OUTPUT_PATH = 'output/blog'
 # INDEX_SAVE_AS = 'blog/index.html'
 # INDEX_URL = 'blog/'
