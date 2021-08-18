@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 from datetime import datetime
 import os
 
-AUTHOR = 'Haining Wang'
-SITENAME = "Haining Wang 王海宁"
+AUTHOR = 'Haining Wang 王海宁'
+SITENAME = "Home"
 SITESUBTITLE = """<br>
                   <br>
                   <br><font size="5">Haining Wang 王海宁</font><br> <br>   
@@ -16,8 +16,7 @@ SITESUBTITLE = """<br>
                   <br> <font size="4">PhD student, ILS@IUB</font>
                   <br>
                   <br> Bloomington, IN, USA"""
-SITEDESCRIPTION = "Haining Wang, Indiana University Bloomington, information science, computational linguistics, data science," \
-                  "computational humanities"
+SITEDESCRIPTION = "I'm a doctoral student in the Department of Information & Library Science at Indiana University Bloomington."
 SITEURL = 'https://Wang-Haining.github.io'
 SITELOGO = "/images/profile.png"
 FAVICON = "/images/favicon.ico"
@@ -61,7 +60,6 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
 
 
 # ROBOTS = "index, follow"
@@ -132,9 +130,13 @@ LOAD_CONTENT_CACHE = False
 FILENAME_METADATA = '(?P<title>.*)'
 DELETE_OUTPUT_DIRECTORY = False
 
-OUTPUT_PATH = 'output/blog'
-INDEX_SAVE_AS = 'blog/index.html'
-INDEX_URL = 'blog/'
+# OUTPUT_PATH = 'output/blog'
+# INDEX_SAVE_AS = 'blog/index.html'
+# INDEX_URL = 'blog/'
+
+OUTPUT_PATH = 'output'
+INDEX_SAVE_AS = 'index.html'
+INDEX_URL = '/'
 
 # STATIC_PATHS = ["extra/custom.css"]
 # CUSTOM_CSS = "static/custom.css"
