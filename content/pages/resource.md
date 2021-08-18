@@ -5,7 +5,7 @@ save_as: resource.html
 <br>
 
 - [Visual DTA](https://visual-dta.herokuapp.com/): a scientific tool visualizes the structure of topic flow within a conversation.
-The `dev 0.0.3` version is online for testing. This project is under the supervision of [Prof. Susan Herring](https://info.sice.indiana.edu/~herring/).
+The `dev 0.0.5` version is online for testing. This project is under the supervision of [Prof. Susan Herring](https://info.sice.indiana.edu/~herring/).
 - [functionwords](https://pypi.org/project/functionwords/): a Python package provides curated function words in modern English and modern/classical Chinese.
 
 - [RAABT](https://zenodo.org/record/5213898#.YRxwLNNAphE): The **R**eproducible **A**uthorship **A**ttribution **B**enchmark **T**asks contain five authorship attribution for contemporary non-fiction American English prose.
