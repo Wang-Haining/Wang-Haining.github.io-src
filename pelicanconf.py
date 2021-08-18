@@ -131,9 +131,9 @@ FILENAME_METADATA = '(?P<title>.*)'
 DELETE_OUTPUT_DIRECTORY = False
 
 OUTPUT_RETENTION = [".gitignore", ".git"]
-# OUTPUT_PATH = 'output/blog'
-# INDEX_SAVE_AS = 'blog/index.html'
-# INDEX_URL = 'blog/'
+OUTPUT_PATH = 'output/blog'
+INDEX_SAVE_AS = 'blog/index.html'
+INDEX_URL = 'blog/'
 
 # OUTPUT_PATH = 'output'
 # INDEX_SAVE_AS = 'index.html'
