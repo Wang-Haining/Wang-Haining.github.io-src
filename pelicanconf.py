@@ -134,9 +134,9 @@ DELETE_OUTPUT_DIRECTORY = False
 # INDEX_SAVE_AS = 'blog/index.html'
 # INDEX_URL = 'blog/'
 
-OUTPUT_PATH = 'output'
-INDEX_SAVE_AS = 'index.html'
-INDEX_URL = '/'
+# OUTPUT_PATH = 'output'
+# INDEX_SAVE_AS = 'index.html'
+# INDEX_URL = '/'
 
 # STATIC_PATHS = ["extra/custom.css"]
 # CUSTOM_CSS = "static/custom.css"
