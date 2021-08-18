@@ -11,8 +11,7 @@ My research interrogates problems in the social sciences and humanities from a c
 On the one hand, we believe online anonymity should be preserved in a way that not only is sensitive information masked away but also one's identity cannot be recovered through her writings.
 On the other hand, given the challenges of investigating through encrypted channels ("Use Singal, Use Tor."), online anonymity should be held accountable in case of abuse.
 Currently, we are collaborating on recovering the authorship of Chinese vernacular fiction written during the Ming and Qing dynasties (over three-quarters of them were composed pseudonymously or anonymously!) and building adversarially resistant authorship identification tools capable of disabling style deception. 
-
-Before IUB, my projects cover academic librarianship and digital curation.
+Before IUB, my interests focus on academic librarianship and digital curation.
 
 <br>
 
