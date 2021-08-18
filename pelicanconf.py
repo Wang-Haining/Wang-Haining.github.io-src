@@ -57,11 +57,10 @@ THEME = "../pelican-themes/Flex"
 
 # Feeds
 FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-CATEGORY_FEED_ATOM = None
-CATEGORY_FEED_RSS = None
-TRANSLATION_FEED_ATOM = None
 
 
 
@@ -77,16 +76,8 @@ THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 
 LINKS_IN_NEW_TAB = 'external'
 
-# Social widget
-# SOCIAL = (
-#         ('GitHub', 'https://github.com/Wang-Haining'),
-#         # ('Facebook', 'https://www.facebook.com/haining.wang.56/'),
-#         # ('Twitter', 'https://twitter.com/Haining_Wang_'),
-#         # ('Email', 'hw56@indiana.edu')
-# )
-
 SOCIAL = (
-    ('envelope', 'mailto:hw56 (AT) indiana.org'),
+    ('envelope', 'mailto:hw56 (AT) indiana.edu'),
     ('github', 'https://github.com/Wang-Haining'),
     ('facebook', 'https://www.facebook.com/haining.wang.56/'),
     ('twitter', 'https://twitter.com/Haining_Wang_'),
@@ -129,7 +120,7 @@ MENUITEMS = (('Research', "/research"),
 # code hilighting
 PYGMENTS_STYLE = "monokai"
 
-GITHUB_URL = 'https://github.com/textbook/Wang-Haining.github.io-src'
+GITHUB_URL = 'https://github.com/Wang-Haining/Wang-Haining.github.io-src'
 
 
 ARTICLE_HIDE_TRANSLATION = False

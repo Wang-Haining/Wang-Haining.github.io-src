@@ -18,6 +18,8 @@ Before IUB, my projects cover academic librarianship and digital curation.
 
 ### News
 
+- (Aug 17, 2021) The Reproducible Authorship Attribution Benchmark Tasks (RAABT v1.0) is released on [Zenodo](https://zenodo.org/record/5213898#.YRxwLNNAphE).
+
 - (Jul 27, 2021) Our paper (*A Call for Clarity in Reporting Authorship Attribution Accuracy*) has been accepted by the 
     [13th Conference on Recent Advances in Natural Language Processing](https://ranlp.org/ranlp2021/start.php) (RANLP 2021).
 
@@ -36,7 +38,7 @@ Before IUB, my projects cover academic librarianship and digital curation.
 
 - (Jan 11, 2021) Our long paper ([*Mode Effects' Challenge to Authorship Attribution*](
     https://aclanthology.org/2021.eacl-main.97.pdf)) has been accepted by [the 16th Conference of the European Chapter
-    of the Association for Computational Linguistics](https://2021.eacl.org/) (EACL2021).
+    of the Association for Computational Linguistics](https://2021.eacl.org/) (EACL 2021).
 
 - (Nov 16, 2020) I gave a talk at [Clingding@IU](https://cl.indiana.edu/clingding.html) about the progress we made on the
     paper *Mode Effects' Challenge to Authorship Attribution*.

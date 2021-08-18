@@ -8,8 +8,8 @@ save_as: resource.html
 The `dev 0.0.3` version is online for testing. This project is under the supervision of [Prof. Susan Herring](https://info.sice.indiana.edu/~herring/).
 - [functionwords](https://pypi.org/project/functionwords/): a Python package provides curated function words in modern English and modern/classical Chinese.
 
-- RAABT: The **R**eproducible **A**uthorship **A**ttribution **B**enchmark **T**asks contain five authorship attribution for contemporary non-fiction American English prose.
-It has fixed training/testing split with appropriate difficulty. Functionally ready, to be realized.
+- [RAABT](https://zenodo.org/record/5213898#.YRxwLNNAphE): The **R**eproducible **A**uthorship **A**ttribution **B**enchmark **T**asks contain five authorship attribution for contemporary non-fiction American English prose.
+It has fixed training/testing split with appropriate difficulty.
 
 - writeprints-static: a Python package extracts the writeprints-static feature set (Brennan et al., 2012). Functionally ready, to be realized.
 
