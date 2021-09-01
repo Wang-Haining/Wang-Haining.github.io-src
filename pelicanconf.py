@@ -85,7 +85,7 @@ LINKS_IN_NEW_TAB = 'external'
 # )
 
 SOCIAL = (
-    ('envelope', 'mailto:hw56 (AT) indiana.org'),
+    ('envelope', 'mailto:hw56 (AT) indiana.edu'),
     ('github', 'https://github.com/Wang-Haining'),
     ('facebook', 'https://www.facebook.com/haining.wang.56/'),
     ('twitter', 'https://twitter.com/Haining_Wang_'),
