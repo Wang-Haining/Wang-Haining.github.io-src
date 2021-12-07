@@ -8,7 +8,7 @@ save_as: contact.html
 - Address:  
     Luddy Hall 2115F  
     700 N. Woodlawn Avenue  
-    Bloomington, IN 47408
+    Bloomington, IN, USA 47408
 
 - Email: hw56<span>&#64;</span>indiana.edu
 
