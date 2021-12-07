@@ -9,18 +9,19 @@ SITENAME = "Home"
 SITESUBTITLE = """<br>
                   <br>
                   <br><font size="5">Haining Wang 王海宁</font><br> <br>   
-                  <br> <font size="4">information science</font>
-                  <br> <font size="4">computational linguistics</font>
+                  <br> <font size="4">Information Science</font>
+                  <br> <font size="4">Computational Linguistics</font>
                   <br>
                   <br>
                   <br> <font size="4">PhD student, ILS@IUB</font>
                   <br>
-                  <br> Bloomington, IN, USA"""
+                  <br> Bloomington, IN
+                  <br> USA"""
 SITEDESCRIPTION = "I'm a doctoral student in the Department of Information & Library Science at Indiana University Bloomington."
 SITEURL = 'https://Wang-Haining.github.io'
 SITELOGO = "/images/profile.png"
 FAVICON = "/images/favicon.ico"
-BROWSER_COLOR = '#333333'
+BROWSER_COLOR = '#333'
 
 USE_GOOGLE_FONTS = True
 HOME_HIDE_TAGS = True
@@ -66,7 +67,8 @@ TRANSLATION_FEED_ATOM = None
 
 # ROBOTS = "index, follow"
 
-CUSTOM_CSS = "static/custom.css"
+# CUSTOM_CSS = "static/custom.css"
+CUSTOM_CSS = "static/stylesheet/style.css"
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
     "extra/custom.css": {"path": "static/custom.css"},
@@ -116,6 +118,12 @@ STATIC_PATHS = [
     'pages',
     'extra/CNAME'
 ]
+
+# settings.py
+SEO_REPORT = True  # To enable this feature
+SEO_ENHANCER = True  # To disable this feature
+SEO_ENHANCER_OPEN_GRAPH = True # The default value for this feature
+SEO_ENHANCER_TWITTER_CARDS = True # The default value for this feature
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True

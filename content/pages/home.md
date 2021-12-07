@@ -4,30 +4,45 @@ save_as: index.html
 
 <br>
 
-I'm a doctoral student in the Department of Information & Library Science at Indiana University Bloomington.
-I received an M.A. degree in Archival Studies from Wuhan University and a B.S. & a B.A. from Shanxi University.
+Hi, I'm a doctoral student in the Department of Information & Library Science at Indiana University Bloomington.
+Currently I'm under the supervision of [Dr. Allen Riddell](https://www.ariddell.org/) (chair), [Dr. Xiaozhong Liu](http://xiaozhong.website2.me/), and [Dr. Staša Milojević](https://cgi.luddy.indiana.edu/~smilojev/) (minor, data science).
+I received an M.A. degree in Archival Studies from Wuhan University (supervised by [Dr. Xincai Wang](https://sim.whu.edu.cn/info/1051/1540.htm)) and a B.S. & a B.A. from Shanxi University.
 
-My research interrogates problems in the social sciences and humanities from a computational perspective. I'm now working on the topic of authorship identification under the supervision of Prof. Allen Riddell.
-On the one hand, we believe online anonymity should be preserved in a way that not only is sensitive information masked away but also one's identity cannot be recovered through her writings.
-On the other hand, given the challenges of investigating through encrypted channels ("Use Singal, Use Tor."), online anonymity should be held accountable in case of abuse.
-Currently, we are collaborating on recovering the authorship of Chinese vernacular fiction written during the Ming and Qing dynasties (over three-quarters of them were composed pseudonymously or anonymously!) and building adversarially resistant authorship identification tools capable of disabling style deception. 
-Before IUB, my interests focus on academic librarianship and digital curation.
+My research interrogates problems in the social sciences and humanities from a computational perspective.
+Currently I'm focusing on authorship identification and adversarial stylometry.
+Our ongoing projects cover recovering the authorship of Chinese vernacular fiction written during the Ming and Qing Dynasties (over three-quarters of them were composed pseudonymously or anonymously!) and building adversarially resistant authorship identification tools capable of corrupting style deception (attacks). 
+
+Before IUB, my interests lay in the topics of collection development in academic libraries and digital curation.
 
 <br>
 
 ### News
 
-- (Aug 17, 2021) The Reproducible Authorship Attribution Benchmark Tasks (RAABT v1.0) is released on [Zenodo](https://zenodo.org/record/5213898#.YRxwLNNAphE).
+- (Nov 19, 2021) We present our study *The Challenge of Vernacular and Classical Chinese Cross-Register Authorship Attribution* at CHR 2021. Check out the [Proceedings of the Conference on Computational Humanities Research 2021](http://ceur-ws.org/Vol-2989/long_paper41.pdf).
 
-- (Jul 27, 2021) Our paper (*A Call for Clarity in Reporting Authorship Attribution Accuracy*) has been accepted by the 
+- (Nov 12, 2021) Katherine Morrison, Meredith Dedema, and I organized [the ILS Doctoral Research Forum 2021](https://ils-drf.github.io/). I won 🥉 in the contest.
+
+- (Nov 1, 2021) I gave a guest lecture on modern stylometry, authorship attribution, and adversarial stylometry at Soochow University. 
+
+- (Oct 13, 2021) I gave a guest lecture on adversarial stylometry at Allen's Social Media Minging. 
+
+- (Sep 16, 2021) The Cross-Register Authorship Attribution Corpus (v1.0) is released on [Zenodo](https://zenodo.org/record/5513043). 
+
+- (Sep 3, 2021) Our paper (*The Challenge of Vernacular and Classical Chinese Cross-Register Authorship Attribution*) has been accepted by [the Second Conference on Computational Humanities Research](https://2021.computational-humanities-research.org/conference/) (CHR 2021).
+
+- (Sep 1, 2021) I presented our paper (*A Call for Clarity in Contemporary Authorship Attribution Evaluation*) at RANLP 2021 through Zoom. The proceedings are [downloadable](http://ranlp.org/ranlp2021/proceedings-20Sep.pdf) now.
+
+- (Aug 17, 2021) The Reproducible Authorship Attribution Benchmark Tasks (RAABT v1.0) is released on [Zenodo](https://zenodo.org/record/5213898). Download it, redistribute it, try it!
+
+- (Jul 27, 2021) Our paper (*A Call for Clarity in Contemporary Authorship Attribution Evaluation*) has been accepted by the 
     [13th Conference on Recent Advances in Natural Language Processing](https://ranlp.org/ranlp2021/start.php) (RANLP 2021).
 
-- (Jun 3, 2021) We presented our paper at DH Benelux 2021 with [a pre-recording](https://www.youtube.com/watch?v=qYGe06Kc6rA&t=13s).
+- (Jun 3, 2021) We presented our paper (*Cross-Register Authorship Attribution Using Vernacular and Classical Chinese Texts*) at DH Benelux 2021 with [a pre-recording](https://www.youtube.com/watch?v=qYGe06Kc6rA&t=13s).
 
 - (May 17/18, 2021) I gave talks at Nankai University and Shanghai Normal University on the topic of 
     *Modern Stylometry & Authorship Attribution*.
 
-- (Apr 23, 2021) I presented our paper at EACL 2021 with a pre-recording. 
+- (Apr 23, 2021) I presented our paper at EACL 2021 with a pre-recording (check it on [papertalk](https://papertalk.org/papertalks/28305)). 
     We also made [a poster](https://drive.google.com/file/d/1teLOJTU4RNAIVEOkH7s5-2uLpPkw19qn/view?usp=sharing)
     for Gather.town.
 
