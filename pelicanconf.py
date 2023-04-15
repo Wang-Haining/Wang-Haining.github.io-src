@@ -10,7 +10,7 @@ SITESUBTITLE = """<br>
                   <br>
                   <br><font size="5">Haining Wang 王海宁</font><br> <br>   
                   <br> <font size="4">Information Science</font>
-                  <br> <font size="4">Computational Linguistics</font>
+                  <br> <font size="4">Data Science</font>
                   <br>
                   <br>
                   <br> <font size="4">PhD student, ILS@IUB</font>
@@ -88,7 +88,7 @@ LINKS_IN_NEW_TAB = 'external'
 
 SOCIAL = (
     ('envelope', 'mailto:hw56 (AT) indiana.edu'),
-    ('github', 'https://github.com/Wang-Haining'),
+    ('github', 'https://codeberg.org/haining/'),
     ('facebook', 'https://www.facebook.com/haining.wang.56/'),
     ('twitter', 'https://twitter.com/Haining_Wang_'),
 )

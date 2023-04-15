@@ -20,9 +20,9 @@ It has fixed training/testing splits to prevent accuracy inflation caused by hom
 
 [comment]: <> (&#40;https://pypi.org/project/writeprints-static/&#41;)
 
-- *koppel512*: a Python package extracts features of the 512 function words used by Koppel et al. (2009). Under active development.
+<!-- - *koppel512*: a Python package extracts features of the 512 function words used by Koppel et al. (2009). Under active development.
 
-[comment]: <> (&#40;https://pypi.org/project/koppel512/&#41;)
+[comment]: <> (&#40;https://pypi.org/project/koppel512/&#41;) -->
 
 
 ### APP
