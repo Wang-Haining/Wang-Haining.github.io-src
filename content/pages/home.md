@@ -4,17 +4,30 @@ save_as: index.html
 
 <br>
 
-Hi, it's Haining (he/him/his), a fourth-year doctoral student from the Department of Information & Library Science at Indiana University Bloomington.
-I'm under the supervision of [Dr. Allen Riddell](https://www.ariddell.org/) (chair), [Dr. Xiaozhong Liu](http://xiaozhong.website2.me/), and [Dr. Staša Milojević](https://cgi.luddy.indiana.edu/~smilojev/) (minor, Data Science).
+Hi, it's Haining (he/him/his), a doctoral student from the Department of Information & Library Science at Indiana University Bloomington.
+I'm supervised by [Dr. Allen Riddell](https://www.ariddell.org/) (chair), [Dr. Xiaozhong Liu](http://xiaozhong.website2.me/), and [Dr. Staša Milojević](https://cgi.luddy.indiana.edu/~smilojev/) (minor, Data Science).
 I received an M.A. degree in Archival Studies from Wuhan University (supervised by [Dr. Xincai Wang](https://sim.whu.edu.cn/info/1049/11658.htm)) and a B.S. & a B.A. from Shanxi University.
 
-I create responsible AI to help people better preserve their anonymity and privacy when communicating in natural language. My other ongoing projects include recovering authorship of pseudonymously/anonymously composed Ming-Qing vernacular fiction and understanding *creative language use* for self-censorship in Chinese.
+I create responsible AI to help people better preserve their anonymity and privacy when communicating in natural language. My other ongoing projects include recovering authorship of pseudonymously/anonymously composed Ming-Qing vernacular fiction and understanding scientific innovation through the lens of language model.
 
 <br>
 
 ### News
 
-- (Nov 19, 2022) We launched our AI (`sas_baseline`) [online](https://huggingface.co/haining/sas_baseline). The AI is built to "translate" hard-to-understand, expert-oriented scientific abstracts into accessible, relevant narratives. We hope it allows the lay audience to fully enjoy the benefits of open science and pave the last mile toward scientific understanding. As a LEADING midterm output, we will be improving the baseline model.
+- (May 19, 2023) I gave a lightning talk to introduce our jargon-busting AI in LEADING Forum 2022. You can access our poster titled *Science Out of the Ivory Tower: Scientific Abstract Simplification for Everyone* [here](https://drive.google.com/file/d/1zKazj-khPamNUSwZMxdbOqQMQ8vYFEfg/view?usp=share_link).
+
+- (May 10, 2023) I uploaded a LaTeX poster template to Overleaf. The template, based on the [Gemini](https://github.com/anishathalye/gemini), is minimal and modern, and features Indiana University's official color palette. You can find the template at [this link](https://www.overleaf.com/latex/templates/indiana-university-iu-poster-template/pvpryrsjnczb), or simply search for "iu poster" in the Overleaf gallery.
+
+- (April 14, 2023) I gave a lightning talk and presented a poster titled *The Many Voices of the Detached: Revisiting the Disputed Writings of Lu Xun and Zhou Zuoren* at the IDAH HASTAC Symposium 2023.
+
+- (April 13, 2023) I gave a guest lecture on *Authorship Attribution: An Introduction* at Allen's Digital Humanities.
+
+
+- (Jan 9, 2023) I will be working with Allen in IARPA [HIATUS (Human Interpretable Attribution of Text Using Underlying Structure)](https://www.iarpa.gov/research-programs/hiatus) Task Three.
+
+<!-- - (Dec 12, 2022) Blog-1K is published on [Zenodo](https://zenodo.org/record/7455623#.Y5-tAOxAphG). It is a redistributable authorship identification testbed for contemporary English prose. As a midterm output of HASTAC, we will start from there to benchmark a standard deep learning-based authorship verification model versus a corresponding authorship attribution model. -->
+
+- (Nov 19, 2022) We launched our AI [on a Huggingface Hub](https://huggingface.co/haining/scientific_abstract_simplification). The AI is capable of rewriting hard-to-read scientific abstracts into simpler yet relevant scientific stories. We hope it allows a lay audience to fully enjoy the fruits of open science.
 
 - (Nov 14, 2022) I gave a guest lecture *Modern Stylometry: Theory & Practice* at Wuhan University.
 
