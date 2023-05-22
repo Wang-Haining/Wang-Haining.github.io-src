@@ -4,7 +4,13 @@ save_as: resource.html
 
 <br>
 
+### AI
+- [Scientific Abstract Simplification](https://huggingface.co/haining/scientific_abstract_simplification): Scientific Abstract Simplification rewrites hard-to-read scientific abstracts into simpler yet relevant scientific stories. We hope our model can make scientific knowledge accessible for everyone.  
+
+
 ### Corpus
+
+- [*Blog-1K*](https://zenodo.org/record/7455623#.Y5-v9uxAphG): The Blog-1K corpus is a redistributable English authorship identification benchmark. It has roughly balanced sample distribution per author and a fixed data split (train/val/test), which allows a fair comparison between deep learning-based models. 
 
 - [*RAABT*](https://zenodo.org/record/5213898#.YRxwLNNAphE): The **R**eproducible **A**uthorship **A**ttribution **B**enchmark **T**asks contain five tasks attributing authorship of contemporary non-fiction American English prose.
 It has fixed training/testing splits to prevent accuracy inflation caused by homogenous corpora.
@@ -16,19 +22,13 @@ It has fixed training/testing splits to prevent accuracy inflation caused by hom
 
 - [*functionwords*](https://pypi.org/project/functionwords/): a Python package provides curated function words in modern English and modern/classical Chinese.
 
-- *writeprints-static*: a Python package extracts the writeprints-static feature set (Brennan et al., 2012). Functionally ready, to be released.
-
-[comment]: <> (&#40;https://pypi.org/project/writeprints-static/&#41;)
-
-<!-- - *koppel512*: a Python package extracts features of the 512 function words used by Koppel et al. (2009). Under active development.
-
-[comment]: <> (&#40;https://pypi.org/project/koppel512/&#41;) -->
+- [*writeprints-static*](https://pypi.org/project/writeprints-static/): a Python package extracts the writeprints-static feature set (Brennan et al., 2012).
 
 
-### APP
+<!-- ### APP
 
 - [*Visual DTA*](https://visual-dta.herokuapp.com/): a scientific tool visualizes the structure of topic flow within a conversation.
-The `dev 0.0.5` version is online for testing. This project is under the supervision of [Prof. Susan Herring](https://info.sice.indiana.edu/~herring/).
+The `dev 0.0.5` version is online for testing. This project is under the supervision of [Prof. Susan Herring](https://info.sice.indiana.edu/~herring/). -->
 
 <br>
 

@@ -9,6 +9,14 @@ on [Google Scholar](https://scholar.google.com/citations?hl=en&user=zvrO0WMAAAAJ
 
 <br>
 
+## Preprints
+
+- **Wang, H.**, Juola, P., & Riddell, A. (2022). Reproduction and Replication of an Adversarial Stylometry Experiment. arXiv preprint arXiv:2208.07395. [https://arxiv.org/pdf/2208.07395.pdf](https://arxiv.org/pdf/2208.07395.pdf).
+
+## Publication
+
+- Tian, Z., Dong, X., Gao, F., **Wang, H.**, & Lin, C. (2022). Mandarin Tone Sandhi Realization: Evidence from Large Speech Corpora. In Proc. Interspeech 2022, 5273-5277. [https://www.isca-speech.org/archive/pdfs/interspeech_2022/tian22e_interspeech.pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2022/tian22e_interspeech.pdf).
+
 - **Wang, H.** & Riddell A. (2022, Jun.). CCTAA: A Reproducible Corpus for Chinese Authorship Attribution Research. In *Proceedings of the Language Resources and Evaluation Conference 2022* (pp. 5889-5893). [http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.633.pdf](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.633.pdf).
 
 
