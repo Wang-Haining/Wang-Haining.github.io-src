@@ -11,7 +11,13 @@ on [Google Scholar](https://scholar.google.com/citations?hl=en&user=zvrO0WMAAAAJ
 
 ## Preprints
 
-- **Wang, H.**, Juola, P., & Riddell, A. (2022). Reproduction and Replication of an Adversarial Stylometry Experiment. arXiv preprint arXiv:2208.07395. [https://arxiv.org/pdf/2208.07395.pdf](https://arxiv.org/pdf/2208.07395.pdf).
+- **Wang, H.** (2023). Defending Against Authorship Identification Attacks. arXiv preprint arXiv:2310.01568. [https://arxiv.org/pdf/2310.01568.pdf](https://arxiv.org/pdf/2310.01568.pdf).
+
+- **Wang, H.** (2023). Enhancing Representation Generalization in Authorship Identification. arXiv preprint arXiv:2310.00436. [https://arxiv.org/pdf/2310.00436.pdf](https://arxiv.org/pdf/2310.00436.pdf).
+
+- Xie X., Li J., **Wang, H.*** (2023). The Many Voices of Duying: Revisiting the Disputed Essays Between Lu Xun and Zhou Zuoren. arXiv preprint arXiv:2310.01440. [https://arxiv.org/pdf/2310.01440.pdf](https://arxiv.org/pdf/2310.01440.pdf).
+
+- **Wang, H.***, Juola, P., & Riddell, A. (2022). Reproduction and Replication of an Adversarial Stylometry Experiment. arXiv preprint arXiv:2208.07395. [https://arxiv.org/pdf/2208.07395.pdf](https://arxiv.org/pdf/2208.07395.pdf).
 
 ## Publication
 

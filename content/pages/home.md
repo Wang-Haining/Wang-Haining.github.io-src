@@ -4,15 +4,20 @@ save_as: index.html
 
 <br>
 
-Hi, it's Haining (he/him/his), a doctoral student from the Department of Information & Library Science at Indiana University Bloomington.
-I'm supervised by [Dr. Allen Riddell](https://www.ariddell.org/) (chair), [Dr. Xiaozhong Liu](http://xiaozhong.website2.me/), and [Dr. Staša Milojević](https://cgi.luddy.indiana.edu/~smilojev/) (minor, Data Science).
-I received an M.A. degree in Archival Studies from Wuhan University (supervised by [Dr. Xincai Wang](https://sim.whu.edu.cn/info/1049/11658.htm)) and a B.S. & a B.A. from Shanxi University.
+Hi, I'm a Ph.D. student in Information Science at Indiana University Bloomington. My research examines the social phenomena in digital humanities and open science using computational methods. I also dedicate engineering efforts to developing AI tools that help individuals evade authorship fingerprinting and make scientific papers more accessible. My ongoing projects include automatically measuring scientific novelty, resolving authorship disputes in Chinese literature, and investigating self-censorship behaviors. 
 
-I create responsible AI to help people better preserve their anonymity and privacy when communicating in natural language. My other ongoing projects include recovering authorship of pseudonymously/anonymously composed Ming-Qing vernacular fiction and understanding scientific innovation through the lens of language model.
 
 <br>
 
 ### News
+
+
+- (Oct 4, 2023) Our new papers are available on arXiv. Check them out!
+    - [*Defending Against Authorship Identification Attacks*](https://arxiv.org/pdf/2310.01568.pdf),
+    - [*Enhancing Representation Generalization in Authorship Identification*](https://arxiv.org/abs/2310.00436), and
+    - [*The Many Voices of Duying: Revisiting the Disputed Essays Between Lu Xun and Zhou Zuoren*](https://arxiv.org/pdf/2310.01440.pdf)
+
+<!-- - (Sep 12, 2023) AutoPeer is [online](http://156.56.159.191:5000/)! Use it to evaluate the novelty of scientific manuscripts. It's a beta version, and I would love to hear your feedback. -->
 
 - (May 19, 2023) I gave a lightning talk to introduce our jargon-busting AI in LEADING Forum 2022. You can access our poster titled *Science Out of the Ivory Tower: Scientific Abstract Simplification for Everyone* [here](https://drive.google.com/file/d/1zKazj-khPamNUSwZMxdbOqQMQ8vYFEfg/view?usp=share_link).
 
@@ -27,7 +32,7 @@ I create responsible AI to help people better preserve their anonymity and priva
 
 <!-- - (Dec 12, 2022) Blog-1K is published on [Zenodo](https://zenodo.org/record/7455623#.Y5-tAOxAphG). It is a redistributable authorship identification testbed for contemporary English prose. As a midterm output of HASTAC, we will start from there to benchmark a standard deep learning-based authorship verification model versus a corresponding authorship attribution model. -->
 
-- (Nov 19, 2022) We launched our AI [on a Huggingface Hub](https://huggingface.co/haining/scientific_abstract_simplification). The AI is capable of rewriting hard-to-read scientific abstracts into simpler yet relevant scientific stories. We hope it allows a lay audience to fully enjoy the fruits of open science.
+<!-- - (Nov 19, 2022) We launched our AI [on a Huggingface Hub](https://huggingface.co/haining/scientific_abstract_simplification). The AI is capable of rewriting hard-to-read scientific abstracts into simpler yet relevant scientific stories. We hope it allows a lay audience to fully enjoy the fruits of open science.
 
 - (Nov 14, 2022) I gave a guest lecture *Modern Stylometry: Theory & Practice* at Wuhan University.
 
@@ -37,9 +42,7 @@ I create responsible AI to help people better preserve their anonymity and priva
 
 - (Aug 15, 2022) Our new paper *Reproduction and Replication of an Adversarial Stylometry Experiment* is released on [arXiv](https://arxiv.org/abs/2208.07395). 
 
-- (Jun 28, 2022) I present our paper *The Many Voices of Du Ying: Revisiting the Disputed Writings of Lu Xun and Zhou Zuoren* at DH 2022. The Book of Abstracts of DH 2022 is [downloadable](https://dh2022.dhii.asia/dh2022bookofabsts.pdf). [Watch the presentation](https://confit.atlas.jp/guide/event/dh2022/session/LP7-03/entries) with Confit if you registered.
-
-- (Jun 14, 2022) Our paper *Mandarin Tone Sandhi Realization: Evidence from Large Speech Corpora* has been accepted for the 23rd INTERSPEECH Conference (INTERSPEECH 2022).
+he 23rd INTERSPEECH Conference (INTERSPEECH 2022).
 
 - (May 4, 2022) I'm accepted into the 2022-2023 Institute for Digital Arts & Humanities (IDAH) Humanities, Arts, Science, and Technology Alliance and Collaboratory (HASTAC) Scholarship program and will be working on *Leveraging Small Humanities Datasets With Few-Shot Learning: A Case Study in Stylometry.*
 
@@ -51,9 +54,12 @@ I create responsible AI to help people better preserve their anonymity and priva
 
 - (Apr 13, 2022) I'm honored to be accepted as [LIS Education and Data Science Integrated Network Group](https://cci.drexel.edu/mrc/leading/) (LEADING) Fellow, and will be working with Montana State University Library on Project *"TL;DR it": Automating Article Synopses for Search Engine Optimization and Citizen Science*.
 
-- (Apr 4, 2022) Our paper (*CCTAA: A Reproducible Corpus for Chinese Authorship Attribution Research*) has been accepted by the [13th Edition of European Language Resources Association's Language Resources and Evaluation Conference](https://lrec2022.lrec-conf.org/en/) (LREC 2022).
+- (Apr 4, 2022) Our paper (*CCTAA: A Reproducible Corpus for Chinese Authorship Attribution Research*) has been accepted by the [13th Edition of European Language Resources Association's Language Resources and Evaluation Conference](https://lrec2022.lrec-conf.org/en/) (LREC 2022).- (Jun 28, 2022) I present our paper *The Many Voices of Du Ying: Revisiting the Disputed Writings of Lu Xun and Zhou Zuoren* at DH 2022. The Book of Abstracts of DH 2022 is [downloadable](https://dh2022.dhii.asia/dh2022bookofabsts.pdf). [Watch the presentation](https://confit.atlas.jp/guide/event/dh2022/session/LP7-03/entries) with Confit if you registered.
 
-- (Mar 4, 2022) Our papers *Minimum Text Length for Chinese Authorship Attribution* and *The Many Voices of Du Ying: Revisiting the Disputed Writings of Lu Xun and Zhou Zuoren* have been accepted by [DH Unbound 2022](https://dhunbound2022.ach.org/) and [DH 2022](https://dh2022.adho.org/home), respectively.
+- (Jun 14, 2022) Our paper *Mandarin Tone Sandhi Realization: Evidence from Large Speech Corpora* has been accepted for t
+
+
+- (Mar 4, 2022) Our papers *Minimum Text Length for Chinese Authorship Attribution* and *The Many Voices of Du Ying: Revisiting the Disputed Writings of Lu Xun and Zhou Zuoren* have been accepted by [DH Unbound 2022](https://dhunbound2022.ach.org/) and [DH 2022](https://dh2022.adho.org/home), respectively. -->
 <!-- 
 - (Dec 22, 2021) I gave a guest lecture, *Authorship Attribution: Theory & Practice*, at Shanghai Normal University. 
 
