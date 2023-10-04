@@ -1,10 +1,5 @@
-pre { line-height: 125%; }
-td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
-span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
-td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
-span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
 .highlight .hll { background-color: #0000ff }
-.highlight { background: #000000; }
+.highlight  { background: #000000; }
 .highlight .c { color: #00ff00 } /* Comment */
 .highlight .k { color: #ff0000 } /* Keyword */
 .highlight .ch { color: #00ff00 } /* Comment.Hashbang */
@@ -41,13 +36,8 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .vg { color: #eedd82 } /* Name.Variable.Global */
 .highlight .vi { color: #eedd82 } /* Name.Variable.Instance */
 .highlight .vm { color: #eedd82 } /* Name.Variable.Magic */
-pre { line-height: 125%; }
-td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
-span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
-td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
-span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
 .literal-block .hll { background-color: #0000ff }
-.literal-block { background: #000000; }
+.literal-block  { background: #000000; }
 .literal-block .c { color: #00ff00 } /* Comment */
 .literal-block .k { color: #ff0000 } /* Keyword */
 .literal-block .ch { color: #00ff00 } /* Comment.Hashbang */
