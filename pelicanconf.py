@@ -68,10 +68,10 @@ TRANSLATION_FEED_ATOM = None
 # ROBOTS = "index, follow"
 
 # CUSTOM_CSS = "static/custom.css"
-CUSTOM_CSS = "static/stylesheet/style.css"
+# CUSTOM_CSS = "../pelican-themes/Flex/static/stylesheet"
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
-    "extra/custom.css": {"path": "static/custom.css"},
+    # "extra/custom.css": {"path": "static/custom.css"},
 }
 
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
