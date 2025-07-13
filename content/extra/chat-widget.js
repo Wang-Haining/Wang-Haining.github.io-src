@@ -12,8 +12,8 @@
   #ask-haining-launcher img{width:24px;height:24px;border-radius:50%;object-fit:cover;}
   /* animated border — built with :before pseudo */
   #ask-haining-launcher{position:fixed;overflow:hidden;}
-  #ask-haining-launcher::before{content:"";position:absolute;inset:0;border-radius:9999px;padding:3px;background:conic-gradient(#00E4FF 0%,#7A5CFF 25%,#FF6EC7 50%,#FFD700 75%,#00E4FF 100%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:ah-spin 6s linear infinite;}
-  @keyframes ah-spin{to{transform:rotate(1turn);}}
+  #ask-haining-launcher::before{content:"";position:absolute;inset:0;border-radius:9999px;padding:3px;background:linear-gradient(90deg,#00E4FF 0%,#7A5CFF 25%,#FF6EC7 50%,#FFD700 75%,#00E4FF 100%);background-size:400% 100%;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:ah-slide 6s linear infinite;}
+  @keyframes ah-slide{0%{background-position:0 0;}100%{background-position:400% 0;}}}
   /* bounce attention */
   @keyframes ah-bounce{0%,100%{transform:translateY(0);}50%{transform:translateY(-8px);}}
   #ask-haining-launcher.ah-attention{animation:ah-bounce .4s ease 0s 2;}
