@@ -4,17 +4,14 @@ from __future__ import unicode_literals
 from datetime import datetime
 import os
 
-AUTHOR = 'Haining Wang 王海宁'
-SITENAME = "Haining"
+AUTHOR = 'Haining Wang'
+SITENAME = "Haining Wang"
 SITESUBTITLE = """<br>
                   <br>
-                  <br><font size="5">Haining Wang 王海宁</font><br> <br>   
-                  <br> <font size="4">Information Science</font>
-                  <br> <font size="4">Data Science</font>
-                  <br>
-                  <br>
-                  <br> <font size="4">Ph.D. Candidate, ILS@IUB</font>
-                  <br>
+                  <br><font size="5">Haining Wang, Ph.D.</font><br> <br>   
+                  <br> <font size="4">Postdoctoral Researcher</font> <br> <br> 
+                  <br> <font size="4">Biostatistics & Health Data Science</font>
+                  <br> <font size="4">Indiana University School of Medicine</font>
                   <br>
                   <br>
                   <br>"""
@@ -72,6 +69,7 @@ TRANSLATION_FEED_ATOM = None
 # CUSTOM_CSS = "../pelican-themes/Flex/static/stylesheet/dark-theme.min.css"
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
+    "extra/chat-widget.js": {"path": "static/chat-widget.js"},
     # "extra/custom.css": {"path": "static/custom.css"},
 }
 
@@ -88,7 +86,7 @@ LINKS_IN_NEW_TAB = 'external'
 # )
 
 SOCIAL = (
-    ('envelope', 'mailto:hw56@indiana.edu'),
+    ('envelope', 'mailto:hw56@iu.edu'),
     ('twitter', 'https://twitter.com/Haining_Wang_'),
     ('github-alt', 'https://github.com/Wang-Haining'),
 )
@@ -98,7 +96,7 @@ LINKS = ()
 
 # SEO
 SITE_DESCRIPTION = (
-    "Haining Wang, Indiana University Bloomington, IUB, information science, natural language processing, language modeling, data science, machine learning, deep learning"
+    "Haining Wang, Indiana University, IUB, information science, natural language processing, language modeling, data science, machine learning, deep learning, biomedical informatics, computational humanities, computational social sciences"
 )
 
 # DISQUS_FILTER = True
@@ -109,7 +107,8 @@ SITE_DESCRIPTION = (
 STATIC_PATHS = [
     'images',
     'pages',
-    'extra/CNAME'
+    'extra/CNAME',
+    "extra/chat-widget.js"
 ]
 
 # settings.py
