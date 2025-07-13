@@ -13,7 +13,7 @@
   /* animated border — built with :before pseudo */
   #ask-haining-launcher{position:fixed;overflow:hidden;}
   #ask-haining-launcher::before{content:"";position:absolute;inset:0;border-radius:9999px;padding:3px;background:linear-gradient(90deg,#00E4FF 0%,#7A5CFF 25%,#FF6EC7 50%,#FFD700 75%,#00E4FF 100%);background-size:400% 100%;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:ah-slide 6s linear infinite;}
-  @keyframes ah-slide{0%{background-position:0 0;}100%{background-position:400% 0;}}}
+  @keyframes ah-slide{0%{background-position:0 0;}100%{background-position:400% 0;}}
   /* bounce attention */
   @keyframes ah-bounce{0%,100%{transform:translateY(0);}50%{transform:translateY(-8px);}}
   #ask-haining-launcher.ah-attention{animation:ah-bounce .4s ease 0s 2;}
@@ -69,7 +69,70 @@
 
   function addMsg(role,content){const div=document.createElement("div");div.className=`ah-msg ${role==="user"?"ah-user":"ah-bot"}`;div.textContent=content;messagesContainer.appendChild(div);messagesContainer.scrollTop=messagesContainer.scrollHeight;}
 
-  async function sendChat(){const text=textarea.value.trim();if(!text)return;textarea.value="";messages.push({role:"user",content:text});addMsg("user",text);addMsg("bot","…");const placeholder=messagesContainer.lastChild;try{const res=await fetch("https://api.hainingwang.org/chat",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({messages})});if(!res.ok) throw new Error("Network error");const data=await res.json();placeholder.textContent=(data.answer||"(no answer)").trim();messages.push({role:"assistant",content:placeholder.textContent});}catch(e){console.error(e);placeholder.textContent="Sorry, there was an error. Please try again.";}}
+  async function sendChat(){
+    const text=textarea.value.trim();
+    if(!text) return;
+    textarea.value="";
+    messages.push({role:"user",content:text});
+    addMsg("user",text);
+
+    // placeholder while streaming
+    addMsg("bot","");
+    const placeholder = messagesContainer.lastChild;
+
+    try{
+      console.log("Sending request to API...");
+      const res = await fetch("https://api.hainingwang.org/chat",{
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({messages})
+      });
+      
+      console.log("Response status:", res.status);
+      console.log("Response headers:", [...res.headers]);
+      
+      if(!res.ok) {
+        throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+      }
+
+      if (!res.body) {
+        throw new Error("No response body");
+      }
+
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let answer="";
+      
+      console.log("Starting to read stream...");
+      
+      while(true){
+        const {value,done} = await reader.read();
+        if(done) {
+          console.log("Stream finished");
+          break;
+        }
+        
+        const chunk = decoder.decode(value, {stream: true});
+        console.log("Received chunk:", chunk.substring(0, 50) + "...");
+        
+        answer += chunk;
+        placeholder.textContent = answer; // live update
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+      }
+      
+      // Final cleanup
+      const finalAnswer = answer.trim();
+      placeholder.textContent = finalAnswer;
+      messages.push({role:"assistant",content:finalAnswer});
+      
+      console.log("Chat completed successfully");
+      
+    }catch(e){
+      console.error("Chat error:", e);
+      placeholder.textContent = "Sorry, there was an error. Please try again.";
+    }
+  }
+  
   form.addEventListener("submit",e=>{e.preventDefault();sendChat();});
 
   /* idle bounce */
