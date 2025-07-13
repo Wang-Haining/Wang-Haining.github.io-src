@@ -5,7 +5,7 @@ from datetime import datetime
 import os
 
 AUTHOR = 'Haining Wang 王海宁'
-SITENAME = "Home"
+SITENAME = "Haining"
 SITESUBTITLE = """<br>
                   <br>
                   <br><font size="5">Haining Wang 王海宁</font><br> <br>   
@@ -13,11 +13,12 @@ SITESUBTITLE = """<br>
                   <br> <font size="4">Data Science</font>
                   <br>
                   <br>
-                  <br> <font size="4">PhD student, ILS@IUB</font>
+                  <br> <font size="4">Ph.D. Candidate, ILS@IUB</font>
                   <br>
-                  <br> Bloomington, IN
-                  <br> USA"""
-SITEDESCRIPTION = "I'm a doctoral student in the Department of Information & Library Science at Indiana University Bloomington."
+                  <br>
+                  <br>
+                  <br>"""
+SITEDESCRIPTION = "Haining Wang | Home"
 SITEURL = 'https://Wang-Haining.github.io'
 SITELOGO = "/images/profile.png"
 FAVICON = "/images/favicon.ico"
@@ -37,7 +38,7 @@ DATE_FORMATS = {"en": "%b %d, %Y"}
 
 # License
 COPYRIGHT_YEAR = datetime.now().year
-COPYRIGHT_NAME = 'ISC'
+COPYRIGHT_NAME = '0BSD'
 
 I18N_TEMPLATES_LANG = 'en'
 DEFAULT_LANG = 'en'
@@ -68,7 +69,7 @@ TRANSLATION_FEED_ATOM = None
 # ROBOTS = "index, follow"
 
 # CUSTOM_CSS = "static/custom.css"
-# CUSTOM_CSS = "../pelican-themes/Flex/static/stylesheet"
+# CUSTOM_CSS = "../pelican-themes/Flex/static/stylesheet/dark-theme.min.css"
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
     # "extra/custom.css": {"path": "static/custom.css"},
@@ -87,10 +88,9 @@ LINKS_IN_NEW_TAB = 'external'
 # )
 
 SOCIAL = (
-    ('envelope', 'mailto:hw56 (AT) indiana.edu'),
-    ('github', 'https://codeberg.org/haining/'),
-    ('facebook', 'https://www.facebook.com/haining.wang.56/'),
+    ('envelope', 'mailto:hw56@indiana.edu'),
     ('twitter', 'https://twitter.com/Haining_Wang_'),
+    ('github-alt', 'https://github.com/Wang-Haining'),
 )
 
 LINKS = ()
@@ -98,16 +98,9 @@ LINKS = ()
 
 # SEO
 SITE_DESCRIPTION = (
-    "Haining Wang, Indiana University Bloomington, IUB, information science, computational linguistics, NLP"
+    "Haining Wang, Indiana University Bloomington, IUB, information science, natural language processing, language modeling, data science, machine learning, deep learning"
 )
 
-AUTHORS = {
-    "Haining Wang": {
-        "url": "https://www.hainingwang.com/",
-        "blurb": "is a learner in information and computational sciences.",
-        "avatar": "/images/avatar.png",
-    },
-}
 # DISQUS_FILTER = True
 # UTTERANCES_FILTER = True
 # COMMENTBOX_FILTER = True
