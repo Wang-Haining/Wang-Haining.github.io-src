@@ -7,12 +7,14 @@ import os
 AUTHOR = 'Haining Wang'
 SITENAME = "Haining Wang"
 SITESUBTITLE = """<br>
-                  <br>
+                  <br> <br> <br>
                   <br><font size="5">Haining Wang, Ph.D.</font><br> <br>   
-                  <br> <font size="4">Postdoctoral Researcher</font> <br> <br> 
+                  <br> <font size="4">Postdoctoral Fellow</font> <br> <br> 
                   <br> <font size="4">Biostatistics & Health Data Science</font>
-                  <br> <font size="4">Indiana University School of Medicine</font>
                   <br>
+                  <br> <font size="4">School of Medicine</font>
+                  <br> <font size="4">Richard M. Fairbanks School of Public Health</font>
+                  <br> <font size="4">Indiana University</font>
                   <br>
                   <br>"""
 SITEDESCRIPTION = "Haining Wang | Home"
@@ -96,7 +98,7 @@ LINKS = ()
 
 # SEO
 SITE_DESCRIPTION = (
-    "Haining Wang, Indiana University, IUB, information science, natural language processing, language modeling, data science, machine learning, deep learning, biomedical informatics, computational humanities, computational social sciences"
+    "Haining Wang, Indiana University, IU School of Medicine, information science, natural language processing, language modeling, data science, machine learning, deep learning, biomedical informatics, computational humanities, computational social sciences, artificial intelligence, AI, data science, health data science"
 )
 
 # DISQUS_FILTER = True
@@ -121,7 +123,8 @@ SEO_ENHANCER_TWITTER_CARDS = True # The default value for this feature
 RELATIVE_URLS = True
 
 MENUITEMS = (('Research', "/research"),
-            ('Resource', "/resource"),
+             ('Teaching', "/teaching"),
+             ('Resource', "/resource"),
              ('Contact', "/contact")
             # ('Blog', '/blog/')
              )
