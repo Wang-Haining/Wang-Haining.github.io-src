@@ -18,5 +18,5 @@ I design learning experiences that bridge theory, computational methods, and rea
 
 ### Workshops
 
-* *Practical Large Language Models: Foundations and Applications*, Midwest Biopharmaceutical Statistics Workshop (accepted; to be delivered May 2026)  
-    - A short course on large language models for biomedical data analysis; co-designed and will co-teach with Drs. Jiang Bian and Xing He.
+* ["Practical Large Language Models: Foundations and Applications,"](https://mbswonline.com/program/) Midwest Biopharmaceutical Statistics Workshop (May 27, 2026, Carmel, Indiana)  
+    - A half-day short course on large language models for biomedical data analysis; co-designed and co-taught with Drs. Jiang Bian, Xing He, and Yuhang Jiang.

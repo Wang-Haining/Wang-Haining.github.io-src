@@ -18,6 +18,8 @@ My representative work includes:
 
 ### What's New
 
+* (May 27, 2026) Our half-day short course, ["Practical Large Language Models: Foundations and Applications,"](https://mbswonline.com/program/) was successfully delivered at *MBSW 2026* in Carmel, Indiana, together with Drs. Jiang Bian, Xing He, and Yuhang Jiang. 
+
 * (Mar 20, 2026) DualR is live! 💊 Our clinical risk assessment tool is now available at [dualr.hainingwang.org](https://dualr.hainingwang.org). DualR asks a simple question: *given that a patient took this drug, how likely are they to have this disease?* and turns the answer into a portable risk score from any medication list. In our study across the All of Us Research Program and Indiana's largest clinical data network (N > 1.3M), DualR flagged future alcohol use disorder 300+ days before diagnosis — all with equity across race, gender, and social determinants of health.
 
 * (Nov 17, 2025) Our poster, ["Thinking, Fast and Slow: DualReasoning Enhances Clinical Knowledge Extraction from Large Language Models,"](https://indiana.sharepoint.com/:b:/s/O365-Sulab-HainingResearch/EYJeap9LYVZHiFGSHzfQK1ABzhlp2gQd29qZJPsONAbRgA?e=hAIwpt) was nominated as a distinguished poster at AMIA 2025!

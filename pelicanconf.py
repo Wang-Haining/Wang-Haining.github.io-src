@@ -21,7 +21,7 @@ SITEDESCRIPTION = "Haining Wang | Home"
 SITEURL = 'https://Wang-Haining.github.io'
 SITELOGO = "/images/profile.png"
 FAVICON = "/images/favicon.ico"
-BROWSER_COLOR = '#333'
+BROWSER_COLOR = '#5c8374'
 
 USE_GOOGLE_FONTS = True
 HOME_HIDE_TAGS = True
@@ -67,12 +67,12 @@ TRANSLATION_FEED_ATOM = None
 
 # ROBOTS = "index, follow"
 
-# CUSTOM_CSS = "static/custom.css"
+CUSTOM_CSS = "static/custom.css"
 # CUSTOM_CSS = "../pelican-themes/Flex/static/stylesheet/dark-theme.min.css"
 EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
+    "extra/favicon.ico": {"path": "favicon.ico"},
     "extra/chat-widget.js": {"path": "static/chat-widget.js"},
-    # "extra/custom.css": {"path": "static/custom.css"},
+    "extra/custom.css": {"path": "static/custom.css"},
 }
 
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
@@ -110,7 +110,8 @@ STATIC_PATHS = [
     'images',
     'pages',
     'extra/CNAME',
-    "extra/chat-widget.js"
+    "extra/chat-widget.js",
+    "extra/custom.css"
 ]
 
 # settings.py
@@ -151,3 +152,6 @@ OUTPUT_RETENTION = [".gitignore", ".git"]
 
 OUTPUT_PATH = 'output'
 INDEX_SAVE_AS = 'index.html'
+
+# Template overrides (chat widget injection)
+THEME_TEMPLATES_OVERRIDES = ['templates']
