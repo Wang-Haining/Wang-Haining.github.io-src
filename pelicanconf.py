@@ -18,7 +18,7 @@ SITESUBTITLE = """<br>
                   <br>
                   <br>"""
 SITEDESCRIPTION = "Haining Wang | Home"
-SITEURL = 'https://Wang-Haining.github.io'
+SITEURL = 'https://hainingwang.org'
 SITELOGO = "/images/profile.png"
 FAVICON = "/images/favicon.ico"
 BROWSER_COLOR = '#5c8374'
@@ -70,6 +70,7 @@ TRANSLATION_FEED_ATOM = None
 CUSTOM_CSS = "static/custom.css"
 # CUSTOM_CSS = "../pelican-themes/Flex/static/stylesheet/dark-theme.min.css"
 EXTRA_PATH_METADATA = {
+    "extra/CNAME": {"path": "CNAME"},
     "extra/favicon.ico": {"path": "favicon.ico"},
     "extra/chat-widget.js": {"path": "static/chat-widget.js"},
     "extra/custom.css": {"path": "static/custom.css"},
