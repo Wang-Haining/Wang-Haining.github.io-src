@@ -6,17 +6,22 @@ Hi 👋, I'm a postdoctoral fellow in the Department of Biostatistics and Health
 
 My representative work includes:
 
+* 🎯 [Auditing AI bias in library services](https://doi.org/10.1057/s41599-026-08465-5),
 * 🧑‍🔬 [Making cutting-edge science understandable to high schoolers](https://rdcu.be/ew0mK),
-* 🎯 [Auditing AI bias in library services](https://arxiv.org/pdf/2507.04224), 
 * 🎭 [Creating untraceable writing styles for whistleblowers](https://hdl.handle.net/2022/33626),
-* 💊 [Taming messy medication records for phenotyping](https://docs.google.com/presentation/d/1l9XvvgIIPtDGAPmZ9hQDdLs4AVYYyLYh2GQtTsA--rQ/edit?usp=sharing),
-* 👬 [Resolving authorship disputes between the Lu Xun brothers](https://doi.org/10.1093/llc/fqae084), and
-* 🧬 [Measuring scientific novelty](https://link.springer.com/chapter/10.1007/978-3-031-57867-0_31).
+* 💊 [Taming messy medication records for phenotyping](https://docs.google.com/presentation/d/1l9XvvgIIPtDGAPmZ9hQDdLs4AVYYyLYh2GQtTsA--rQ/edit?usp=sharing), and
+* 👬 [Resolving authorship disputes between the Lu Xun brothers](https://doi.org/10.1093/llc/fqae084).
 
 
 <br>
 
 ### What's New
+
+* (Aug 14, 2026) Two papers are out! 🎉
+
+    * ["Fairness Evaluation of Large Language Models in Academic Library Reference Services"](https://doi.org/10.1057/s41599-026-08465-5), in *Humanities and Social Sciences Communications*: we found no meaningful bias across six leading LLMs, a credible null and good news for library reference services.
+
+    * ["Reproduction and Replication of an Adversarial Stylometry Experiment"](https://doi.org/10.17879/replicationresearch-2026-9414), in *Replication Research*: manual obfuscation methods really do hold up against authorship attribution.
 
 * (May 27, 2026) Our half-day short course, ["Practical Large Language Models: Foundations and Applications,"](https://mbswonline.com/program/) was successfully delivered at *MBSW 2026* in Carmel, Indiana, together with Drs. Jiang Bian, Xing He, and Yuhang Jiang. 
 
@@ -80,9 +85,9 @@ DualReasoning shows great promise in incorporating messy medication information 
 
 * (Oct 4, 2023) Our new papers are available on arXiv. Check them out!
 
-  * ["Defending Against Authorship Identification Attacks"](https://arxiv.org/abs/2310.01568)
-  * ["Enhancing Representation Generalization in Authorship Identification"](https://arxiv.org/abs/2310.00436)
-  * ["The Many Voices of Duying: Revisiting the Disputed Essays Between Lu Xun and Zhou Zuoren"](https://arxiv.org/abs/2310.01440)
+    * ["Defending Against Authorship Identification Attacks"](https://arxiv.org/abs/2310.01568)
+    * ["Enhancing Representation Generalization in Authorship Identification"](https://arxiv.org/abs/2310.00436)
+    * ["The Many Voices of Duying: Revisiting the Disputed Essays Between Lu Xun and Zhou Zuoren"](https://arxiv.org/abs/2310.01440)
 
 * (May 19, 2023) I delivered a lightning talk introducing our jargon-busting AI at *LEADING Forum 2022*. You can access our poster titled "Science Out of the Ivory Tower: Scientific Abstract Simplification for Everyone" [here](https://drive.google.com/file/d/1zKazj-khPamNUSwZMxdbOqQMQ8vYFEfg/view?usp=share_link).
 
