@@ -5,6 +5,10 @@ save_as: research.html
 
 ## Journal
 
+- **Wang, H.**, Clark, J., Yan, Y., Bradley, S., Chen, R., Zhang, Y., Fu, H., & Tian, Z. (2026). Fairness evaluation of large language models in academic library reference services. *Humanities and Social Sciences Communications*. [https://doi.org/10.1057/s41599-026-08465-5](https://doi.org/10.1057/s41599-026-08465-5)
+
+- **Wang, H.**, Juola, P., & Riddell, A. (2026). Reproduction and replication of an adversarial stylometry experiment. *Replication Research*, 2. [https://doi.org/10.17879/replicationresearch-2026-9414](https://doi.org/10.17879/replicationresearch-2026-9414)
+
 - **Wang, H.**, Lee, J., Walsh, J. A., Flanders, J., & Lee, B. C. G. (2025). Building and deploying the Digital Humanities Quarterly recommender system. *Code4Lib Journal*, (61). [https://journal.code4lib.org/articles/18501](https://journal.code4lib.org/articles/18501)
 
 - **Wang, H.**, Clark, J., McKelvey, H., Sterman, L., Gao, Z., Tian, Z., Kübler, S., & Liu, X. (2025). Science out of its Ivory Tower: Improving accessibility with reinforcement learning. *Scientometrics*, 130(8), 4519–4543. [https://doi.org/10.1007/s11192-025-05386-z](https://rdcu.be/ew0mK)
@@ -34,12 +38,9 @@ save_as: research.html
 
 ## Preprint
 
-- **Wang, H.**, Clark, J., Yan, Y., Bradley, S., Chen, R., Zhang, Y., Fu, H., & Tian, Z. (2025). Fairness Evaluation of Large Language Models in Academic Library Reference Services. arXiv preprint arXiv:2507.04224 [https://arxiv.org/pdf/2507.04224](https://arxiv.org/pdf/2507.04224)
-
 - **Wang, H.** (2023). Defending against authorship identification attacks. arXiv preprint arXiv:2310.01568 [https://arxiv.org/pdf/2310.01568.pdf](https://arxiv.org/pdf/2310.01568.pdf)
 
 - **Wang, H.** (2023). Enhancing representation generalization in authorship identification. arXiv preprint arXiv:2310.00436 [https://arxiv.org/pdf/2310.00436.pdf](https://arxiv.org/pdf/2310.00436.pdf)
 
-- **Wang, H.**, Juola, P., & Riddell, A. (2023). Reproduction and replication of an adversarial stylometry experiment. arXiv preprint arXiv:2208.07395 [https://arxiv.org/pdf/2208.07395.pdf](https://arxiv.org/pdf/2208.07395.pdf)
 
 
