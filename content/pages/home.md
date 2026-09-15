@@ -17,13 +17,13 @@ My representative work includes:
 
 ### What's New
 
+* (Sep 13, 2026) My new preprint ["Ending the NIH Embargo Accelerated Public Access to Funded Research, But Substantial Delays Remain"](https://arxiv.org/pdf/2609.14842) is out: the 2025 mandate roughly doubled one-week PubMed Central availability for NIH-funded articles in non-DOAJ journals (11% to 22%), but most of them still weren't there a week after publication.
+
 * (Aug 14, 2026) Two papers are out! 🎉
 
     * ["Fairness Evaluation of Large Language Models in Academic Library Reference Services"](https://doi.org/10.1057/s41599-026-08465-5), in *Humanities and Social Sciences Communications*: we found no meaningful bias across six leading LLMs, a credible null and good news for library reference services.
 
     * ["Reproduction and Replication of an Adversarial Stylometry Experiment"](https://doi.org/10.17879/replicationresearch-2026-9414), in *Replication Research*: manual obfuscation methods really do hold up against authorship attribution.<br><span class="osbadges"><a href="https://doi.org/10.5281/zenodo.18729526" title="Open Code"><img src="{static}/images/badges/opencode.png" alt="Open Code" height="28" style="height:28px;width:auto;max-width:none;border-radius:0;vertical-align:middle;margin-right:6px;"></a><a href="https://doi.org/10.5281/zenodo.18729526" title="Open Materials"><img src="{static}/images/badges/openmaterial.png" alt="Open Materials" height="28" style="height:28px;width:auto;max-width:none;border-radius:0;vertical-align:middle;margin-right:6px;"></a><a href="https://doi.org/10.5281/zenodo.18729526" title="Open Data"><img src="{static}/images/badges/opendata.png" alt="Open Data" height="28" style="height:28px;width:auto;max-width:none;border-radius:0;vertical-align:middle;margin-right:6px;"></a><a href="https://doi.org/10.5281/zenodo.21807707" title="Reproducibility Certificate"><img src="{static}/images/badges/reprocert.svg" alt="Reproducibility Certificate" height="28" style="height:28px;width:auto;max-width:none;border-radius:0;vertical-align:middle;margin-right:6px;"></a><a href="https://doi.org/10.5281/zenodo.21807854" title="Open Review"><img src="{static}/images/badges/openreview.svg" alt="Open Review" height="28" style="height:28px;width:auto;max-width:none;border-radius:0;vertical-align:middle;margin-right:6px;"></a></span>
-
-* (Sep 13, 2026) My new preprint ["Ending the NIH Embargo Accelerated Public Access to Funded Research, But Substantial Delays Remain"](https://arxiv.org/pdf/2609.14842) is out: the 2025 mandate roughly doubled one-week PubMed Central availability for NIH-funded articles in non-DOAJ journals (11% to 22%), but most of them still weren't there a week after publication.
 
 * (Jul 21, 2026) I gave an invited lightning talk, "Can AI Serve Everyone Equally? Auditing Fairness in LLM-Powered Reference," at the AI Literacy & Learning for Libraries, Archives, and Museums (LAMs) Summit, *Library of Congress*, Washington, DC.
 
