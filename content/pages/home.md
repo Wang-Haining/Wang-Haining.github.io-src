@@ -17,7 +17,7 @@ My representative work includes:
 
 ### What's New
 
-* (Sep 18, 2026) My new preprint ["Funding the Runners-Up Beats a Golden Ticket"](https://arxiv.org/pdf/2609.19552) is out: among conference submissions rejected by peer review, ranking by the panel's mean score picked better-cited work than backing one reviewer's enthusiastic outlier, the logic behind "golden ticket" funding overrides.
+* (Sep 18, 2026) My new preprint ["Funding the Runners-Up Beats a Golden Ticket"](https://arxiv.org/pdf/2609.19552) is out: NSF's proposed golden ticket policy looks (almost) like a lottery, since minority-support ranking barely beat random selection while ranking by the panel mean picked far better-cited work.
 
 * (Sep 13, 2026) My new preprint ["Ending the NIH Embargo Accelerated Public Access to Funded Research, But Substantial Delays Remain"](https://arxiv.org/pdf/2609.14842) is out: the 2025 mandate roughly doubled one-week PubMed Central availability for NIH-funded articles in non-DOAJ journals (11% to 22%), but most of them still weren't there a week after publication.
 
