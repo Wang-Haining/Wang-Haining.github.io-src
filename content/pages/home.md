@@ -2,7 +2,7 @@ Title:
 url:
 save_as: index.html
 
-Hi 👋, I'm a postdoctoral fellow in the Department of Biostatistics and Health Data Science at Indiana University School of Medicine. I do NLP with real-world data. My research explores cultural and sociotechnical dynamics to help build better AI for everyone 🤗. My representative projects include [auditing AI bias in library services](https://doi.org/10.1057/s41599-026-08465-5), evaluating funding agency policies at the [NIH](https://arxiv.org/pdf/2609.14842) and [NSF](https://arxiv.org/pdf/2609.19552), promoting [accessible science](https://rdcu.be/ew0mK), and improving [healthcare](https://docs.google.com/presentation/d/1l9XvvgIIPtDGAPmZ9hQDdLs4AVYYyLYh2GQtTsA--rQ/edit?usp=sharing).
+Hi 👋, I'm a postdoctoral fellow in the Department of Biostatistics and Health Data Science at Indiana University School of Medicine. I do NLP with real-world data. My research explores cultural and sociotechnical dynamics to help build better AI for everyone 🤗. My representative projects include [auditing AI bias](https://doi.org/10.1057/s41599-026-08465-5), evaluating funding agency policies at the [NIH](https://arxiv.org/pdf/2609.14842) and [NSF](https://arxiv.org/pdf/2609.19552), [protecting whistleblowers](https://hdl.handle.net/2022/33626), and promoting [accessible science](https://rdcu.be/ew0mK).
 
 
 <br>
