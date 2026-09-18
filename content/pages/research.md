@@ -38,6 +38,10 @@ save_as: research.html
 
 ## Preprint
 
+- **Wang, H.** (2026). Funding the runners-up beats a golden ticket. arXiv preprint arXiv:2609.19552 [https://arxiv.org/pdf/2609.19552](https://arxiv.org/pdf/2609.19552)
+
+- **Wang, H.** (2026). Ending the NIH embargo accelerated public access to funded research, but substantial delays remain. arXiv preprint arXiv:2609.14842 [https://arxiv.org/pdf/2609.14842](https://arxiv.org/pdf/2609.14842)
+
 - **Wang, H.** (2023). Defending against authorship identification attacks. arXiv preprint arXiv:2310.01568 [https://arxiv.org/pdf/2310.01568.pdf](https://arxiv.org/pdf/2310.01568.pdf)
 
 - **Wang, H.** (2023). Enhancing representation generalization in authorship identification. arXiv preprint arXiv:2310.00436 [https://arxiv.org/pdf/2310.00436.pdf](https://arxiv.org/pdf/2310.00436.pdf)
