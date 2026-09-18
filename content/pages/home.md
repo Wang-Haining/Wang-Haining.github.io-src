@@ -2,15 +2,7 @@ Title:
 url:
 save_as: index.html
 
-Hi 👋, I'm a postdoctoral fellow in the Department of Biostatistics and Health Data Science at Indiana University School of Medicine. I do NLP with real-world data. My research explores cultural and sociotechnical dynamics to help build better AI for everyone 🤗.
-
-My representative work includes:
-
-* 🎯 [Auditing AI bias in library services](https://doi.org/10.1057/s41599-026-08465-5),
-* 🧑‍🔬 [Making cutting-edge science understandable to high schoolers](https://rdcu.be/ew0mK),
-* 🎭 [Creating untraceable writing styles for whistleblowers](https://hdl.handle.net/2022/33626),
-* 💊 [Taming messy medication records for phenotyping](https://docs.google.com/presentation/d/1l9XvvgIIPtDGAPmZ9hQDdLs4AVYYyLYh2GQtTsA--rQ/edit?usp=sharing), and
-* 👬 [Resolving authorship disputes between the Lu Xun brothers](https://doi.org/10.1093/llc/fqae084).
+Hi 👋, I'm a postdoctoral fellow in the Department of Biostatistics and Health Data Science at Indiana University School of Medicine. I do NLP with real-world data. My research explores cultural and sociotechnical dynamics to help build better AI for everyone 🤗. My representative projects include [auditing AI bias in library services](https://doi.org/10.1057/s41599-026-08465-5), evaluating funding agency policies at the [NIH](https://arxiv.org/pdf/2609.14842) and [NSF](https://arxiv.org/pdf/2609.19552), promoting [accessible science](https://rdcu.be/ew0mK), and improving [healthcare](https://docs.google.com/presentation/d/1l9XvvgIIPtDGAPmZ9hQDdLs4AVYYyLYh2GQtTsA--rQ/edit?usp=sharing).
 
 
 <br>
