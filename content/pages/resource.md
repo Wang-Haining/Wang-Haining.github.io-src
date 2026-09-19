@@ -10,6 +10,8 @@ save_as: resource.html
 
 - [*AInotator*](https://github.com/Wang-Haining/ainotator): Annotate computer-mediated discourse with LLMs to capture communicative acts, politeness strategies, and meta-acts. Supports multiple model backends and provides reproducible, theory-grounded annotations for large-scale CMC research.
 
+- [*your-voice*](https://github.com/Wang-Haining/your_voice): A skill that learns your writing style from your own samples and revises AI drafts across three passes so they read like you, not generic AI.
+
 <!-- - [*Scientific Abstract Simplification*](https://huggingface.co/haining/scientific_abstract_simplification): Rewrite complex scientific abstracts into lay summaries. -->
 
 ## Corpus
