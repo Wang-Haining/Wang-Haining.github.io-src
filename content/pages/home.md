@@ -9,7 +9,7 @@ Hi 👋, I'm a postdoctoral fellow in the Department of Biostatistics and Health
 
 ### What's New
 
-* (Sep 19, 2026) New skill drop: [your-voice](https://github.com/Wang-Haining/your_voice) studies your own writing and edits AI drafts in three passes so they finally sound like you, give it a spin and let me know if it nails you ;)
+* (Sep 19, 2026) Your AI does not sound like you? Try [your-voice](https://github.com/Wang-Haining/your_voice): it not only de-AI-slops your drafts, but also picks up your voice ;)
 
 * (Sep 18, 2026) My new preprint ["Funding the Runners-Up Beats a Golden Ticket"](https://arxiv.org/pdf/2609.19552) is out: NSF's proposed golden ticket policy looks (almost) like a lottery, since minority-support ranking barely beat random selection while ranking by the panel mean picked far better-cited work.
 
