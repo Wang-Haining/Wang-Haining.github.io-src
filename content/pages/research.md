@@ -38,6 +38,10 @@ save_as: research.html
 
 ## Preprint
 
+- Zhang, J., Fu, H., & **Wang, H.** (2026). The shape of NSF openness to newcomers: Same share, fewer doors. SocArXiv. [https://doi.org/10.31235/osf.io/9qpb7_v1](https://doi.org/10.31235/osf.io/9qpb7_v1)
+
+- Xie, F., Zhang, J., & **Wang, H.** (2026). Still funded, no longer counted: How NIH's 2025 award reviews changed what the government counts as minority health research. arXiv preprint arXiv:2610.03443 [https://arxiv.org/abs/2610.03443](https://arxiv.org/abs/2610.03443)
+
 - **Wang, H.** (2026). Funding the runners-up beats a golden ticket. arXiv preprint arXiv:2609.19552 [https://arxiv.org/pdf/2609.19552](https://arxiv.org/pdf/2609.19552)
 
 - **Wang, H.** (2026). Ending the NIH embargo accelerated public access to funded research, but substantial delays remain. arXiv preprint arXiv:2609.14842 [https://arxiv.org/pdf/2609.14842](https://arxiv.org/pdf/2609.14842)
