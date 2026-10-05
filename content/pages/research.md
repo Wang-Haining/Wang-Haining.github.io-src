@@ -5,6 +5,8 @@ save_as: research.html
 
 ## Journal
 
+- Herring, S. C., Lee, S., **Wang, H.**, & Yan, Y. (forthcoming). Can LLMs do computer-mediated discourse analysis? *Language@Internet*.
+
 - **Wang, H.**, Clark, J., Yan, Y., Bradley, S., Chen, R., Zhang, Y., Fu, H., & Tian, Z. (2026). Fairness evaluation of large language models in academic library reference services. *Humanities and Social Sciences Communications*. [https://doi.org/10.1057/s41599-026-08465-5](https://doi.org/10.1057/s41599-026-08465-5)
 
 - **Wang, H.**, Juola, P., & Riddell, A. (2026). Reproduction and replication of an adversarial stylometry experiment. *Replication Research*, 2. [https://doi.org/10.17879/replicationresearch-2026-9414](https://doi.org/10.17879/replicationresearch-2026-9414)
@@ -15,7 +17,7 @@ save_as: research.html
 
 - **Wang, H.**, Clark, J., McKelvey, H., Sterman, L., Gao, Z., Tian, Z., & Liu, X. (2025). Improving scholarship accessibility with reinforcement learning. *Information Research: An International Electronic Journal*, 30(iConf), 203–218. [https://doi.org/10.47989/ir30iConf47530](https://doi.org/10.47989/ir30iConf47530)
 
-- Xie, X., Li, J., & **Wang, H.** (2024). The many voices of Duying: Revisiting the disputed essays between Lu Xun and Zhou Zuoren. *Digital Scholarship in the Humanities*, fqae084. [https://doi.org/10.1093/llc/fqae084](https://doi.org/10.1093/llc/fqae084)
+- Xie, X., Li, J., & **Wang, H.** (2025). The many voices of Duying: Revisiting the disputed essays between Lu Xun and Zhou Zuoren. *Digital Scholarship in the Humanities*, 40(1), 338–353. [https://doi.org/10.1093/llc/fqae084](https://doi.org/10.1093/llc/fqae084)
 
 
 ## Conference
