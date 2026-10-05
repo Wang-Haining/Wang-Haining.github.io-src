@@ -44,11 +44,11 @@ Hi 👋, I'm a postdoctoral fellow in the Department of Biostatistics and Health
 
 * (May 20, 2025) I presented "Thinking, Fast and Slow: Knowledge Extraction to Facilitate Phenotyping Using Drug Records in Real-World Data" at the Midwest Biopharmaceutical Statistics Workshop (MBSW 2025). Check out our [DualReasoning](https://docs.google.com/presentation/d/1-Y8gy-lIWCWFLPSgMY0186Z2rNDb4-lLJhVsc3FnyXU/edit?usp=sharing), which enables effective and secure use of medication records through simple chat with LLMs.
 
-* (May 9, 2025) I successfully defended my PhD dissertation, *Defending Against Authorship Attribution Attacks with Large Language Models*. I am deeply grateful to my committee members: Dr. Allen Riddell (Chair), Dr. John Walsh, Dr. Kahyun Choi, Dr. Staša Milojević, and Dr. Xiaozhong Liu. I also extend my sincere thanks to Dr. Sandra Küber for her guidance. Check out the [slides](https://docs.google.com/presentation/d/1-qUwhibta21vMB2wuhsTfsztl3sJVB6PLdg_6w9hwYQ/edit?usp=sharing) and [manuscript](https://hdl.handle.net/2022/33626).
+* (May 9, 2025) I successfully defended my PhD dissertation, *Defending Against Authorship Attribution Attacks with Large Language Models*. I am deeply grateful to my committee members: Dr. Allen Riddell (Chair), Dr. John Walsh, Dr. Kahyun Choi, Dr. Staša Milojević, and Dr. Xiaozhong Liu. I also extend my sincere thanks to Dr. Sandra Kübler for her guidance. Check out the [slides](https://docs.google.com/presentation/d/1-qUwhibta21vMB2wuhsTfsztl3sJVB6PLdg_6w9hwYQ/edit?usp=sharing) and [manuscript](https://hdl.handle.net/2022/33626).
 
 * (Mar 20, 2025) I presented "Improving Scholarship Accessibility With Reinforcement Learning" at *iConference 2025*, hosted at Indiana University Bloomington. Our jargon-busting AI paper became a Best Paper finalist—[give it a read!](https://publicera.kb.se/ir/article/view/47530)
 
-* (Feb 12, 2025)* I presented a poster titled ["Thinking, Fast and Slow: DualReasoning Enhances Clinical Knowledge Extraction from Large Language Models"](https://drive.google.com/file/d/11o0DyC-K7RS7Zmgpo7NR0iyxYNpowN_H/view?usp=sharing) at the *Regenstrief Healthcare AI Conference*.  
+* (Feb 12, 2025) I presented a poster titled ["Thinking, Fast and Slow: DualReasoning Enhances Clinical Knowledge Extraction from Large Language Models"](https://drive.google.com/file/d/11o0DyC-K7RS7Zmgpo7NR0iyxYNpowN_H/view?usp=sharing) at the *Regenstrief Healthcare AI Conference*.  
 DualReasoning shows great promise in incorporating messy medication information for chronic disease phenotyping (e.g., diabetes and hypertension) while remaining fully privacy-preserving.
 
 * (Dec 27, 2024) Our *DSH* paper on solving authorship disputes between Lu Xun and Zhou Zuoren's early works is out—[give it a read!](https://doi.org/10.1093/llc/fqae084)
@@ -111,6 +111,10 @@ DualReasoning shows great promise in incorporating messy medication information 
 
 * (Aug 15, 2022) Our new paper ["Reproduction and Replication of an Adversarial Stylometry Experiment"](https://arxiv.org/abs/2208.07395) was released on arXiv.
 
+* (Jun 28, 2022) I presented our paper *The Many Voices of Du Ying: Revisiting the Disputed Writings of Lu Xun and Zhou Zuoren* at *DH 2022*. The Book of Abstracts is [available here](https://dh2022.dhii.asia/dh2022bookofabsts.pdf). [Watch the presentation](https://confit.atlas.jp/guide/event/dh2022/session/LP7-03/entries) if registered.
+
+* (Jun 14, 2022) Our paper "Mandarin Tone Sandhi Realization: Evidence from Large Speech Corpora" was accepted by the *23rd INTERSPEECH Conference (INTERSPEECH 2022)*.
+
 * (May 4, 2022) I was accepted into the *2022–2023 Institute for Digital Arts & Humanities (IDAH) Humanities, Arts, Science, and Technology Alliance and Collaboratory (HASTAC) Scholarship* program and began working on *Leveraging Small Humanities Datasets With Few-Shot Learning: A Case Study in Stylometry*.
 
 * (May 4, 2022) The package [writeprints-static](https://literary-materials.github.io/writeprints-static/) was released [on PyPI](https://pypi.org/project/writeprints-static/). Check it out!
@@ -122,10 +126,6 @@ DualReasoning shows great promise in incorporating messy medication information 
 * (Apr 13, 2022) I was accepted as a [LIS Education and Data Science Integrated Network Group](https://cci.drexel.edu/mrc/leading/) (*LEADING*) Fellow and worked with Montana State University Library on the project "TL;DR it": Automating Article Synopses for Search Engine Optimization and Citizen Science.
 
 * (Apr 4, 2022) Our paper "CCTAA: A Reproducible Corpus for Chinese Authorship Attribution Research" was accepted by the [13th European Language Resources Association's *Language Resources and Evaluation Conference* (LREC 2022)](https://lrec2022.lrec-conf.org/en/).
-
-* (Jun 28, 2022) I presented our paper *The Many Voices of Du Ying: Revisiting the Disputed Writings of Lu Xun and Zhou Zuoren* at *DH 2022*. The Book of Abstracts is [available here](https://dh2022.dhii.asia/dh2022bookofabsts.pdf). [Watch the presentation](https://confit.atlas.jp/guide/event/dh2022/session/LP7-03/entries) if registered.
-
-* (Jun 14, 2022) Our paper "Mandarin Tone Sandhi Realization: Evidence from Large Speech Corpora" was accepted by the *23rd INTERSPEECH Conference (INTERSPEECH 2022)*.
 
 * (Mar 4, 2022) Our papers "Minimum Text Length for Chinese Authorship Attribution" and "The Many Voices of Du Ying: Revisiting the Disputed Writings of Lu Xun and Zhou Zuoren" were accepted by [*DH Unbound 2022*](https://dhunbound2022.ach.org/) and [*DH 2022*](https://dh2022.adho.org/home), respectively.
 

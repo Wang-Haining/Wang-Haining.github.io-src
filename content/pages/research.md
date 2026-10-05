@@ -24,13 +24,13 @@ save_as: research.html
 
 - **Wang, H.** (2024). A content-based novelty measure for scholarly publications: A proof of concept. In *International Conference on Information* (pp. 409–420). [https://link.springer.com/chapter/10.1007/978-3-031-57867-0_31](https://link.springer.com/chapter/10.1007/978-3-031-57867-0_31)
 
-- **Wang, H.**, & Riddell, A. (2022). CCTAA: A reproducible corpus for Chinese authorship attribution research. In *Proceedings of the 13th Conference on Language Resources and Evaluation* (pp. 5889–5893). [http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.633.pdf](hhttps://aclanthology.org/2022.lrec-1.633.pdf)
+- **Wang, H.**, & Riddell, A. (2022). CCTAA: A reproducible corpus for Chinese authorship attribution research. In *Proceedings of the 13th Conference on Language Resources and Evaluation* (pp. 5889–5893). [https://aclanthology.org/2022.lrec-1.633.pdf](https://aclanthology.org/2022.lrec-1.633.pdf)
 
 - Tian, Z., Dong, X., Gao, F., **Wang, H.**, & Lin, C. (2022). Mandarin tone sandhi realization: Evidence from large speech corpora. In *INTERSPEECH 2022* (pp. 5273–5277). [https://www.isca-speech.org/archive/pdfs/interspeech_2022/tian22e_interspeech.pdf](https://www.isca-archive.org/interspeech_2022/tian22e_interspeech.pdf)
 
 - **Wang, H.**, Xie, X., & Riddell, A. (2021). The challenge of vernacular and classical Chinese cross-register authorship attribution. In *Proceedings of the 2021 edition of the Computational Humanities Research Conference* (pp. 299–309). [http://ceur-ws.org/Vol-2989/long_paper41.pdf](http://ceur-ws.org/Vol-2989/long_paper41.pdf)
 
-- Riddell, A., **Wang, H.**, & Juola, P. (2021). A call for clarity in contemporary authorship attribution evaluation. In *Proceedings of the International Conference on Recent Advances in Natural Language Processing* (pp. 1178–1183). [https://10.26615/978-954-452-072-4_133](https://10.26615/978-954-452-072-4_133)
+- Riddell, A., **Wang, H.**, & Juola, P. (2021). A call for clarity in contemporary authorship attribution evaluation. In *Proceedings of the International Conference on Recent Advances in Natural Language Processing* (pp. 1178–1183). [https://doi.org/10.26615/978-954-452-072-4_133](https://doi.org/10.26615/978-954-452-072-4_133)
 
 - **Wang, H.**, Riddell, A., & Juola, P. (2021). Mode effects' challenge to authorship attribution. In *Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics* (pp. 1146–1155). [https://aclanthology.org/2021.eacl-main.97.pdf](https://aclanthology.org/2021.eacl-main.97.pdf)
 
