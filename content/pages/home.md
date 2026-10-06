@@ -3,7 +3,7 @@ url:
 save_as: index.html
 Description: Haining Wang, PhD (Indiana University School of Medicine): NLP and large language models for real-world health data, research policy (NIH, NSF), AI fairness in libraries, and stylometry. News, papers, and projects.
 
-Hi 👋, I'm a postdoctoral fellow in the Department of Biostatistics and Health Data Science at the Indiana University School of Medicine. I use NLP and large language models to make sense of real-world data, from patient records to grant portfolios, and I care that the resulting tools work well for everyone. Representative projects include [estimating disease risk from medication lists](https://dualr.hainingwang.org), [auditing LLMs for bias in library services](https://doi.org/10.1057/s41599-026-08465-5), evaluating funding policies at the [NIH](https://arxiv.org/pdf/2609.14842) and [NSF](https://arxiv.org/pdf/2609.19552), [protecting whistleblowers' anonymity](https://hdl.handle.net/2022/33626), and [making scientific abstracts readable for everyone](https://rdcu.be/ew0mK).
+Hi 👋, I'm a postdoctoral fellow in the Department of Biostatistics and Health Data Science at the Indiana University School of Medicine. I use NLP and large language models to make sense of real-world data, from patient records to grant portfolios, and I care that the resulting tools work well for everyone. Representative projects include [clinical risk scores](https://dualr.hainingwang.org), [AI bias audits](https://doi.org/10.1057/s41599-026-08465-5), [NIH](https://arxiv.org/pdf/2609.14842) and [NSF](https://arxiv.org/pdf/2609.19552) policy evaluation, [whistleblower protection](https://hdl.handle.net/2022/33626), and [accessible science](https://rdcu.be/ew0mK).
 
 
 <br>
