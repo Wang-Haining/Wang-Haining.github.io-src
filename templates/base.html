@@ -11,7 +11,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Palette of the day: colors from famous paintings (via Color Lisa, colorlisa.com). Preview any with ?palette=N. -->
+  <!-- Palette of the hour: colors from famous paintings (via Color Lisa, colorlisa.com). Preview any with ?palette=N. -->
   <script>
   (function () {
     var P = [ // [work, artist, sidebar, chip, accent, hover, accentDark, selection, pop, popInk]
@@ -44,8 +44,8 @@
     ["Hommage à Blériot","Robert Delaunay","#4368b6","#6180c2","#a06707","#c27d09","#e4930a","#e4cd5e","#a06707","#ffffff"],
     ["The Creation of Adam","Michelangelo","#3f7b98","#5e90a8","#5b7e52","#6d9762","#86aa7d","#dccbb8","#cbb396","#244657"]
     ];
-    var d = new Date(), day = Math.floor((d.getTime() - d.getTimezoneOffset() * 60000) / 86400000);
-    var i = ((day % P.length) + P.length) % P.length;
+    var d = new Date(), hour = Math.floor((d.getTime() - d.getTimezoneOffset() * 60000) / 3600000);
+    var i = ((hour % P.length) + P.length) % P.length;
     try { var q = new URLSearchParams(location.search).get("palette"); if (q !== null && P[+q]) i = +q; } catch (e) {}
     var p = P[i], s = document.documentElement.style;
     s.setProperty("--pal-sidebar", p[2]); s.setProperty("--pal-chip", p[3]);
@@ -212,7 +212,7 @@
   {% include 'partial/cf_analytics.html' %}
 
   {% block additional_js %}{% endblock %}
-<script src="/static/site.js?v=3" defer></script>
+<script src="/static/site.js?v=4" defer></script>
 <script src="/static/chat-widget.js?v=10" defer></script>
 </body>
 </html>

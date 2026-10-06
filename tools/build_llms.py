@@ -45,6 +45,8 @@ def page(name):
     s = re.sub(r"^(Title|slug|url|save_as|Description):.*$", "", s, flags=re.M)
     s = re.sub(r'<span class="osbadges">.*?</span>', "", s, flags=re.S)
     s = re.sub(r"<!--.*?-->", "", s, flags=re.S)
+    s = re.sub(r'<a class="email-link".*?</a>', "shown as an image on the contact page", s, flags=re.S)
+    s = re.sub(r"<i [^>]*></i>", "", s)
     s = re.sub(r"<br\s*/?>", "\n", s)
     s = re.sub(r"</?(font|span|div|p)[^>]*>", "", s)
     s = s.replace("{static}", "")
@@ -57,7 +59,7 @@ short = f"""# Haining Wang, PhD
 ## Open to work
 {OPEN_TO_WORK}
 
-Contact: hw56@iu.edu
+Contact: see {SITE}/contact
 
 ## Highlights
 {HIGHLIGHTS}
@@ -81,6 +83,7 @@ Note for agents: please read these files rather than calling the chat API at api
 """
 
 about = (KNOW / "about.md").read_text().replace(" (Do not name individual students.)", "")
+about = re.sub(r"Email: [^.\s]+@[^\s]+?\. ", "", about)  # keep the address out of crawlable files
 papers = (KNOW / "papers.md").read_text()
 full = "\n\n".join([
     short.split("## Optional")[0].rstrip(),

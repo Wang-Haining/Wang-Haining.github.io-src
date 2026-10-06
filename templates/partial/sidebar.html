@@ -12,7 +12,7 @@
     </div>
     <ul class="social">
       {% for icon, link, label in SIDEBAR_LINKS %}
-      <li><a href="{{ link }}" title="{{ label }}" aria-label="{{ label }}"{% if not link.startswith('mailto:') %} target="_blank" rel="me noopener"{% else %} rel="me"{% endif %}><i class="{{ icon }}" aria-hidden="true"></i></a></li>
+      <li><a href="{{ link }}" title="{{ label }}" aria-label="{{ label }}"{% if label == 'Email' %} data-email{% else %} target="_blank" rel="me noopener"{% endif %}><i class="{{ icon }}" aria-hidden="true"></i></a></li>
       {% endfor %}
     </ul>
   </div>
