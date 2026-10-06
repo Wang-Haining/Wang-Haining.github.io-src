@@ -1,0 +1,19 @@
+{% set is_home = page is defined and page and page.save_as == 'index.html' %}
+<aside>
+  <div class="sidebar-inner">
+    <a href="{{ SITEURL }}/" class="sidebar-avatar">
+      <img src="{{ SITELOGO }}" alt="Haining Wang" width="140" height="140">
+    </a>
+    {% if is_home %}<h1 class="site-name">{% else %}<p class="site-name">{% endif %}<a href="{{ SITEURL }}/">{{ SITETITLE }}</a>{% if is_home %}</h1>{% else %}</p>{% endif %}
+    <div class="site-roles">
+      {% for group in SIDEBAR_GROUPS %}
+      <p>{% for line in group %}<span>{{ line }}</span>{% endfor %}</p>
+      {% endfor %}
+    </div>
+    <ul class="social">
+      {% for icon, link, label in SIDEBAR_LINKS %}
+      <li><a href="{{ link }}" title="{{ label }}" aria-label="{{ label }}"{% if not link.startswith('mailto:') %} target="_blank" rel="me noopener"{% else %} rel="me"{% endif %}><i class="{{ icon }}" aria-hidden="true"></i></a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</aside>

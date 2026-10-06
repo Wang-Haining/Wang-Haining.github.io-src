@@ -1,0 +1,87 @@
+{#- One source of truth for title, description, canonical, social cards, and structured data. -#}
+{%- set is_home = page is defined and page and page.save_as == 'index.html' -%}
+{%- set canonical = SITEURL ~ '/' ~ (page.url if page is defined and page else '') -%}
+{%- if is_home -%}
+  {%- set seo_title = HOME_TITLE -%}
+{%- elif page is defined and page and page.title -%}
+  {%- set seo_title = page.title|striptags ~ ' | Haining Wang, Indiana University' -%}
+{%- else -%}
+  {%- set seo_title = SITENAME -%}
+{%- endif -%}
+{%- set seo_desc = (page.description if page is defined and page and page.description else SITEDESCRIPTION) -%}
+  <title>{{ seo_title }}</title>
+  <meta name="description" content="{{ seo_desc|striptags|e }}">
+  <meta name="author" content="{{ AUTHOR }}">
+  <link rel="canonical" href="{{ canonical }}">
+  <meta property="og:site_name" content="{{ SITENAME }}">
+  <meta property="og:type" content="{{ 'profile' if is_home else 'website' }}">
+  <meta property="og:title" content="{{ seo_title }}">
+  <meta property="og:description" content="{{ seo_desc|striptags|e }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:image" content="{{ SITEURL }}{{ SITELOGO }}">
+  <meta property="og:image:alt" content="Haining Wang">
+  <meta property="og:locale" content="{{ OG_LOCALE }}">
+  {%- if is_home %}
+  <meta property="profile:first_name" content="Haining">
+  <meta property="profile:last_name" content="Wang">
+  {%- endif %}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@Haining_Wang_">
+  <meta name="twitter:title" content="{{ seo_title }}">
+  <meta name="twitter:description" content="{{ seo_desc|striptags|e }}">
+  <meta name="twitter:image" content="{{ SITEURL }}{{ SITELOGO }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "{{ SITEURL }}/#person",
+        "name": "Haining Wang",
+        "honorificSuffix": "PhD",
+        "url": "{{ SITEURL }}/",
+        "image": "{{ SITEURL }}{{ SITELOGO }}",
+        "email": "mailto:hw56@iu.edu",
+        "jobTitle": "Postdoctoral Fellow",
+        "description": {{ SITEDESCRIPTION|tojson }},
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Department of Biostatistics and Health Data Science, Indiana University School of Medicine",
+          "parentOrganization": {"@type": "CollegeOrUniversity", "name": "Indiana University", "url": "https://www.iu.edu/"}
+        },
+        "affiliation": [
+          {"@type": "Organization", "name": "Indiana University School of Medicine", "url": "https://medicine.iu.edu/"},
+          {"@type": "Organization", "name": "Indiana University Richard M. Fairbanks School of Public Health", "url": "https://fairbanks.indianapolis.iu.edu/"}
+        ],
+        "alumniOf": [
+          {"@type": "CollegeOrUniversity", "name": "Indiana University Bloomington", "url": "https://www.indiana.edu/"},
+          {"@type": "CollegeOrUniversity", "name": "Wuhan University"}
+        ],
+        "address": {"@type": "PostalAddress", "addressLocality": "Indianapolis", "addressRegion": "IN", "addressCountry": "US"},
+        "knowsAbout": {{ KNOWS_ABOUT|tojson }},
+        "sameAs": {{ SAME_AS|tojson }}
+      },
+      {
+        "@type": "WebSite",
+        "@id": "{{ SITEURL }}/#website",
+        "url": "{{ SITEURL }}/",
+        "name": "Haining Wang",
+        "publisher": {"@id": "{{ SITEURL }}/#person"}
+      },
+      {
+        "@type": "{{ 'ProfilePage' if is_home else 'WebPage' }}",
+        "@id": "{{ canonical }}#webpage",
+        "url": "{{ canonical }}",
+        "name": {{ seo_title|tojson }},
+        "description": {{ (seo_desc|striptags)|tojson }},
+        "isPartOf": {"@id": "{{ SITEURL }}/#website"},
+        {%- if is_home %}
+        "mainEntity": {"@id": "{{ SITEURL }}/#person"},
+        {%- else %}
+        "about": {"@id": "{{ SITEURL }}/#person"},
+        {%- endif %}
+        "dateModified": "{{ BUILD_DATE }}"
+      }
+    ]
+  }
+  </script>

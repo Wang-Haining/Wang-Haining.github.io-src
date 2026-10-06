@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for p in pages|sort(attribute='url') %}
+  <url>
+    <loc>{{ SITEURL }}/{{ p.url }}</loc>
+    <lastmod>{{ BUILD_DATE }}</lastmod>
+    <changefreq>{{ 'weekly' if p.save_as == 'index.html' else 'monthly' }}</changefreq>
+    <priority>{{ '1.0' if p.save_as == 'index.html' else '0.8' }}</priority>
+  </url>
+{%- endfor %}
+</urlset>

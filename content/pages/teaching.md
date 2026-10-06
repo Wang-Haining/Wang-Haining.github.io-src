@@ -1,6 +1,8 @@
 Title: Teaching
+slug: teaching
 url: teaching
 save_as: teaching.html
+Description: Teaching by Haining Wang at Indiana University: biomedical data science with NIH All of Us data, practical large language models, and music data mining.
 
 I design learning experiences that bridge theory, computational methods, and real-world data.
 

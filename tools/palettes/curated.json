@@ -1,0 +1,758 @@
+[
+ {
+  "work": "The Starry Night",
+  "artist": "Vincent van Gogh",
+  "src": [
+   "#1a3431",
+   "#2b41a7",
+   "#ccc776"
+  ],
+  "sidebar": "#1a3431",
+  "accent": "#324cc3",
+  "hover": "#7688dc",
+  "accentDark": "#8a9ae1",
+  "selection": "#d4d08c",
+  "chip": "#3f5452",
+  "check": {
+   "side": 13.3,
+   "acc": 7.09,
+   "hover": 3.33,
+   "dark": 4.67,
+   "sel": 10.04
+  },
+  "pop": "#ccc776",
+  "pop_how": "painting",
+  "pop_gap": 0.32,
+  "pop_cr": 4.66,
+  "popInk": "#1a3431"
+ },
+ {
+  "work": "The Great Wave off Kanagawa",
+  "artist": "Katsushika Hokusai",
+  "src": [
+   "#1f284c",
+   "#2d4472",
+   "#d9ccac"
+  ],
+  "sidebar": "#1f284c",
+  "accent": "#3a5893",
+  "hover": "#718ec7",
+  "accentDark": "#879fd0",
+  "selection": "#d9ccac",
+  "chip": "#434a69",
+  "check": {
+   "side": 14.32,
+   "acc": 7.04,
+   "hover": 3.29,
+   "dark": 4.76,
+   "sel": 10.03
+  },
+  "pop": "#d9ccac",
+  "pop_how": "painting",
+  "pop_gap": 0.49,
+  "pop_cr": 4.73,
+  "popInk": "#1f284c"
+ },
+ {
+  "work": "Water Lilies",
+  "artist": "Claude Monet",
+  "src": [
+   "#395a92",
+   "#9f4640",
+   "#7ea860"
+  ],
+  "sidebar": "#395a92",
+  "accent": "#9f4640",
+  "hover": "#c67670",
+  "accentDark": "#d08e8a",
+  "selection": "#bed4b0",
+  "chip": "#5974a3",
+  "check": {
+   "side": 6.88,
+   "acc": 6.13,
+   "hover": 3.39,
+   "dark": 4.76,
+   "sel": 10.04
+  },
+  "pop": "#9f4640",
+  "pop_how": "painting",
+  "pop_gap": 0.41,
+  "pop_cr": 6.13,
+  "popInk": "#ffffff"
+ },
+ {
+  "work": "Woman with a Parasol",
+  "artist": "Claude Monet",
+  "src": [
+   "#4c7899",
+   "#2f5136",
+   "#b1b94c"
+  ],
+  "sidebar": "#4c7899",
+  "accent": "#386141",
+  "hover": "#5a9b67",
+  "accentDark": "#6eab7b",
+  "selection": "#cdd28c",
+  "chip": "#698ea9",
+  "check": {
+   "side": 4.72,
+   "acc": 7.09,
+   "hover": 3.31,
+   "dark": 4.67,
+   "sel": 10.06
+  },
+  "pop": "#b1b94c",
+  "pop_how": "painting",
+  "pop_gap": 0.39,
+  "pop_cr": 4.61,
+  "popInk": "#2a4355"
+ },
+ {
+  "work": "Girl with a Pearl Earring",
+  "artist": "Johannes Vermeer",
+  "src": [
+   "#707da6",
+   "#b08e4a",
+   "#ccad9d"
+  ],
+  "sidebar": "#63729e",
+  "accent": "#8c713b",
+  "hover": "#a98847",
+  "accentDark": "#ba9a5a",
+  "selection": "#ddc9be",
+  "chip": "#7c88ae",
+  "check": {
+   "side": 4.75,
+   "acc": 4.62,
+   "hover": 3.33,
+   "dark": 4.71,
+   "sel": 10.02
+  },
+  "pop": "#a77e5e",
+  "pop_how": "painting",
+  "pop_gap": 0.45,
+  "pop_cr": 4.67,
+  "popInk": "#161a24"
+ },
+ {
+  "work": "The Kiss",
+  "artist": "Gustav Klimt",
+  "src": [
+   "#4a5fab",
+   "#a27cba",
+   "#e3c454"
+  ],
+  "sidebar": "#4a5fab",
+  "accent": "#8f61ac",
+  "hover": "#a47fbc",
+  "accentDark": "#b393c6",
+  "selection": "#e7cc6c",
+  "chip": "#6779b8",
+  "check": {
+   "side": 5.97,
+   "acc": 4.68,
+   "hover": 3.3,
+   "dark": 4.77,
+   "sel": 10.1
+  },
+  "pop": "#e3c454",
+  "pop_how": "painting",
+  "pop_gap": 0.5,
+  "pop_cr": 4.84,
+  "popInk": "#3b4b87"
+ },
+ {
+  "work": "Night Windows",
+  "artist": "Edward Hopper",
+  "src": [
+   "#3f6148",
+   "#67161c",
+   "#dbd3a4"
+  ],
+  "sidebar": "#3f6148",
+  "accent": "#aa242e",
+  "hover": "#de666f",
+  "accentDark": "#e47f86",
+  "selection": "#dbd3a4",
+  "chip": "#5e7a65",
+  "check": {
+   "side": 6.97,
+   "acc": 6.97,
+   "hover": 3.37,
+   "dark": 4.61,
+   "sel": 10.55
+  },
+  "pop": "#67161c",
+  "pop_how": "painting",
+  "pop_gap": 0.39,
+  "pop_cr": 12.29,
+  "popInk": "#ffffff"
+ },
+ {
+  "work": "Bedroom in Arles",
+  "artist": "Vincent van Gogh",
+  "src": [
+   "#374d8d",
+   "#82a866",
+   "#c4b743"
+  ],
+  "sidebar": "#374d8d",
+  "accent": "#5d7b46",
+  "hover": "#739957",
+  "accentDark": "#82a866",
+  "selection": "#d8cf83",
+  "chip": "#57699f",
+  "check": {
+   "side": 8.05,
+   "acc": 4.77,
+   "hover": 3.28,
+   "dark": 4.66,
+   "sel": 10.06
+  },
+  "pop": "#c4b743",
+  "pop_how": "painting",
+  "pop_gap": 0.47,
+  "pop_cr": 4.67,
+  "popInk": "#2d3f73"
+ },
+ {
+  "work": "A Sunday on La Grande Jatte",
+  "artist": "Georges Seurat",
+  "src": [
+   "#465946",
+   "#3f3f63",
+   "#8c9355"
+  ],
+  "sidebar": "#465946",
+  "accent": "#535382",
+  "hover": "#8888b3",
+  "accentDark": "#9b9bbf",
+  "selection": "#cccfb4",
+  "chip": "#647464",
+  "check": {
+   "side": 7.56,
+   "acc": 7.19,
+   "hover": 3.38,
+   "dark": 4.69,
+   "sel": 10.05
+  },
+  "pop": "#808eb7",
+  "pop_how": "painting",
+  "pop_gap": 0.33,
+  "pop_cr": 9.99,
+  "popInk": "#1e261e"
+ },
+ {
+  "work": "The Birth of Venus",
+  "artist": "Sandro Botticelli",
+  "src": [
+   "#7a989a",
+   "#cf9546",
+   "#c1ae8d"
+  ],
+  "sidebar": "#5d787a",
+  "accent": "#9b6b28",
+  "hover": "#bc8131",
+  "accentDark": "#cf9546",
+  "selection": "#d9cdb8",
+  "chip": "#778e8f",
+  "check": {
+   "side": 4.73,
+   "acc": 4.66,
+   "hover": 3.33,
+   "dark": 4.84,
+   "sel": 10.15
+  },
+  "pop": "#cf9546",
+  "pop_how": "painting",
+  "pop_gap": 0.42,
+  "pop_cr": 4.66,
+  "popInk": "#283435"
+ },
+ {
+  "work": "The Arnolfini Portrait",
+  "artist": "Jan van Eyck",
+  "src": [
+   "#3b5b71",
+   "#3c490c",
+   "#7c6c4e"
+  ],
+  "sidebar": "#3b5b71",
+  "accent": "#4e5f10",
+  "hover": "#7d9819",
+  "accentDark": "#8ba91c",
+  "selection": "#d2cdc3",
+  "chip": "#5a7588",
+  "check": {
+   "side": 7.19,
+   "acc": 7.08,
+   "hover": 3.3,
+   "dark": 4.7,
+   "sel": 10.1
+  },
+  "pop": "#7c6c4e",
+  "pop_how": "painting",
+  "pop_gap": 0.46,
+  "pop_cr": 5.11,
+  "popInk": "#ffffff"
+ },
+ {
+  "work": "The Swan",
+  "artist": "Hilma af Klint",
+  "src": [
+   "#466ca6",
+   "#87240e",
+   "#d1ae45"
+  ],
+  "sidebar": "#466ca6",
+  "accent": "#a72d11",
+  "hover": "#eb5d3e",
+  "accentDark": "#ef7c63",
+  "selection": "#e2cd8c",
+  "chip": "#6484b4",
+  "check": {
+   "side": 5.31,
+   "acc": 6.93,
+   "hover": 3.4,
+   "dark": 4.66,
+   "sel": 10.15
+  },
+  "pop": "#d1ae45",
+  "pop_how": "painting",
+  "pop_gap": 0.48,
+  "pop_cr": 4.8,
+  "popInk": "#294062"
+ },
+ {
+  "work": "The Persistence of Memory",
+  "artist": "Salvador Dalí",
+  "src": [
+   "#40798c",
+   "#805730",
+   "#bfb37f"
+  ],
+  "sidebar": "#40798c",
+  "accent": "#805730",
+  "hover": "#ba7f47",
+  "accentDark": "#c59465",
+  "selection": "#d6cead",
+  "chip": "#5f8e9e",
+  "check": {
+   "side": 4.85,
+   "acc": 6.32,
+   "hover": 3.37,
+   "dark": 4.7,
+   "sel": 10.14
+  },
+  "pop": "#bca455",
+  "pop_how": "painting",
+  "pop_gap": 0.46,
+  "pop_cr": 6.32,
+  "popInk": "#1e3942"
+ },
+ {
+  "work": "The Son of Man",
+  "artist": "René Magritte",
+  "src": [
+   "#3a282f",
+   "#b60614",
+   "#e3bfa1"
+  ],
+  "sidebar": "#3a282f",
+  "accent": "#b60614",
+  "hover": "#f94d5a",
+  "accentDark": "#fa747f",
+  "selection": "#e7c8ae",
+  "chip": "#5a4a50",
+  "check": {
+   "side": 13.78,
+   "acc": 6.94,
+   "hover": 3.37,
+   "dark": 4.75,
+   "sel": 10.09
+  },
+  "pop": "#767614",
+  "pop_how": "painting",
+  "pop_gap": 0.23,
+  "pop_cr": 4.82,
+  "popInk": "#ffffff"
+ },
+ {
+  "work": "Dance (I)",
+  "artist": "Henri Matisse",
+  "src": [
+   "#165f8c",
+   "#03735e",
+   "#078c66"
+  ],
+  "sidebar": "#165f8c",
+  "accent": "#03735e",
+  "hover": "#04a083",
+  "accentDark": "#05b493",
+  "selection": "#abd8cb",
+  "chip": "#3b799e",
+  "check": {
+   "side": 6.89,
+   "acc": 5.8,
+   "hover": 3.31,
+   "dark": 4.77,
+   "sel": 10.19
+  },
+  "pop": "#dfae90",
+  "pop_how": "complement",
+  "pop_gap": 0.5,
+  "pop_cr": 4.77,
+  "popInk": "#104769"
+ },
+ {
+  "work": "Landscape at Collioure",
+  "artist": "Henri Matisse",
+  "src": [
+   "#375c8c",
+   "#bf7821",
+   "#bfaa8f"
+  ],
+  "sidebar": "#375c8c",
+  "accent": "#a1651c",
+  "hover": "#c87d23",
+  "accentDark": "#da8b2a",
+  "selection": "#d9ccbc",
+  "chip": "#57769e",
+  "check": {
+   "side": 6.84,
+   "acc": 4.8,
+   "hover": 3.27,
+   "dark": 4.63,
+   "sel": 10.12
+  },
+  "pop": "#a29a68",
+  "pop_how": "painting",
+  "pop_gap": 0.48,
+  "pop_cr": 4.77,
+  "popInk": "#1a2c43"
+ },
+ {
+  "work": "A Bigger Splash",
+  "artist": "David Hockney",
+  "src": [
+   "#126599",
+   "#497e58",
+   "#79bed9"
+  ],
+  "sidebar": "#126599",
+  "accent": "#497e58",
+  "hover": "#5a9b6c",
+  "accentDark": "#6eab7f",
+  "selection": "#a7d4e6",
+  "chip": "#387ea9",
+  "check": {
+   "side": 6.27,
+   "acc": 4.76,
+   "hover": 3.31,
+   "dark": 4.68,
+   "sel": 10.04
+  },
+  "pop": "#cabd8a",
+  "pop_how": "painting",
+  "pop_gap": 0.43,
+  "pop_cr": 4.76,
+  "popInk": "#0d4a70"
+ },
+ {
+  "work": "Abstraction Blue",
+  "artist": "Georgia O'Keeffe",
+  "src": [
+   "#182044",
+   "#51628e",
+   "#91a1ba"
+  ],
+  "sidebar": "#182044",
+  "accent": "#51628e",
+  "hover": "#7c8cb4",
+  "accentDark": "#909dc0",
+  "selection": "#c6cedb",
+  "chip": "#3d4462",
+  "check": {
+   "side": 15.8,
+   "acc": 6.02,
+   "hover": 3.35,
+   "dark": 4.67,
+   "sel": 10.09
+  },
+  "pop": "#dfd190",
+  "pop_how": "complement",
+  "pop_gap": 0.5,
+  "pop_cr": 4.8,
+  "popInk": "#182044"
+ },
+ {
+  "work": "The Night Watch",
+  "artist": "Rembrandt",
+  "src": [
+   "#5b5224",
+   "#8a350c",
+   "#dbc99a"
+  ],
+  "sidebar": "#5b5224",
+  "accent": "#983a0d",
+  "hover": "#eb5f1b",
+  "accentDark": "#ef7c45",
+  "selection": "#ddcca0",
+  "chip": "#756e47",
+  "check": {
+   "side": 7.84,
+   "acc": 7.1,
+   "hover": 3.4,
+   "dark": 4.61,
+   "sel": 10.08
+  },
+  "pop": "#909ddf",
+  "pop_how": "complement",
+  "pop_gap": 0.5,
+  "pop_cr": 7.72,
+  "popInk": "#363116"
+ },
+ {
+  "work": "Broadway Boogie Woogie",
+  "artist": "Piet Mondrian",
+  "src": [
+   "#314290",
+   "#4a71c0",
+   "#f0d32d"
+  ],
+  "sidebar": "#314290",
+  "accent": "#4a71c0",
+  "hover": "#6c8ccc",
+  "accentDark": "#839ed4",
+  "selection": "#f0d32d",
+  "chip": "#5260a2",
+  "check": {
+   "side": 9.08,
+   "acc": 4.76,
+   "hover": 3.36,
+   "dark": 4.67,
+   "sel": 10.7
+  },
+  "pop": "#f0d32d",
+  "pop_how": "painting",
+  "pop_gap": 0.49,
+  "pop_cr": 4.75,
+  "popInk": "#314290"
+ },
+ {
+  "work": "Villa di Marlia, Lucca",
+  "artist": "John Singer Sargent",
+  "src": [
+   "#4e6a3d",
+   "#778bd0",
+   "#e2d76b"
+  ],
+  "sidebar": "#4e6a3d",
+  "accent": "#556ec4",
+  "hover": "#778bd0",
+  "accentDark": "#8a9bd7",
+  "selection": "#e2d76b",
+  "chip": "#6a825c",
+  "check": {
+   "side": 6.08,
+   "acc": 4.76,
+   "hover": 3.29,
+   "dark": 4.67,
+   "sel": 10.78
+  },
+  "pop": "#778bd0",
+  "pop_how": "painting",
+  "pop_gap": 0.36,
+  "pop_cr": 4.76,
+  "popInk": "#1a2314"
+ },
+ {
+  "work": "American Gothic",
+  "artist": "Grant Wood",
+  "src": [
+   "#41240b",
+   "#9c4823",
+   "#a6bdb0"
+  ],
+  "sidebar": "#41240b",
+  "accent": "#9c4823",
+  "hover": "#d57145",
+  "accentDark": "#dc8863",
+  "selection": "#c1d1c8",
+  "chip": "#5f4732",
+  "check": {
+   "side": 14.17,
+   "acc": 6.24,
+   "hover": 3.33,
+   "dark": 4.65,
+   "sel": 10.04
+  },
+  "pop": "#90bbdf",
+  "pop_how": "complement",
+  "pop_gap": 0.5,
+  "pop_cr": 4.72,
+  "popInk": "#41240b"
+ },
+ {
+  "work": "White Zig Zags",
+  "artist": "Wassily Kandinsky",
+  "src": [
+   "#4052bd",
+   "#c13c53",
+   "#efe96d"
+  ],
+  "sidebar": "#4052bd",
+  "accent": "#c13c53",
+  "hover": "#d26e7f",
+  "accentDark": "#d98593",
+  "selection": "#efe96d",
+  "chip": "#5f6ec8",
+  "check": {
+   "side": 6.65,
+   "acc": 5.2,
+   "hover": 3.36,
+   "dark": 4.65,
+   "sel": 12.59
+  },
+  "pop": "#efe96d",
+  "pop_how": "painting",
+  "pop_gap": 0.48,
+  "pop_cr": 4.89,
+  "popInk": "#4052bd"
+ },
+ {
+  "work": "Les Demoiselles d'Avignon",
+  "artist": "Pablo Picasso",
+  "src": [
+   "#566c7d",
+   "#a1544b",
+   "#dd9d91"
+  ],
+  "sidebar": "#566c7d",
+  "accent": "#a1544b",
+  "hover": "#bf7d75",
+  "accentDark": "#c8908a",
+  "selection": "#ebc4bd",
+  "chip": "#718492",
+  "check": {
+   "side": 5.47,
+   "acc": 5.41,
+   "hover": 3.3,
+   "dark": 4.71,
+   "sel": 10.02
+  },
+  "pop": "#cd6c74",
+  "pop_how": "painting",
+  "pop_gap": 0.44,
+  "pop_cr": 5.41,
+  "popInk": "#181e22"
+ },
+ {
+  "work": "Large Green Vase with Mixed Flowers",
+  "artist": "Odilon Redon",
+  "src": [
+   "#4d5e30",
+   "#695b8f",
+   "#c2af46"
+  ],
+  "sidebar": "#4d5e30",
+  "accent": "#695b8f",
+  "hover": "#9185b1",
+  "accentDark": "#a298bd",
+  "selection": "#dacf90",
+  "chip": "#697851",
+  "check": {
+   "side": 7.1,
+   "acc": 6.01,
+   "hover": 3.39,
+   "dark": 4.66,
+   "sel": 10.13
+  },
+  "pop": "#695b8f",
+  "pop_how": "painting",
+  "pop_gap": 0.48,
+  "pop_cr": 6.01,
+  "popInk": "#ffffff"
+ },
+ {
+  "work": "George Lawson and Wayne Sleep",
+  "artist": "David Hockney",
+  "src": [
+   "#3e797a",
+   "#a63f5a",
+   "#f2e7ae"
+  ],
+  "sidebar": "#3e797a",
+  "accent": "#a63f5a",
+  "hover": "#ca7289",
+  "accentDark": "#d2889c",
+  "selection": "#f2e7ae",
+  "chip": "#5d8e8f",
+  "check": {
+   "side": 4.98,
+   "acc": 6.03,
+   "hover": 3.35,
+   "dark": 4.67,
+   "sel": 12.79
+  },
+  "pop": "#a63f5a",
+  "pop_how": "painting",
+  "pop_gap": 0.45,
+  "pop_cr": 6.03,
+  "popInk": "#ffffff"
+ },
+ {
+  "work": "Hommage à Blériot",
+  "artist": "Robert Delaunay",
+  "src": [
+   "#4368b6",
+   "#e4930a",
+   "#dec23b"
+  ],
+  "sidebar": "#4368b6",
+  "accent": "#a06707",
+  "hover": "#c27d09",
+  "accentDark": "#e4930a",
+  "selection": "#e4cd5e",
+  "chip": "#6180c2",
+  "check": {
+   "side": 5.39,
+   "acc": 4.75,
+   "hover": 3.37,
+   "dark": 5.1,
+   "sel": 10.03
+  },
+  "pop": "#a06707",
+  "pop_how": "painting",
+  "pop_gap": 0.49,
+  "pop_cr": 4.75,
+  "popInk": "#ffffff"
+ },
+ {
+  "work": "The Creation of Adam",
+  "artist": "Michelangelo",
+  "src": [
+   "#42819f",
+   "#86aa7d",
+   "#cbb396"
+  ],
+  "sidebar": "#3f7b98",
+  "accent": "#5b7e52",
+  "hover": "#6d9762",
+  "accentDark": "#86aa7d",
+  "selection": "#dccbb8",
+  "chip": "#5e90a8",
+  "check": {
+   "side": 4.66,
+   "acc": 4.62,
+   "hover": 3.37,
+   "dark": 4.85,
+   "sel": 10.11
+  },
+  "pop": "#cbb396",
+  "pop_how": "painting",
+  "pop_gap": 0.46,
+  "pop_cr": 4.61,
+  "popInk": "#244657"
+ }
+]
