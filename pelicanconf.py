@@ -74,6 +74,7 @@ EXTRA_PATH_METADATA = {
     "extra/chat-widget.js": {"path": "static/chat-widget.js"},
     "extra/site.js": {"path": "static/site.js"},
     "extra/robots.txt": {"path": "robots.txt"},
+    "extra/google6a4ae6271ad574af.html": {"path": "google6a4ae6271ad574af.html"},  # Google Search Console ownership; keep
     "extra/llms.txt": {"path": "llms.txt"},
     "extra/llms-full.txt": {"path": "llms-full.txt"},
     "extra/custom.css": {"path": "static/custom.css"},
@@ -95,9 +96,7 @@ SOCIAL = ()
 SIDEBAR_LINKS = [  # (icon classes, url, label)
     ("fa-solid fa-envelope", "mailto:hw56@iu.edu", "Email"),
     ("fa-solid fa-graduation-cap", "https://scholar.google.com/citations?user=zvrO0WMAAAAJ", "Google Scholar"),
-    ("fa-brands fa-orcid", "https://orcid.org/0000-0002-1196-0918", "ORCID"),
     ("fa-brands fa-github-alt", "https://github.com/Wang-Haining", "GitHub"),
-    ("fa-brands fa-twitter", "https://twitter.com/Haining_Wang_", "Twitter"),
 ]
 SAME_AS = [
     "https://scholar.google.com/citations?user=zvrO0WMAAAAJ",
@@ -133,6 +132,7 @@ STATIC_PATHS = [
     'pages',
     'extra/CNAME',
     "extra/robots.txt",
+    "extra/google6a4ae6271ad574af.html",
     "extra/llms.txt",
     "extra/llms-full.txt",
     "extra/site.js",
