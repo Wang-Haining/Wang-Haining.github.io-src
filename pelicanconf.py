@@ -179,3 +179,5 @@ TEMPLATE_PAGES = {'sitemap.xml': 'sitemap.xml'}
 
 # Template overrides (chat widget injection)
 THEME_TEMPLATES_OVERRIDES = ['templates']
+# Treat .html files under content/ as static files (e.g., the Search Console verification file), not pages.
+READERS = {"html": None}
