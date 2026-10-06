@@ -4,7 +4,7 @@ Sources: this repo's content pages plus the Ask Haining knowledge files
 (profile and paper abstracts). Unpublished projects are deliberately excluded.
 Run: .venv/bin/python tools/build_llms.py   (KNOWLEDGE_DIR overrides the worker path)
 """
-import os, re
+import os, re, tomllib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,6 +21,24 @@ HIGHLIGHTS = """- Builds language-model methods that read real-world health reco
 - Studies research policy with public data: NIH's 2025 award reviews and minority health research, the end of the NIH public-access embargo, NSF openness to newcomers, and NSF's proposed "golden ticket".
 - Audits LLM fairness in academic library reference services (Humanities and Social Sciences Communications, 2026) and makes science accessible with reinforcement learning (Scientometrics, 2025).
 - Ph.D. in Information Science (Indiana University, 2025) with a background in stylometry and authorship attribution; teaches biomedical data science and practical LLM courses; mentors master's and undergraduate students."""
+
+def publications():
+    pubs = tomllib.load(open(ROOT / "data/publications.toml", "rb"))["pub"]
+    names = {"journal": "Journal articles", "conference": "Conference papers", "chapter": "Book chapters", "preprint": "Preprints"}
+    out = []
+    for sec, label in names.items():
+        items = [p for p in pubs if p["section"] == sec]
+        if not items: continue
+        out.append(f"## {label}\n")
+        for p in items:
+            line = f"- {p['authors']} ({p['year']}). {p['title']}. *{p['venue']}*" + (f", {p['details']}" if p.get("details") else "") + "."
+            if p.get("url"): line += f" {p['url']}"
+            extra = ", ".join(f"{l['kind']}: {l['url']}" for l in p.get("links", []) if l["url"] != p.get("url"))
+            if extra: line += f" ({extra})"
+            line += f" [topics: {', '.join(p['tags'])}]"
+            out.append(line)
+        out.append("")
+    return "\n".join(out).strip()
 
 def page(name):
     s = (ROOT / "content/pages" / f"{name}.md").read_text()
@@ -68,7 +86,7 @@ full = "\n\n".join([
     short.split("## Optional")[0].rstrip(),
     "---\n\n# Profile\n\n" + about.split("\n", 1)[1].strip(),
     "---\n\n# Website: home and news\n\n" + page("home"),
-    "---\n\n# Website: research\n\n" + page("research"),
+    "---\n\n# Publications (from the Research page)\n\n" + publications(),
     "---\n\n# Website: teaching\n\n" + page("teaching"),
     "---\n\n# Website: resources\n\n" + page("resource"),
     "---\n\n" + papers.strip(),

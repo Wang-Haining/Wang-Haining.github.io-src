@@ -3,56 +3,6 @@ slug: research
 url: research
 save_as: research.html
 Description: Publications and preprints by Haining Wang (Indiana University): clinical NLP, NIH and NSF research policy, LLM fairness in library reference, accessible science, and authorship attribution.
+template: research
 
-
-## Journal
-
-- Herring, S. C., Lee, S., **Wang, H.**, & Yan, Y. (forthcoming). Can LLMs do computer-mediated discourse analysis? *Language@Internet*.
-
-- **Wang, H.**, Clark, J., Yan, Y., Bradley, S., Chen, R., Zhang, Y., Fu, H., & Tian, Z. (2026). Fairness evaluation of large language models in academic library reference services. *Humanities and Social Sciences Communications*. [https://doi.org/10.1057/s41599-026-08465-5](https://doi.org/10.1057/s41599-026-08465-5)
-
-- **Wang, H.**, Juola, P., & Riddell, A. (2026). Reproduction and replication of an adversarial stylometry experiment. *Replication Research*, 2. [https://doi.org/10.17879/replicationresearch-2026-9414](https://doi.org/10.17879/replicationresearch-2026-9414)
-
-- **Wang, H.**, Lee, J., Walsh, J. A., Flanders, J., & Lee, B. C. G. (2025). Building and deploying the Digital Humanities Quarterly recommender system. *Code4Lib Journal*, (61). [https://journal.code4lib.org/articles/18501](https://journal.code4lib.org/articles/18501)
-
-- **Wang, H.**, Clark, J., McKelvey, H., Sterman, L., Gao, Z., Tian, Z., Kübler, S., & Liu, X. (2025). Science out of its Ivory Tower: Improving accessibility with reinforcement learning. *Scientometrics*, 130(8), 4519–4543. [https://doi.org/10.1007/s11192-025-05386-z](https://rdcu.be/ew0mK)
-
-- **Wang, H.**, Clark, J., McKelvey, H., Sterman, L., Gao, Z., Tian, Z., & Liu, X. (2025). Improving scholarship accessibility with reinforcement learning. *Information Research: An International Electronic Journal*, 30(iConf), 203–218. [https://doi.org/10.47989/ir30iConf47530](https://doi.org/10.47989/ir30iConf47530)
-
-- Xie, X., Li, J., & **Wang, H.** (2025). The many voices of Duying: Revisiting the disputed essays between Lu Xun and Zhou Zuoren. *Digital Scholarship in the Humanities*, 40(1), 338–353. [https://doi.org/10.1093/llc/fqae084](https://doi.org/10.1093/llc/fqae084)
-
-
-## Conference
-
-- **Wang, H.**, & Clark, J. (2024). Simplifying scholarly abstracts for accessible digital libraries using language models. In *The 2024 ACM/IEEE Joint Conference on Digital Libraries (JCDL '24)*. [https://doi.org/10.1145/3677389.3702490](https://doi.org/10.1145/3677389.3702490)
-
-- **Wang, H.** (2024). A content-based novelty measure for scholarly publications: A proof of concept. In *International Conference on Information* (pp. 409–420). [https://link.springer.com/chapter/10.1007/978-3-031-57867-0_31](https://link.springer.com/chapter/10.1007/978-3-031-57867-0_31)
-
-- **Wang, H.**, & Riddell, A. (2022). CCTAA: A reproducible corpus for Chinese authorship attribution research. In *Proceedings of the 13th Conference on Language Resources and Evaluation* (pp. 5889–5893). [https://aclanthology.org/2022.lrec-1.633.pdf](https://aclanthology.org/2022.lrec-1.633.pdf)
-
-- Tian, Z., Dong, X., Gao, F., **Wang, H.**, & Lin, C. (2022). Mandarin tone sandhi realization: Evidence from large speech corpora. In *INTERSPEECH 2022* (pp. 5273–5277). [https://www.isca-speech.org/archive/pdfs/interspeech_2022/tian22e_interspeech.pdf](https://www.isca-archive.org/interspeech_2022/tian22e_interspeech.pdf)
-
-- **Wang, H.**, Xie, X., & Riddell, A. (2021). The challenge of vernacular and classical Chinese cross-register authorship attribution. In *Proceedings of the 2021 edition of the Computational Humanities Research Conference* (pp. 299–309). [http://ceur-ws.org/Vol-2989/long_paper41.pdf](http://ceur-ws.org/Vol-2989/long_paper41.pdf)
-
-- Riddell, A., **Wang, H.**, & Juola, P. (2021). A call for clarity in contemporary authorship attribution evaluation. In *Proceedings of the International Conference on Recent Advances in Natural Language Processing* (pp. 1178–1183). [https://doi.org/10.26615/978-954-452-072-4_133](https://doi.org/10.26615/978-954-452-072-4_133)
-
-- **Wang, H.**, Riddell, A., & Juola, P. (2021). Mode effects' challenge to authorship attribution. In *Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics* (pp. 1146–1155). [https://aclanthology.org/2021.eacl-main.97.pdf](https://aclanthology.org/2021.eacl-main.97.pdf)
-
-
-
-## Preprint
-
-- Zhang, J., Fu, H., & **Wang, H.** (2026). The shape of NSF openness to newcomers: Same share, fewer doors. SocArXiv. [https://doi.org/10.31235/osf.io/9qpb7_v1](https://doi.org/10.31235/osf.io/9qpb7_v1)
-
-- Xie, F., Zhang, J., & **Wang, H.** (2026). Still funded, no longer counted: How NIH's 2025 award reviews changed what the government counts as minority health research. arXiv preprint arXiv:2610.03443 [https://arxiv.org/abs/2610.03443](https://arxiv.org/abs/2610.03443)
-
-- **Wang, H.** (2026). Funding the runners-up beats a golden ticket. arXiv preprint arXiv:2609.19552 [https://arxiv.org/pdf/2609.19552](https://arxiv.org/pdf/2609.19552)
-
-- **Wang, H.** (2026). Ending the NIH embargo accelerated public access to funded research, but substantial delays remain. arXiv preprint arXiv:2609.14842 [https://arxiv.org/pdf/2609.14842](https://arxiv.org/pdf/2609.14842)
-
-- **Wang, H.** (2023). Defending against authorship identification attacks. arXiv preprint arXiv:2310.01568 [https://arxiv.org/pdf/2310.01568.pdf](https://arxiv.org/pdf/2310.01568.pdf)
-
-- **Wang, H.** (2023). Enhancing representation generalization in authorship identification. arXiv preprint arXiv:2310.00436 [https://arxiv.org/pdf/2310.00436.pdf](https://arxiv.org/pdf/2310.00436.pdf)
-
-
-
+Selected papers, preprints, and the code, data, and slides behind them. Filter by topic below.
