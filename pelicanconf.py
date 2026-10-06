@@ -106,8 +106,8 @@ SAME_AS = [
 ]
 KNOWS_ABOUT = [
     "Natural language processing", "Large language models", "Clinical NLP", "Computational phenotyping",
-    "Electronic health records", "Real-world data", "Health data science", "Biomedical informatics",
-    "Health disparities", "Social determinants of health", "Science of science", "Research policy",
+    "Electronic health records", "Real-world data", "Health data science", "Medical informatics",
+    "Health disparities", "Social determinants of health", "Metascience", "Science of science", "Research policy",
     "NIH and NSF funding", "Open access and public access policy", "AI fairness", "Library reference services",
     "Accessible science communication", "Stylometry", "Authorship attribution", "Adversarial stylometry",
 ]
