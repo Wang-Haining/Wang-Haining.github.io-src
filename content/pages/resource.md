@@ -1,6 +1,8 @@
-Title: Resource  
-slug: resource  
-save_as: resource.html  
+Title: Resource
+slug: resource
+url: resource
+save_as: resource.html
+Description: Open-source tools, corpora, and Python packages by Haining Wang: your-voice, AInotator, RLAM, NovEval, Blog-1K, RAABT, functionwords, and writeprints-static.
 
 ## AI/Agent
 

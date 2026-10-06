@@ -6,18 +6,16 @@ import os
 
 AUTHOR = 'Haining Wang'
 SITENAME = "Haining Wang"
-SITESUBTITLE = """<br>
-                  <br> <br> <br>
-                  <br><font size="5">Haining Wang, Ph.D.</font><br> <br>   
-                  <br> <font size="4">Postdoctoral Fellow</font> <br> <br> 
-                  <br> <font size="4">Biostatistics & Health Data Science</font>
-                  <br>
-                  <br> <font size="4">School of Medicine</font>
-                  <br> <font size="4">Richard M. Fairbanks School of Public Health</font>
-                  <br> <font size="4">Indiana University</font>
-                  <br>
-                  <br>"""
-SITEDESCRIPTION = "Haining Wang | Home"
+SITETITLE = "Haining Wang, Ph.D."
+SIDEBAR_GROUPS = [
+    ["Postdoctoral Fellow"],
+    ["Biostatistics & Health Data Science"],
+    ["School of Medicine", "Richard M. Fairbanks School of Public Health", "Indiana University"],
+]
+HOME_TITLE = "Haining Wang, PhD | NLP and Health Data Science | Indiana University"
+SITEDESCRIPTION = ("Haining Wang, PhD, is a postdoctoral fellow in Biostatistics and Health Data Science at "
+                   "Indiana University School of Medicine (IU). Haining builds NLP and large language model methods for "
+                   "real-world health data, and studies research policy, AI fairness in libraries, and stylometry.")
 SITEURL = 'https://hainingwang.org'
 SITELOGO = "/images/profile.png"
 FAVICON = "/images/favicon.ico"
@@ -44,8 +42,9 @@ DEFAULT_LANG = 'en'
 OG_LOCALE = 'en_US'
 LOCALE = 'en_US'
 
-# PLUGIN_PATHS = ['pelican-plugins']
-# PLUGINS = ['post_stats']
+# No plugins: explicit [] stops Pelican from auto-loading installed namespace plugins
+# (pelican-seo was silently injecting duplicate canonical/OG/JSON-LD tags).
+PLUGINS = []
 
 DISPLAY_PAGES_ON_MENU = False
 DEFAULT_PAGINATION = 5
@@ -67,12 +66,16 @@ TRANSLATION_FEED_ATOM = None
 
 # ROBOTS = "index, follow"
 
-CUSTOM_CSS = "static/custom.css"
+CUSTOM_CSS = "static/custom.css?v=3"
 # CUSTOM_CSS = "../pelican-themes/Flex/static/stylesheet/dark-theme.min.css"
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
     "extra/favicon.ico": {"path": "favicon.ico"},
     "extra/chat-widget.js": {"path": "static/chat-widget.js"},
+    "extra/site.js": {"path": "static/site.js"},
+    "extra/robots.txt": {"path": "robots.txt"},
+    "extra/llms.txt": {"path": "llms.txt"},
+    "extra/llms-full.txt": {"path": "llms-full.txt"},
     "extra/custom.css": {"path": "static/custom.css"},
 }
 
@@ -88,11 +91,29 @@ LINKS_IN_NEW_TAB = 'external'
 #         # ('Email', 'hw56@indiana.edu')
 # )
 
-SOCIAL = (
-    ('envelope', 'mailto:hw56@iu.edu'),
-    ('twitter', 'https://twitter.com/Haining_Wang_'),
-    ('github-alt', 'https://github.com/Wang-Haining'),
-)
+SOCIAL = ()
+SIDEBAR_LINKS = [  # (icon classes, url, label)
+    ("fa-solid fa-envelope", "mailto:hw56@iu.edu", "Email"),
+    ("fa-solid fa-graduation-cap", "https://scholar.google.com/citations?user=zvrO0WMAAAAJ", "Google Scholar"),
+    ("fa-brands fa-orcid", "https://orcid.org/0000-0002-1196-0918", "ORCID"),
+    ("fa-brands fa-github-alt", "https://github.com/Wang-Haining", "GitHub"),
+    ("fa-brands fa-twitter", "https://twitter.com/Haining_Wang_", "Twitter"),
+]
+SAME_AS = [
+    "https://scholar.google.com/citations?user=zvrO0WMAAAAJ",
+    "https://orcid.org/0000-0002-1196-0918",
+    "https://github.com/Wang-Haining",
+    "https://twitter.com/Haining_Wang_",
+]
+KNOWS_ABOUT = [
+    "Natural language processing", "Large language models", "Clinical NLP", "Computational phenotyping",
+    "Electronic health records", "Real-world data", "Health data science", "Biomedical informatics",
+    "Health disparities", "Social determinants of health", "Science of science", "Research policy",
+    "NIH and NSF funding", "Open access and public access policy", "AI fairness", "Library reference services",
+    "Accessible science communication", "Stylometry", "Authorship attribution", "Adversarial stylometry",
+]
+BUILD_DATE = datetime.now().strftime("%Y-%m-%d")
+ROBOTS = "index, follow, max-image-preview:large"
 
 LINKS = ()
 
@@ -111,15 +132,14 @@ STATIC_PATHS = [
     'images',
     'pages',
     'extra/CNAME',
+    "extra/robots.txt",
+    "extra/llms.txt",
+    "extra/llms-full.txt",
+    "extra/site.js",
     "extra/chat-widget.js",
     "extra/custom.css"
 ]
 
-# settings.py
-SEO_REPORT = True  # To enable this feature
-SEO_ENHANCER = True  # To disable this feature
-SEO_ENHANCER_OPEN_GRAPH = True # The default value for this feature
-SEO_ENHANCER_TWITTER_CARDS = True # The default value for this feature
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
@@ -152,7 +172,10 @@ OUTPUT_RETENTION = [".gitignore", ".git"]
 # INDEX_URL = 'blog/'
 
 OUTPUT_PATH = 'output'
-INDEX_SAVE_AS = 'index.html'
+# Pages only: no blog index, tag, category, author, or archive pages.
+DIRECT_TEMPLATES = []
+INDEX_SAVE_AS = ''
+TEMPLATE_PAGES = {'sitemap.xml': 'sitemap.xml'}
 
 # Template overrides (chat widget injection)
 THEME_TEMPLATES_OVERRIDES = ['templates']

@@ -1,6 +1,8 @@
 Title: Contact
 slug: contact
+url: contact
 save_as: contact.html
+Description: Contact Haining Wang, PhD, Department of Biostatistics and Health Data Science, Indiana University School of Medicine, Indianapolis: hw56@iu.edu.
 
 
 - Address:  

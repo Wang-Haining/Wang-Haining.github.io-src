@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article class="single{% if page.save_as == 'index.html' %} home{% endif %}">
+  {% if page.title and page.save_as != 'index.html' %}
+  <header>
+    <h1 id="{{ page.slug }}">{{ page.title }}</h1>
+  </header>
+  {% endif %}
+  <div>
+    {{ page.content }}
+  </div>
+</article>
+{% endblock %}
