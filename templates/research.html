@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{#- Publications page: rendered from data/publications.toml (PUBLICATIONS in pelicanconf). -#}
+{% macro authors(s) -%}
+  {{ s|e|replace('Wang, H.', '<strong>Wang, H.</strong>')|safe }}
+{%- endmacro %}
+
+{% block content %}
+<article class="single research">
+  <header>
+    <h1 id="{{ page.slug }}">{{ page.title }}</h1>
+  </header>
+  <div>
+    {{ page.content }}
+
+    <div class="pub-filter" role="group" aria-label="Filter publications by topic">
+      <button type="button" class="pub-chip is-active" data-filter="all" aria-pressed="true">All <span class="pub-count">{{ PUBLICATIONS|length }}</span></button>
+      {%- for key, label in PUB_TAGS %}
+      {%- set ns = namespace(n=0) %}{% for q in PUBLICATIONS if key in q.tags %}{% set ns.n = ns.n + 1 %}{% endfor %}{% set n = ns.n %}
+      <button type="button" class="pub-chip pub-chip-{{ key }}" data-filter="{{ key }}" aria-pressed="false">{{ label }} <span class="pub-count">{{ n }}</span></button>
+      {%- endfor %}
+    </div>
+
+    {% for sec, sec_label in PUB_SECTIONS %}
+    {%- set items = PUBLICATIONS|selectattr('section', 'equalto', sec)|list %}
+    {%- if items %}
+    <section class="pub-section" data-section="{{ sec }}">
+      <h2>{{ sec_label }}</h2>
+      <ol class="pub-list">
+        {%- for p in items %}
+        <li class="pub" data-tags="{{ p.tags|join(' ') }}">
+          <div class="pub-cite">
+            {{ authors(p.authors) }} ({{ p.year }}).
+            {% if p.url %}<a class="pub-title" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}<span class="pub-title">{{ p.title }}</span>{% endif %}{% if p.title[-1] not in '?!.' %}.{% endif %}
+            <em>{{ p.venue }}</em>{% if p.details %}, {{ p.details }}{% endif %}.
+          </div>
+          <div class="pub-meta">
+            {%- for l in p.links %}
+            {%- set k = PUB_LINK_KINDS[l.kind] %}
+            <a class="pub-btn pub-btn-{{ l.kind }}" href="{{ l.url }}" target="_blank" rel="noopener"><i class="{{ k[1] }}" aria-hidden="true"></i>{{ k[0] }}</a>
+            {%- endfor %}
+            {%- for t in p.tags %}{% for key, label in PUB_TAGS if key == t %}
+            <span class="pub-tag pub-tag-{{ key }}">{{ label }}</span>
+            {%- endfor %}{% endfor %}
+            {%- if p.note %}<span class="pub-note"><i class="fa-solid fa-award" aria-hidden="true"></i>{{ p.note }}</span>{% endif %}
+          </div>
+        </li>
+        {%- endfor %}
+      </ol>
+    </section>
+    {%- endif %}
+    {% endfor %}
+  </div>
+</article>
+{% endblock %}

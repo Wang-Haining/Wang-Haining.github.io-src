@@ -1,0 +1,282 @@
+# Publications shown on /research (rendered by templates/research.html).
+# One [[pub]] per item. Fields:
+#   section  : journal | conference | chapter | preprint
+#   authors  : APA author string; "Wang, H." is bolded automatically
+#   year     : "2026" or "forthcoming"
+#   title, venue, details (volume/issue/pages), url (landing page the title links to)
+#   tags     : any of "nlp", "health", "metasci"
+#   links    : list of { kind, url }; kind in pdf | code | data | slides | poster | demo | preprint | read
+#   note     : optional short award/label
+# Newest first within each section.
+
+[[pub]]
+section = "journal"
+authors = "Herring, S. C., Lee, S., Wang, H., & Yan, Y."
+year = "forthcoming"
+title = "Can LLMs do computer-mediated discourse analysis?"
+venue = "Language@Internet"
+tags = ["nlp"]
+links = [ { kind = "code", url = "https://github.com/Wang-Haining/CMD-AInotator" } ]
+
+[[pub]]
+section = "journal"
+authors = "Wang, H., Clark, J., Yan, Y., Bradley, S., Chen, R., Zhang, Y., Fu, H., & Tian, Z."
+year = "2026"
+title = "Fairness evaluation of large language models in academic library reference services"
+venue = "Humanities and Social Sciences Communications"
+url = "https://doi.org/10.1057/s41599-026-08465-5"
+tags = ["nlp"]
+links = [
+  { kind = "pdf", url = "https://www.nature.com/articles/s41599-026-08465-5.pdf" },
+  { kind = "code", url = "https://github.com/AI4Library/FEP" },
+  { kind = "preprint", url = "https://arxiv.org/abs/2507.04224" },
+]
+
+[[pub]]
+section = "journal"
+authors = "Wang, H., Juola, P., & Riddell, A."
+year = "2026"
+title = "Reproduction and replication of an adversarial stylometry experiment"
+venue = "Replication Research"
+details = "2"
+url = "https://doi.org/10.17879/replicationresearch-2026-9414"
+tags = ["nlp"]
+links = [
+  { kind = "code", url = "https://github.com/Wang-Haining/reproduction-and-replication-adversarial-stylometry" },
+  { kind = "data", url = "https://doi.org/10.5281/zenodo.18729526" },
+  { kind = "preprint", url = "https://arxiv.org/abs/2208.07395" },
+]
+note = "Open code, data, and materials; reproducibility certificate"
+
+[[pub]]
+section = "journal"
+authors = "Wang, H., Lee, J., Walsh, J. A., Flanders, J., & Lee, B. C. G."
+year = "2025"
+title = "Building and deploying the Digital Humanities Quarterly recommender system"
+venue = "Code4Lib Journal"
+details = "(61)"
+url = "https://journal.code4lib.org/articles/18501"
+tags = ["nlp", "metasci"]
+links = [ { kind = "code", url = "https://github.com/Digital-Humanities-Quarterly/DHQ-similar-papers" } ]
+
+[[pub]]
+section = "journal"
+authors = "Wang, H., Clark, J., McKelvey, H., Sterman, L., Gao, Z., Tian, Z., Kübler, S., & Liu, X."
+year = "2025"
+title = "Science out of its Ivory Tower: Improving accessibility with reinforcement learning"
+venue = "Scientometrics"
+details = "130(8), 4519–4543"
+url = "https://doi.org/10.1007/s11192-025-05386-z"
+tags = ["nlp", "metasci"]
+links = [
+  { kind = "read", url = "https://rdcu.be/ew0mK" },
+  { kind = "code", url = "https://github.com/Wang-Haining/RLAM" },
+  { kind = "slides", url = "https://drive.google.com/file/d/151F-KPfJtaGgt6jn-tIjrK0HgMNve_1P/view?usp=sharing" },
+  { kind = "preprint", url = "https://arxiv.org/abs/2410.17088" },
+]
+
+[[pub]]
+section = "journal"
+authors = "Wang, H., Clark, J., McKelvey, H., Sterman, L., Gao, Z., Tian, Z., & Liu, X."
+year = "2025"
+title = "Improving scholarship accessibility with reinforcement learning"
+venue = "Information Research"
+details = "30(iConf), 203–218"
+url = "https://doi.org/10.47989/ir30iConf47530"
+tags = ["nlp", "metasci"]
+links = [
+  { kind = "pdf", url = "https://publicera.kb.se/ir/article/download/47530/36955/108904" },
+  { kind = "code", url = "https://github.com/Wang-Haining/RLAM" },
+]
+note = "iConference 2025 Best Paper Finalist"
+
+[[pub]]
+section = "journal"
+authors = "Xie, X., Li, J., & Wang, H."
+year = "2025"
+title = "The many voices of Duying: Revisiting the disputed essays between Lu Xun and Zhou Zuoren"
+venue = "Digital Scholarship in the Humanities"
+details = "40(1), 338–353"
+url = "https://doi.org/10.1093/llc/fqae084"
+tags = ["nlp"]
+links = [ { kind = "code", url = "https://github.com/Wang-Haining/the_many_voices" } ]
+
+[[pub]]
+section = "conference"
+authors = "Wang, H., & Clark, J."
+year = "2024"
+title = "Simplifying scholarly abstracts for accessible digital libraries using language models"
+venue = "Proceedings of the 2024 ACM/IEEE Joint Conference on Digital Libraries (JCDL '24)"
+url = "https://doi.org/10.1145/3677389.3702490"
+tags = ["nlp", "metasci"]
+links = [
+  { kind = "code", url = "https://github.com/Wang-Haining/scholarly_abstract_simplification" },
+  { kind = "poster", url = "https://drive.google.com/file/d/1zKazj-khPamNUSwZMxdbOqQMQ8vYFEfg/view?usp=share_link" },
+  { kind = "preprint", url = "https://arxiv.org/abs/2408.03899" },
+]
+
+[[pub]]
+section = "conference"
+authors = "Wang, H."
+year = "2024"
+title = "A content-based novelty measure for scholarly publications: A proof of concept"
+venue = "iConference 2024 (LNCS)"
+details = "409–420"
+url = "https://link.springer.com/chapter/10.1007/978-3-031-57867-0_31"
+tags = ["nlp", "metasci"]
+links = [
+  { kind = "code", url = "https://github.com/Wang-Haining/noveval" },
+  { kind = "demo", url = "https://zenodo.org/records/10485173" },
+]
+
+[[pub]]
+section = "conference"
+authors = "Wang, H., & Riddell, A."
+year = "2022"
+title = "CCTAA: A reproducible corpus for Chinese authorship attribution research"
+venue = "Proceedings of the 13th Language Resources and Evaluation Conference (LREC 2022)"
+details = "5889–5893"
+url = "https://aclanthology.org/2022.lrec-1.633/"
+tags = ["nlp"]
+links = [
+  { kind = "pdf", url = "https://aclanthology.org/2022.lrec-1.633.pdf" },
+  { kind = "code", url = "https://codeberg.org/haining/cctaa" },
+]
+
+[[pub]]
+section = "conference"
+authors = "Tian, Z., Dong, X., Gao, F., Wang, H., & Lin, C."
+year = "2022"
+title = "Mandarin tone sandhi realization: Evidence from large speech corpora"
+venue = "INTERSPEECH 2022"
+details = "5273–5277"
+url = "https://www.isca-archive.org/interspeech_2022/tian22e_interspeech.html"
+tags = ["nlp"]
+links = [ { kind = "pdf", url = "https://www.isca-archive.org/interspeech_2022/tian22e_interspeech.pdf" } ]
+
+[[pub]]
+section = "conference"
+authors = "Wang, H., Xie, X., & Riddell, A."
+year = "2021"
+title = "The challenge of vernacular and classical Chinese cross-register authorship attribution"
+venue = "Proceedings of the Computational Humanities Research Conference (CHR 2021)"
+details = "299–309"
+url = "http://ceur-ws.org/Vol-2989/long_paper41.pdf"
+tags = ["nlp"]
+links = [
+  { kind = "pdf", url = "http://ceur-ws.org/Vol-2989/long_paper41.pdf" },
+  { kind = "data", url = "https://zenodo.org/record/5513043" },
+]
+
+[[pub]]
+section = "conference"
+authors = "Riddell, A., Wang, H., & Juola, P."
+year = "2021"
+title = "A call for clarity in contemporary authorship attribution evaluation"
+venue = "Proceedings of Recent Advances in Natural Language Processing (RANLP 2021)"
+details = "1178–1183"
+url = "https://doi.org/10.26615/978-954-452-072-4_133"
+tags = ["nlp"]
+links = [ { kind = "data", url = "https://zenodo.org/record/5213898" } ]
+
+[[pub]]
+section = "conference"
+authors = "Wang, H., Riddell, A., & Juola, P."
+year = "2021"
+title = "Mode effects' challenge to authorship attribution"
+venue = "Proceedings of the 16th Conference of the European Chapter of the ACL (EACL 2021)"
+details = "1146–1155"
+url = "https://aclanthology.org/2021.eacl-main.97/"
+tags = ["nlp"]
+links = [
+  { kind = "pdf", url = "https://aclanthology.org/2021.eacl-main.97.pdf" },
+  { kind = "poster", url = "https://drive.google.com/file/d/1teLOJTU4RNAIVEOkH7s5-2uLpPkw19qn/view?usp=sharing" },
+]
+
+[[pub]]
+section = "chapter"
+authors = "Wang, H., Clark, J., & Peña, A."
+year = "forthcoming"
+title = "Responsible intelligence in practice: A fairness audit of open large language models for library reference services"
+venue = "Artificial Intelligence and Social Justice Intersections in Library and Information Studies (Emerald)"
+url = "https://arxiv.org/abs/2602.18935"
+tags = ["nlp"]
+links = [
+  { kind = "code", url = "https://github.com/AI4Library/AISJ" },
+  { kind = "preprint", url = "https://arxiv.org/abs/2602.18935" },
+]
+
+[[pub]]
+section = "chapter"
+authors = "Wang, H."
+year = "forthcoming"
+title = "Social determinants of COVID-19 hospitalization in the All of Us Research Program: A propensity-matched case-control study"
+venue = "Social Vulnerability to COVID-19, 2nd ed. (Springer Nature)"
+tags = ["health"]
+links = []
+
+[[pub]]
+section = "preprint"
+authors = "Zhang, J., Fu, H., & Wang, H."
+year = "2026"
+title = "The shape of NSF openness to newcomers: Same share, fewer doors"
+venue = "SocArXiv"
+url = "https://doi.org/10.31235/osf.io/9qpb7_v1"
+tags = ["metasci"]
+links = [ { kind = "code", url = "https://github.com/Wang-Haining/open" } ]
+
+[[pub]]
+section = "preprint"
+authors = "Xie, F., Zhang, J., & Wang, H."
+year = "2026"
+title = "Still funded, no longer counted: How NIH's 2025 award reviews changed what the government counts as minority health research"
+venue = "arXiv:2610.03443"
+url = "https://arxiv.org/abs/2610.03443"
+tags = ["metasci", "health"]
+links = [ { kind = "pdf", url = "https://arxiv.org/pdf/2610.03443" } ]
+
+[[pub]]
+section = "preprint"
+authors = "Wang, H."
+year = "2026"
+title = "Funding the runners-up beats a golden ticket"
+venue = "arXiv:2609.19552"
+url = "https://arxiv.org/abs/2609.19552"
+tags = ["metasci"]
+links = [
+  { kind = "pdf", url = "https://arxiv.org/pdf/2609.19552" },
+  { kind = "code", url = "https://github.com/Wang-Haining/wonka" },
+]
+
+[[pub]]
+section = "preprint"
+authors = "Wang, H."
+year = "2026"
+title = "Ending the NIH embargo accelerated public access to funded research, but substantial delays remain"
+venue = "arXiv:2609.14842"
+url = "https://arxiv.org/abs/2609.14842"
+tags = ["metasci", "health"]
+links = [
+  { kind = "pdf", url = "https://arxiv.org/pdf/2609.14842" },
+  { kind = "code", url = "https://github.com/Wang-Haining/nih_embargo" },
+]
+
+[[pub]]
+section = "preprint"
+authors = "Wang, H."
+year = "2023"
+title = "Defending against authorship identification attacks"
+venue = "arXiv:2310.01568"
+url = "https://arxiv.org/abs/2310.01568"
+tags = ["nlp"]
+links = [ { kind = "pdf", url = "https://arxiv.org/pdf/2310.01568" } ]
+
+[[pub]]
+section = "preprint"
+authors = "Wang, H."
+year = "2023"
+title = "Authorship identification under domain shift: A survey of stylistic measures and learned author representations"
+venue = "arXiv:2310.00436"
+url = "https://arxiv.org/abs/2310.00436"
+tags = ["nlp"]
+links = [ { kind = "pdf", url = "https://arxiv.org/pdf/2310.00436" } ]

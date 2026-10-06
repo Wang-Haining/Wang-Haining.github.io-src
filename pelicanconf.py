@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 from datetime import datetime
 import os
+import tomllib
 
 AUTHOR = 'Haining Wang'
 SITENAME = "Haining Wang"
@@ -66,7 +67,7 @@ TRANSLATION_FEED_ATOM = None
 
 # ROBOTS = "index, follow"
 
-CUSTOM_CSS = "static/custom.css?v=3"
+CUSTOM_CSS = "static/custom.css?v=4"
 # CUSTOM_CSS = "../pelican-themes/Flex/static/stylesheet/dark-theme.min.css"
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
@@ -181,3 +182,20 @@ TEMPLATE_PAGES = {'sitemap.xml': 'sitemap.xml'}
 THEME_TEMPLATES_OVERRIDES = ['templates']
 # Treat .html files under content/ as static files (e.g., the Search Console verification file), not pages.
 READERS = {"html": None}
+
+# Publications for /research (single source: data/publications.toml)
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "publications.toml"), "rb") as _f:
+    PUBLICATIONS = tomllib.load(_f)["pub"]
+PUB_SECTIONS = [("journal", "Journal articles"), ("conference", "Conference papers"),
+                ("chapter", "Book chapters"), ("preprint", "Preprints")]
+PUB_TAGS = [("nlp", "NLP"), ("health", "Health"), ("metasci", "Metascience")]
+PUB_LINK_KINDS = {  # kind: (label, icon classes)
+    "pdf": ("PDF", "fa-solid fa-file-pdf"),
+    "read": ("Read", "fa-solid fa-book-open"),
+    "code": ("Code", "fa-solid fa-code"),
+    "data": ("Data", "fa-solid fa-database"),
+    "demo": ("Demo", "fa-solid fa-play"),
+    "slides": ("Slides", "fa-solid fa-person-chalkboard"),
+    "poster": ("Poster", "fa-solid fa-image"),
+    "preprint": ("Preprint", "fa-solid fa-file-lines"),
+}
