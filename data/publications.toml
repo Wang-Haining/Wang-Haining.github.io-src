@@ -56,7 +56,7 @@ title = "Building and deploying the Digital Humanities Quarterly recommender sys
 venue = "Code4Lib Journal"
 details = "(61)"
 url = "https://journal.code4lib.org/articles/18501"
-tags = ["nlp", "metasci"]
+tags = ["nlp"]
 links = [ { kind = "code", url = "https://github.com/Digital-Humanities-Quarterly/DHQ-similar-papers" } ]
 
 [[pub]]
@@ -67,7 +67,7 @@ title = "Science out of its Ivory Tower: Improving accessibility with reinforcem
 venue = "Scientometrics"
 details = "130(8), 4519–4543"
 url = "https://doi.org/10.1007/s11192-025-05386-z"
-tags = ["nlp", "metasci"]
+tags = ["nlp"]
 links = [
   { kind = "read", url = "https://rdcu.be/ew0mK" },
   { kind = "code", url = "https://github.com/Wang-Haining/RLAM" },
@@ -83,7 +83,7 @@ title = "Improving scholarship accessibility with reinforcement learning"
 venue = "Information Research"
 details = "30(iConf), 203–218"
 url = "https://doi.org/10.47989/ir30iConf47530"
-tags = ["nlp", "metasci"]
+tags = ["nlp"]
 links = [
   { kind = "pdf", url = "https://publicera.kb.se/ir/article/download/47530/36955/108904" },
   { kind = "code", url = "https://github.com/Wang-Haining/RLAM" },
@@ -108,7 +108,7 @@ year = "2024"
 title = "Simplifying scholarly abstracts for accessible digital libraries using language models"
 venue = "Proceedings of the 2024 ACM/IEEE Joint Conference on Digital Libraries (JCDL '24)"
 url = "https://doi.org/10.1145/3677389.3702490"
-tags = ["nlp", "metasci"]
+tags = ["nlp"]
 links = [
   { kind = "code", url = "https://github.com/Wang-Haining/scholarly_abstract_simplification" },
   { kind = "poster", url = "https://drive.google.com/file/d/1zKazj-khPamNUSwZMxdbOqQMQ8vYFEfg/view?usp=share_link" },
