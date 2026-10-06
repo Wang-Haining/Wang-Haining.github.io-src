@@ -11,7 +11,7 @@ SITETITLE = "Haining Wang, Ph.D."
 SIDEBAR_GROUPS = [
     ["Postdoctoral Fellow"],
     ["Biostatistics & Health Data Science"],
-    ["School of Medicine", "Richard M. Fairbanks School of Public Health", "Indiana University"],
+    ["School of Medicine", "Indiana University"],
 ]
 HOME_TITLE = "Haining Wang, PhD | NLP and Health Data Science | Indiana University"
 SITEDESCRIPTION = ("Haining Wang, PhD, is a postdoctoral fellow in Biostatistics and Health Data Science at "
@@ -67,7 +67,7 @@ TRANSLATION_FEED_ATOM = None
 
 # ROBOTS = "index, follow"
 
-CUSTOM_CSS = "static/custom.css?v=7"
+CUSTOM_CSS = "static/custom.css?v=8"
 # CUSTOM_CSS = "../pelican-themes/Flex/static/stylesheet/dark-theme.min.css"
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
@@ -90,12 +90,11 @@ LINKS_IN_NEW_TAB = 'external'
 #         ('GitHub', 'https://github.com/Wang-Haining'),
 #         # ('Facebook', 'https://www.facebook.com/haining.wang.56/'),
 #         # ('Twitter', 'https://twitter.com/Haining_Wang_'),
-#         # ('Email', 'hw56@indiana.edu')
 # )
 
 SOCIAL = ()
 SIDEBAR_LINKS = [  # (icon classes, url, label)
-    ("fa-solid fa-envelope", "mailto:hw56@iu.edu", "Email"),
+    ("fa-solid fa-envelope", "/contact", "Email"),  # mailto is filled in by site.js, never in the HTML
     ("fa-solid fa-graduation-cap", "https://scholar.google.com/citations?user=zvrO0WMAAAAJ", "Google Scholar"),
     ("fa-brands fa-github-alt", "https://github.com/Wang-Haining", "GitHub"),
 ]
