@@ -15,6 +15,7 @@ class P(HTMLParser):
 
 bad = 0
 for f in sorted(glob.glob(os.path.join(sys.argv[1], "*.html"))):
+    if os.path.basename(f).startswith("google"): continue  # Search Console verification file
     p = P(); p.feed(open(f).read()); T = p.tags
     meta = lambda k, v: [a for t, a in T if t == "meta" and a.get(k) == v]
     titles = [p.text.get(i, "").strip() for i, (t, a) in enumerate(T) if t == "title"]
