@@ -239,6 +239,16 @@ links = [ { kind = "pdf", url = "https://arxiv.org/pdf/2610.03443" } ]
 section = "preprint"
 authors = "Wang, H."
 year = "2026"
+title = "Authorship identification under domain shift: A survey of stylistic measures and learned author representations"
+venue = "arXiv:2310.00436"
+url = "https://arxiv.org/abs/2310.00436"
+tags = ["nlp"]
+links = [ { kind = "pdf", url = "https://arxiv.org/pdf/2310.00436" } ]
+
+[[pub]]
+section = "preprint"
+authors = "Wang, H."
+year = "2026"
 title = "Funding the runners-up beats a golden ticket"
 venue = "arXiv:2609.19552"
 url = "https://arxiv.org/abs/2609.19552"
@@ -270,13 +280,3 @@ venue = "arXiv:2310.01568"
 url = "https://arxiv.org/abs/2310.01568"
 tags = ["nlp"]
 links = [ { kind = "pdf", url = "https://arxiv.org/pdf/2310.01568" } ]
-
-[[pub]]
-section = "preprint"
-authors = "Wang, H."
-year = "2023"
-title = "Authorship identification under domain shift: A survey of stylistic measures and learned author representations"
-venue = "arXiv:2310.00436"
-url = "https://arxiv.org/abs/2310.00436"
-tags = ["nlp"]
-links = [ { kind = "pdf", url = "https://arxiv.org/pdf/2310.00436" } ]
