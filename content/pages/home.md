@@ -53,12 +53,12 @@ Hi 👋, I'm a postdoctoral fellow in the Department of Biostatistics and Health
 
 * (May 9, 2025) I successfully defended my PhD dissertation, *Defending Against Authorship Attribution Attacks with Large Language Models*. I am deeply grateful to my committee members: Dr. Allen Riddell (Chair), Dr. John Walsh, Dr. Kahyun Choi, Dr. Staša Milojević, and Dr. Xiaozhong Liu. I also extend my sincere thanks to Dr. Sandra Kübler for her guidance. Check out the [slides](https://docs.google.com/presentation/d/1-qUwhibta21vMB2wuhsTfsztl3sJVB6PLdg_6w9hwYQ/edit?usp=sharing) and [manuscript](https://hdl.handle.net/2022/33626).
 
-* (Mar 20, 2025) I presented "Improving Scholarship Accessibility With Reinforcement Learning" at *iConference 2025*, hosted at Indiana University Bloomington. Our jargon-busting AI paper became a Best Paper finalist—[give it a read!](https://publicera.kb.se/ir/article/view/47530)
+* (Mar 20, 2025) I presented "Improving Scholarship Accessibility With Reinforcement Learning" at *iConference 2025*, hosted at Indiana University Bloomington. Our jargon-busting AI paper became a Best Paper finalist. [Give it a read!](https://publicera.kb.se/ir/article/view/47530)
 
 * (Feb 12, 2025) I presented a poster titled ["Thinking, Fast and Slow: DualReasoning Enhances Clinical Knowledge Extraction from Large Language Models"](https://drive.google.com/file/d/11o0DyC-K7RS7Zmgpo7NR0iyxYNpowN_H/view?usp=sharing) at the *Regenstrief Healthcare AI Conference*.  
 DualReasoning shows great promise in incorporating messy medication information for chronic disease phenotyping (e.g., diabetes and hypertension) while remaining fully privacy-preserving.
 
-* (Dec 27, 2024) Our *DSH* paper on the disputed early essays of Lu Xun and Zhou Zuoren is out—[give it a read!](https://doi.org/10.1093/llc/fqae084)
+* (Dec 27, 2024) Our *DSH* paper on the disputed early essays of Lu Xun and Zhou Zuoren is out. [Give it a read!](https://doi.org/10.1093/llc/fqae084)
 
 * (Dec 18, 2024) I presented "Simplifying Scholarly Abstracts for Accessible Digital Libraries Using Language Models" at *JCDL 2024*.
 

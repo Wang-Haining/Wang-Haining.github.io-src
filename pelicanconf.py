@@ -36,7 +36,7 @@ DATE_FORMATS = {"en": "%b %d, %Y"}
 
 # License
 COPYRIGHT_YEAR = datetime.now().year
-COPYRIGHT_NAME = '0BSD'
+COPYRIGHT_NAME = 'Haining Wang'
 
 I18N_TEMPLATES_LANG = 'en'
 DEFAULT_LANG = 'en'
@@ -67,7 +67,7 @@ TRANSLATION_FEED_ATOM = None
 
 # ROBOTS = "index, follow"
 
-CUSTOM_CSS = "static/custom.css?v=8"
+CUSTOM_CSS = "static/custom.css?v=9"
 # CUSTOM_CSS = "../pelican-themes/Flex/static/stylesheet/dark-theme.min.css"
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},

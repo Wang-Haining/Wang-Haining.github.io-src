@@ -4,6 +4,8 @@ url: resource
 save_as: resource.html
 Description: Open-source tools, corpora, and Python packages by Haining Wang: your-voice, AInotator, RLAM, NovEval, Blog-1K, RAABT, functionwords, and writeprints-static.
 
+Open-source tools, corpora, and packages from my research.
+
 ## AI/Agent
 
 - [*your-voice*](https://github.com/Wang-Haining/your_voice): A skill that learns your writing style from your own samples and revises AI drafts across three passes so they read like you, not generic AI.
@@ -18,7 +20,7 @@ Description: Open-source tools, corpora, and Python packages by Haining Wang: yo
 
 ## Corpus
 
-- [*Blog-1K*](https://zenodo.org/record/7455623#.Y5-v9uxAphG): A redistributable English authorship identification benchmark with roughly balanced samples per author and fixed data splits (train/val/test), allowing for fair comparison among deep learning–based models.
+- [*Blog-1K*](https://zenodo.org/record/7455623#.Y5-v9uxAphG): A redistributable English authorship identification benchmark with roughly balanced samples per author and fixed data splits (train/val/test), allowing for fair comparison among deep learning models.
 
 - [*RAABT*](https://zenodo.org/record/5213898#.YRxwLNNAphE): The Reproducible Authorship Attribution Benchmark Tasks include five tasks for attributing authorship of contemporary non-fiction American English prose. Fixed training/testing splits prevent accuracy inflation from homogeneous corpora.
 
