@@ -74,6 +74,7 @@ EXTRA_PATH_METADATA = {
     "extra/favicon.ico": {"path": "favicon.ico"},
     "extra/chat-widget.js": {"path": "static/chat-widget.js"},
     "extra/site.js": {"path": "static/site.js"},
+    "extra/bolaud.js": {"path": "static/bolaud.js"},
     "extra/robots.txt": {"path": "robots.txt"},
     "extra/google6a4ae6271ad574af.html": {"path": "google6a4ae6271ad574af.html"},  # Google Search Console ownership; keep
     "extra/llms.txt": {"path": "llms.txt"},
@@ -137,6 +138,7 @@ STATIC_PATHS = [
     "extra/llms-full.txt",
     "extra/site.js",
     "extra/chat-widget.js",
+    "extra/bolaud.js",
     "extra/custom.css"
 ]
 
