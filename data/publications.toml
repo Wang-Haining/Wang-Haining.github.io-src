@@ -2,7 +2,7 @@
 # One [[pub]] per item. Fields:
 #   section  : journal | conference | book | chapter | preprint
 #   authors  : APA author string; "Wang, H." is bolded automatically
-#   year     : "2026", "forthcoming" (accepted), or "under contract" (books with a signed contract)
+#   year     : "2026", "forthcoming" (accepted), or "under contract" / "under contract; manuscript under review" (books with a signed contract)
 #   title, venue, details (volume/issue/pages), url (landing page the title links to)
 #   tags     : any of "nlp", "health", "metasci"
 #   links    : list of { kind, url }; kind in pdf | code | data | slides | poster | demo | preprint | read
@@ -196,7 +196,7 @@ links = [
 [[pub]]
 section = "book"
 authors = "Wang, H."
-year = "under contract"
+year = "under contract; manuscript under review"
 title = "Defending against authorship identification attacks"
 venue = "Synthesis Lectures on Human Language Technologies (Springer Nature)"
 tags = ["nlp"]
