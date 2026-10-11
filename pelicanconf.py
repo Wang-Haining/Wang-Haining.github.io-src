@@ -189,7 +189,7 @@ with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "publ
     _data = tomllib.load(_f)
 PUBLICATIONS = _data["pub"]
 MEDIA = _data.get("media", [])  # "In the Media" list at the bottom of /research
-PUB_SECTIONS = [("journal", "Journal articles"), ("conference", "Conference papers"),
+PUB_SECTIONS = [("journal", "Journal articles"), ("conference", "Conference papers"), ("book", "Books"),
                 ("chapter", "Book chapters"), ("preprint", "Preprints")]
 PUB_TAGS = [("nlp", "NLP"), ("health", "Health"), ("metasci", "Metascience")]
 PUB_LINK_KINDS = {  # kind: (label, icon classes)

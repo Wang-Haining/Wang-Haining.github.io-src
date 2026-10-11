@@ -24,7 +24,7 @@ HIGHLIGHTS = """- Builds language-model methods that read real-world health reco
 
 def publications():
     pubs = tomllib.load(open(ROOT / "data/publications.toml", "rb"))["pub"]
-    names = {"journal": "Journal articles", "conference": "Conference papers", "chapter": "Book chapters", "preprint": "Preprints"}
+    names = {"journal": "Journal articles", "conference": "Conference papers", "book": "Books", "chapter": "Book chapters", "preprint": "Preprints"}
     out = []
     for sec, label in names.items():
         items = [p for p in pubs if p["section"] == sec]

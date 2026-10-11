@@ -1,8 +1,8 @@
 # Publications shown on /research (rendered by templates/research.html).
 # One [[pub]] per item. Fields:
-#   section  : journal | conference | chapter | preprint
+#   section  : journal | conference | book | chapter | preprint
 #   authors  : APA author string; "Wang, H." is bolded automatically
-#   year     : "2026" or "forthcoming"
+#   year     : "2026", "forthcoming" (accepted), or "under contract" (books with a signed contract)
 #   title, venue, details (volume/issue/pages), url (landing page the title links to)
 #   tags     : any of "nlp", "health", "metasci"
 #   links    : list of { kind, url }; kind in pdf | code | data | slides | poster | demo | preprint | read
@@ -192,6 +192,15 @@ links = [
   { kind = "pdf", url = "https://aclanthology.org/2021.eacl-main.97.pdf" },
   { kind = "poster", url = "https://drive.google.com/file/d/1teLOJTU4RNAIVEOkH7s5-2uLpPkw19qn/view?usp=sharing" },
 ]
+
+[[pub]]
+section = "book"
+authors = "Wang, H."
+year = "under contract"
+title = "Defending against authorship identification attacks"
+venue = "Synthesis Lectures on Human Language Technologies (Springer Nature)"
+tags = ["nlp"]
+links = []
 
 [[pub]]
 section = "chapter"
