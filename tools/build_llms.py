@@ -38,6 +38,14 @@ def publications():
             line += f" [topics: {', '.join(p['tags'])}]"
             out.append(line)
         out.append("")
+    media = tomllib.load(open(ROOT / "data/publications.toml", "rb")).get("media", [])
+    if media:
+        out.append("## In the media\n")
+        for m in media:
+            title = m["title"] if m["title"][-1] in "?!." else m["title"] + "."
+            note = (" " + m["note"].replace("my ", "Haining's ").replace("our ", "Haining's team's ")) if m.get("note") else ""
+            out.append(f"- *{m['outlet']}*, {m['date']}. {title} {m['url']}{note}")
+        out.append("")
     return "\n".join(out).strip()
 
 def page(name):

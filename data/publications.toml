@@ -280,3 +280,34 @@ venue = "arXiv:2310.01568"
 url = "https://arxiv.org/abs/2310.01568"
 tags = ["nlp"]
 links = [ { kind = "pdf", url = "https://arxiv.org/pdf/2310.01568" } ]
+
+# Media: coverage of the work, quotes, and invited columns (rendered as "In the Media" on /research).
+# Newest first. Fields: outlet, date (as displayed), title, url, note (one short sentence).
+
+[[media]]
+outlet = "R&D World"
+date = "Oct 9, 2026"
+title = "NSF looks to UK experiments as it plans to test how it awards grants"
+url = "https://www.rdworldonline.com/nsf-looks-to-uk-experiments-as-it-plans-to-test-how-it-awards-research-grants/"
+note = "Discusses my golden-ticket preprint in a story on how NSF plans to test new ways of awarding grants."
+
+[[media]]
+outlet = "infoDOCKET"
+date = "Feb 24, 2026"
+title = "Responsible Intelligence in Practice: A Fairness Audit of Open Large Language Models for Library Reference Services"
+url = "https://www.infodocket.com/2026/02/24/research-paper-preprint-responsible-intelligence-in-practice-a-fairness-audit-of-open-large-language-models-for-library-reference-services/"
+note = "Features our fairness audit of open LLMs for library reference services."
+
+[[media]]
+outlet = "Nature"
+date = "Dec 20, 2024"
+title = "Can novelty scores on papers shift the power dynamics in scientific publishing?"
+url = "https://www.nature.com/articles/d41586-024-04021-w"
+note = "Quoted on measuring novelty in research (Nature Index)."
+
+[[media]]
+outlet = "Montreal AI Ethics Institute"
+date = "Jan 18, 2024"
+title = "Defending Against Authorship Identification Attacks"
+url = "https://montrealethics.ai/defending-against-authorship-identification-attacks/"
+note = "Invited column on protecting writers from being identified by their style."

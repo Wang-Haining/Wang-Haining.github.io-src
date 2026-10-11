@@ -67,7 +67,7 @@ TRANSLATION_FEED_ATOM = None
 
 # ROBOTS = "index, follow"
 
-CUSTOM_CSS = "static/custom.css?v=9"
+CUSTOM_CSS = "static/custom.css?v=10"
 # CUSTOM_CSS = "../pelican-themes/Flex/static/stylesheet/dark-theme.min.css"
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
@@ -186,7 +186,9 @@ READERS = {"html": None}
 
 # Publications for /research (single source: data/publications.toml)
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "publications.toml"), "rb") as _f:
-    PUBLICATIONS = tomllib.load(_f)["pub"]
+    _data = tomllib.load(_f)
+PUBLICATIONS = _data["pub"]
+MEDIA = _data.get("media", [])  # "In the Media" list at the bottom of /research
 PUB_SECTIONS = [("journal", "Journal articles"), ("conference", "Conference papers"),
                 ("chapter", "Book chapters"), ("preprint", "Preprints")]
 PUB_TAGS = [("nlp", "NLP"), ("health", "Health"), ("metasci", "Metascience")]

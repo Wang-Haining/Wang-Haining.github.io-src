@@ -49,6 +49,21 @@
     </section>
     {%- endif %}
     {% endfor %}
+
+    {%- if MEDIA %}
+    <section class="media-section">
+      <h2 id="in-the-media">In the Media</h2>
+      <ul class="media-list">
+        {%- for m in MEDIA %}
+        <li>
+          <span class="media-outlet"><em>{{ m.outlet }}</em>, {{ m.date }}.</span>
+          <a href="{{ m.url }}" target="_blank" rel="noopener">{{ m.title }}</a>{% if m.title[-1] not in '?!.' %}.{% endif %}
+          {%- if m.note %} <span class="media-note">{{ m.note }}</span>{% endif %}
+        </li>
+        {%- endfor %}
+      </ul>
+    </section>
+    {%- endif %}
   </div>
 </article>
 {% endblock %}
