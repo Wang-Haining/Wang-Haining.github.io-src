@@ -1,7 +1,7 @@
 Title: Teaching
 slug: teaching
-url: teaching
-save_as: teaching.html
+url: teaching/
+save_as: teaching/index.html
 Description: Teaching by Haining Wang at Indiana University: biomedical data science with NIH All of Us data, practical large language models, and music data mining.
 
 I teach students to apply statistical and machine learning methods to real-world data, from NIH *All of Us* records to large language models.
@@ -22,3 +22,10 @@ I teach students to apply statistical and machine learning methods to real-world
 
 * ["Practical Large Language Models: Foundations and Applications,"](https://mbswonline.com/program/) Midwest Biopharmaceutical Statistics Workshop (May 27, 2026, Carmel, Indiana)  
     - A half-day short course on large language models for biomedical data analysis; co-designed and co-taught with Drs. Jiang Bian, Xing He, and Yuhang Jiang.
+
+<br>
+
+### Open Labs
+
+* [*Who Wrote This? A Stylometry Lab*](/teaching/stylometry/), a free, self-paced lab (2026)  
+    - Run Python in your browser, with no installation or login, on four real authorship cases: two translations of Confucius's *Analects*, the Unabomber, the Lu Xun brothers, and an anonymous reviewer in *Glassdoor v. Superior Court*.

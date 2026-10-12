@@ -74,6 +74,7 @@ EXTRA_PATH_METADATA = {
     "extra/favicon.ico": {"path": "favicon.ico"},
     "extra/chat-widget.js": {"path": "static/chat-widget.js"},
     "extra/site.js": {"path": "static/site.js"},
+    "extra/.nojekyll": {"path": ".nojekyll"},  # GitHub Pages: serve every file as-is (no Jekyll)
     "extra/bolaud.js": {"path": "static/bolaud.js"},
     "extra/robots.txt": {"path": "robots.txt"},
     "extra/google6a4ae6271ad574af.html": {"path": "google6a4ae6271ad574af.html"},  # Google Search Console ownership; keep
@@ -139,15 +140,19 @@ STATIC_PATHS = [
     "extra/site.js",
     "extra/chat-widget.js",
     "extra/bolaud.js",
-    "extra/custom.css"
+    "extra/custom.css",
+    "extra/.nojekyll",
+    "teaching/stylometry",  # self-contained Pyodide lab, copied byte-for-byte to /teaching/stylometry/
 ]
+# The lab folder holds README/DATA_NOTES .md files: keep Pelican from reading them as articles.
+ARTICLE_EXCLUDES = ["pages", "teaching"]
 
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
 MENUITEMS = (('Research', "/research"),
-             ('Teaching', "/teaching"),
+             ('Teaching', "/teaching/"),
              ('Resource', "/resource"),
              ('Contact', "/contact")
             # ('Blog', '/blog/')

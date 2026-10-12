@@ -75,7 +75,7 @@ Contact: see {SITE}/contact
 ## Pages
 - [Home and news]({SITE}/): introduction and recent news
 - [Research]({SITE}/research): publications and preprints
-- [Teaching]({SITE}/teaching): courses and workshops
+- [Teaching]({SITE}/teaching/): courses, workshops, and the free stylometry lab ({SITE}/teaching/stylometry/)
 - [Resources]({SITE}/resource): open-source tools, corpora, and packages
 - [Contact]({SITE}/contact)
 

@@ -14,7 +14,7 @@ class P(HTMLParser):
         if s.stack: s.text[s.stack[-1]] = s.text.get(s.stack[-1], "") + d
 
 bad = 0
-for f in sorted(glob.glob(os.path.join(sys.argv[1], "*.html"))):
+for f in sorted(glob.glob(os.path.join(sys.argv[1], "*.html")) + glob.glob(os.path.join(sys.argv[1], "*", "index.html"))):  # site pages; the lab under teaching/stylometry/ is not a site page
     if os.path.basename(f).startswith("google"): continue  # Search Console verification file
     p = P(); p.feed(open(f).read()); T = p.tags
     meta = lambda k, v: [a for t, a in T if t == "meta" and a.get(k) == v]
