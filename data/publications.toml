@@ -226,6 +226,29 @@ links = []
 
 [[pub]]
 section = "preprint"
+authors = "Wang, H., Fu, H., & Tian, Z."
+year = "2026"
+title = "NIH's dedicated K23 trial pathway was associated with more K-trial leadership but no detectable gain in new trials"
+venue = "bioRxiv"
+url = "https://doi.org/10.64898/2026.10.09.758109"
+tags = ["metasci", "health"]
+links = [
+  { kind = "pdf", url = "https://www.biorxiv.org/content/10.64898/2026.10.09.758109v1.full.pdf" },
+  { kind = "code", url = "https://github.com/Wang-Haining/k" },
+]
+
+[[pub]]
+section = "preprint"
+authors = "Wang, H."
+year = "2026"
+title = "The prestige precedes the prize: Top-journal papers and new federal grants"
+venue = "SocArXiv"
+url = "https://doi.org/10.31235/osf.io/cf5u8_v1"
+tags = ["metasci"]
+links = [ { kind = "code", url = "https://github.com/Wang-Haining/prestige-precedes-prize" } ]
+
+[[pub]]
+section = "preprint"
 authors = "Zhang, J., Fu, H., & Wang, H."
 year = "2026"
 title = "The shape of NSF openness to newcomers: Same share, fewer doors"

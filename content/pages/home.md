@@ -10,6 +10,12 @@ Hi 👋, I'm a postdoctoral fellow in Biostatistics and Health Data Science at t
 
 ### What's New
 
+* (Oct 13, 2026) Two more preprints on federal funding and research careers 📈
+
+    * ["NIH's Dedicated K23 Trial Pathway Was Associated with More K-Trial Leadership but No Detectable Gain in New Trials"](https://doi.org/10.64898/2026.10.09.758109): more K23 awardees led the trial their award paid for, but not more new trials.
+
+    * ["The Prestige Precedes the Prize: Top-Journal Papers and New Federal Grants"](https://doi.org/10.31235/osf.io/cf5u8_v1): scientists with top-journal papers win more NIH and NSF grants, but the gap is already there before the paper comes out.
+
 * (Oct 9, 2026) I gave a talk, ["LLMs for Knowledge Extraction and Phenotyping: Systems 1, 2, and Beyond"](https://docs.google.com/presentation/d/15hKXCZrcalAw1tPTERviEkrZv3_v0n3u/edit?usp=sharing), in the ARDaC session of the *AlcHepNet–ITAALD Annual Meeting* in Indianapolis: when should an LLM answer fast, and when should it slow down and reason? 🧠
 
 * (Oct 4, 2026) Two new preprints on how US funders count and fund science 📊
