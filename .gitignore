@@ -2,3 +2,6 @@
 .venv
 *.pyc
 .Rhistory
+
+# The stylometry lab download zip is published only through the output repo (keeps this repo small)
+content/teaching/stylometry/stylometry-lab.zip
