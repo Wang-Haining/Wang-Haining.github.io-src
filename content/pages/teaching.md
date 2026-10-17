@@ -2,7 +2,7 @@ Title: Teaching
 slug: teaching
 url: teaching/
 save_as: teaching/index.html
-Description: Teaching by Haining Wang at Indiana University: biomedical data science with NIH All of Us data, practical large language models, and music data mining.
+Description: Teaching by Haining Wang at Indiana University: biomedical data science with NIH All of Us data, practical large language models, music data mining, and the free Under Five lecture and lab series.
 
 I teach students to apply statistical and machine learning methods to real-world data, from NIH *All of Us* records to large language models.
 
@@ -25,9 +25,11 @@ I teach students to apply statistical and machine learning methods to real-world
 
 <br>
 
-### Open Materials
+### Under Five Series
 
-* *Who Wrote This? Fingerprints and Disguises in the Age of LLMs*, a free public lecture (2026)  
+Free lectures and labs on computational methods, open to anyone. The name nods to von Neumann's quip, as Fermi told it to Freeman Dyson ([Dyson, 2004](https://doi.org/10.1038/427297a)): "With four parameters I can fit an elephant, and with five I can make him wiggle his trunk." Fitting is easy; understanding is the point.
+
+* *Unit 1: Who Wrote This? Fingerprints and Disguises in the Age of LLMs* (2026)  
     - How writing reveals its author, and how writers can stay anonymous.
     - [Video](https://youtu.be/JuK4hnNNmAE): 29 minutes, with chapters and captions, narrated with a synthetic clone of my voice.
     - [Lab](/teaching/stylometry/): run Python in your browser, with no installation or login, on four real authorship cases: two translations of Confucius's *Analects*, the Unabomber, the Lu Xun brothers, and an anonymous reviewer in *Glassdoor v. Superior Court*, with B'lawd, a pixel cat, to answer questions along the way.
