@@ -10,7 +10,7 @@ Hi 👋, I'm a postdoctoral fellow in Biostatistics and Health Data Science at t
 
 ### What's New
 
-* (Oct 15, 2026) I gave a guest lecture on stylometry, ["Who Wrote This? Fingerprints and Disguises in the Age of LLMs"](https://claude.ai/artifact/1dbZhF4BwfGHwRs6nkYbDF), in Dr. Allen Riddell's *Digital Humanities* course at Indiana University. The [stylometry lab](/teaching/stylometry/) that goes with it is free and open to anyone: four real cases you can run in your browser 🔍
+* (Oct 15, 2026) I gave a guest lecture on stylometry, ["Who Wrote This? Fingerprints and Disguises in the Age of LLMs"](https://claude.ai/artifact/1dbZhF4BwfGHwRs6nkYbDF), in Dr. Allen Riddell's *Digital Humanities* course at Indiana University. The [stylometry lab](/teaching/stylometry/) that goes with it is free and open to anyone: four real cases you can run in your browser 🔍 The full lecture is now [on YouTube](https://youtu.be/JuK4hnNNmAE) too 🎬
 
 * (Oct 14, 2026) Three more preprints on federal funding and research careers 📈
 
@@ -40,28 +40,28 @@ Hi 👋, I'm a postdoctoral fellow in Biostatistics and Health Data Science at t
 
     * ["Reproduction and Replication of an Adversarial Stylometry Experiment"](https://doi.org/10.17879/replicationresearch-2026-9414), in *Replication Research*: manual obfuscation methods really do hold up against authorship attribution.<br><span class="osbadges"><a href="https://doi.org/10.5281/zenodo.18729526" title="Open Code"><img src="{static}/images/badges/opencode.png" alt="Open Code" height="28" style="height:28px;width:auto;max-width:none;border-radius:0;vertical-align:middle;margin-right:6px;"></a><a href="https://doi.org/10.5281/zenodo.18729526" title="Open Materials"><img src="{static}/images/badges/openmaterial.png" alt="Open Materials" height="28" style="height:28px;width:auto;max-width:none;border-radius:0;vertical-align:middle;margin-right:6px;"></a><a href="https://doi.org/10.5281/zenodo.18729526" title="Open Data"><img src="{static}/images/badges/opendata.png" alt="Open Data" height="28" style="height:28px;width:auto;max-width:none;border-radius:0;vertical-align:middle;margin-right:6px;"></a><a href="https://doi.org/10.5281/zenodo.21807707" title="Reproducibility Certificate"><img src="{static}/images/badges/reprocert.svg" alt="Reproducibility Certificate" height="28" style="height:28px;width:auto;max-width:none;border-radius:0;vertical-align:middle;margin-right:6px;"></a><a href="https://doi.org/10.5281/zenodo.21807854" title="Open Review"><img src="{static}/images/badges/openreview.svg" alt="Open Review" height="28" style="height:28px;width:auto;max-width:none;border-radius:0;vertical-align:middle;margin-right:6px;"></a></span>
 
-* (Jul 21, 2026) I gave an invited lightning talk, "Can AI Serve Everyone Equally? Auditing Fairness in LLM-Powered Reference," at the AI Literacy & Learning for Libraries, Archives, and Museums (LAMs) Summit, *Library of Congress*, Washington, DC.
+* (Jul 21, 2026) I gave an invited lightning talk, "Can AI Serve Everyone Equally? Auditing Fairness in LLM-Powered Reference," at the *AI Literacy & Learning for Libraries, Archives, and Museums (LAMs) Summit*, *Library of Congress*, Washington, DC.
 
-* (May 27, 2026) Our half-day short course, ["Practical Large Language Models: Foundations and Applications,"](https://mbswonline.com/program/) was successfully delivered at *MBSW 2026* in Carmel, Indiana, together with Drs. Jiang Bian, Xing He, and Yuhang Jiang. 
+* (May 27, 2026) Our half-day short course, ["Practical Large Language Models: Foundations and Applications"](https://mbswonline.com/program/), was successfully delivered at *MBSW 2026* in Carmel, Indiana, together with Drs. Jiang Bian, Xing He, and Yuhang Jiang. 
 
 * (Mar 20, 2026) DualR is live! 💊 Our clinical risk tool is now at [dualr.hainingwang.org](https://dualr.hainingwang.org). DualR asks a simple question, *given that a patient took this drug, how likely are they to have this disease?*, and turns any medication list into a portable risk score. Across the All of Us Research Program and Indiana's largest clinical data network (N > 1.3M), it flagged alcohol use disorder more than 300 days before diagnosis and performed consistently across race, gender, and social determinants of health.
 
-* (Nov 17, 2025) Our poster, ["Thinking, Fast and Slow: DualReasoning Enhances Clinical Knowledge Extraction from Large Language Models,"](https://drive.google.com/file/d/1r9FAD9tLjCtWvCUjI-enLxQ4FxUeflFd/view?usp=sharing) was nominated as a distinguished poster at AMIA 2025!
+* (Nov 17, 2025) Our poster, ["Thinking, Fast and Slow: DualReasoning Enhances Clinical Knowledge Extraction from Large Language Models"](https://drive.google.com/file/d/1r9FAD9tLjCtWvCUjI-enLxQ4FxUeflFd/view?usp=sharing), was nominated as a distinguished poster at *AMIA 2025*!
 
-* (Nov 8, 2025) Our short course, "Practical Large Language Models: Foundations and Applications," has been accepted by MBSW 2026!
+* (Nov 8, 2025) Our short course, "Practical Large Language Models: Foundations and Applications," has been accepted by *MBSW 2026*!
 
 * (Oct 21, 2025) Our paper ["Building and Deploying the Digital Humanities Quarterly Recommender System"](https://journal.code4lib.org/articles/18501) is out in *Code4Lib Journal*! 🎉 As the Data Analytics team at *DHQ*, we open-sourced [*DHQ*'s recommender system](https://github.com/Digital-Humanities-Quarterly/DHQ-similar-papers). With *DHQ*'s corpus (also fully open) and self-explanatory code, it is a good starting point for CS/DS/LIS students interested in building their first retrieval system.
 
 
 * (Aug 18, 2025) Excited to share that our ACCESS Explore request, "Practice-Informed, Explainable Multi-Agent Decision Support for Immune-Related Acute Kidney Injury (irAKI) Phenotyping" (MED250055), has been approved!
 
-* (Aug 3, 2025) I gave an invited talk, ["Thinking, Fast and Slow: DualReasoning Enhances Clinical Knowledge Extraction from Large Language Models"](https://docs.google.com/presentation/d/1l9XvvgIIPtDGAPmZ9hQDdLs4AVYYyLYh2GQtTsA--rQ/edit?usp=sharing), at the International Conference on Intelligent Biology and Medicine (*ICIBM 2025*).
+* (Aug 3, 2025) I gave an invited talk, ["Thinking, Fast and Slow: DualReasoning Enhances Clinical Knowledge Extraction from Large Language Models"](https://docs.google.com/presentation/d/1l9XvvgIIPtDGAPmZ9hQDdLs4AVYYyLYh2GQtTsA--rQ/edit?usp=sharing), at the *International Conference on Intelligent Biology and Medicine (ICIBM 2025)*.
 
 * (Jul 19, 2025) Our paper ["Science Out of Its Ivory Tower: Improving Accessibility with Reinforcement Learning"](https://rdcu.be/ew0mK) is out in *Scientometrics*! 🎉
 
 * (Jul 8, 2025) Our new preprint ["Fairness Evaluation of Large Language Models in Academic Library Reference Services"](https://arxiv.org/pdf/2507.04224) is out! TL;DR: Current LLMs show a promising degree of readiness to support equitable and contextually appropriate communication in academic library reference services.
 
-* (May 20, 2025) I presented "Thinking, Fast and Slow: Knowledge Extraction to Facilitate Phenotyping Using Drug Records in Real-World Data" at the Midwest Biopharmaceutical Statistics Workshop (MBSW 2025). Check out our [DualReasoning](https://docs.google.com/presentation/d/1-Y8gy-lIWCWFLPSgMY0186Z2rNDb4-lLJhVsc3FnyXU/edit?usp=sharing), which enables effective and secure use of medication records through simple chat with LLMs.
+* (May 20, 2025) I presented "Thinking, Fast and Slow: Knowledge Extraction to Facilitate Phenotyping Using Drug Records in Real-World Data" at the *Midwest Biopharmaceutical Statistics Workshop (MBSW 2025)*. Check out our [DualReasoning](https://docs.google.com/presentation/d/1-Y8gy-lIWCWFLPSgMY0186Z2rNDb4-lLJhVsc3FnyXU/edit?usp=sharing), which enables effective and secure use of medication records through simple chat with LLMs.
 
 * (May 9, 2025) I successfully defended my PhD dissertation, *Defending Against Authorship Attribution Attacks with Large Language Models*. I am deeply grateful to my committee members: Dr. Allen Riddell (Chair), Dr. John Walsh, Dr. Kahyun Choi, Dr. Staša Milojević, and Dr. Xiaozhong Liu. I also extend my sincere thanks to Dr. Sandra Kübler for her guidance. Check out the [slides](https://docs.google.com/presentation/d/1-qUwhibta21vMB2wuhsTfsztl3sJVB6PLdg_6w9hwYQ/edit?usp=sharing) and [manuscript](https://hdl.handle.net/2022/33626).
 
@@ -114,9 +114,9 @@ DualReasoning shows great promise in incorporating messy medication information 
 
 * (Apr 14, 2023) I gave a lightning talk and presented a poster titled "The Many Voices of the Detached: Revisiting the Disputed Writings of Lu Xun and Zhou Zuoren" at the *IDAH HASTAC Symposium 2023*.
 
-* (Apr 13, 2023) I gave a guest lecture titled "Authorship Attribution: An Introduction" for Allen's *Digital Humanities* course.
+* (Apr 13, 2023) I gave a guest lecture titled "Authorship Attribution: An Introduction" for Dr. Allen Riddell's *Digital Humanities* course.
 
-* (Jan 9, 2023) I began working with Allen on the IARPA [HIATUS (Human Interpretable Attribution of Text Using Underlying Structure)](https://www.iarpa.gov/research-programs/hiatus) Task Three.
+* (Jan 9, 2023) I began working with Dr. Allen Riddell on the IARPA [HIATUS (Human Interpretable Attribution of Text Using Underlying Structure)](https://www.iarpa.gov/research-programs/hiatus) Task Three.
 
 * (Dec 12, 2022) Blog-1K was published on [Zenodo](https://zenodo.org/record/7455623#.Y5-tAOxAphG). It is a redistributable authorship identification testbed for contemporary English prose. As a midterm output of HASTAC, we will use it to benchmark a deep learning-based authorship verification model against a corresponding attribution model.
 
@@ -130,7 +130,7 @@ DualReasoning shows great promise in incorporating messy medication information 
 
 * (Aug 15, 2022) Our new paper ["Reproduction and Replication of an Adversarial Stylometry Experiment"](https://arxiv.org/abs/2208.07395) was released on arXiv.
 
-* (Jun 28, 2022) I presented our paper *The Many Voices of Du Ying: Revisiting the Disputed Writings of Lu Xun and Zhou Zuoren* at *DH 2022*. The Book of Abstracts is [available here](https://dh2022.dhii.asia/dh2022bookofabsts.pdf). [Watch the presentation](https://confit.atlas.jp/guide/event/dh2022/session/LP7-03/entries) if registered.
+* (Jun 28, 2022) I presented our paper "The Many Voices of Du Ying: Revisiting the Disputed Writings of Lu Xun and Zhou Zuoren" at *DH 2022*. The Book of Abstracts is [available here](https://dh2022.dhii.asia/dh2022bookofabsts.pdf). [Watch the presentation](https://confit.atlas.jp/guide/event/dh2022/session/LP7-03/entries) if registered.
 
 * (Jun 14, 2022) Our paper "Mandarin Tone Sandhi Realization: Evidence from Large Speech Corpora" was accepted by the *23rd INTERSPEECH Conference (INTERSPEECH 2022)*.
 
@@ -156,7 +156,7 @@ DualReasoning shows great promise in incorporating messy medication information 
 
 * (Nov 1, 2021) I gave a guest lecture on modern stylometry, authorship attribution, and adversarial stylometry at *Soochow University*.
 
-* (Oct 13, 2021) I gave a guest lecture on adversarial stylometry in Allen's *Social Media Mining* course.
+* (Oct 13, 2021) I gave a guest lecture on adversarial stylometry in Dr. Allen Riddell's *Social Media Mining* course.
 
 * (Sep 16, 2021) The *Cross-Register Authorship Attribution Corpus* (v1.0) was released on [Zenodo](https://zenodo.org/record/5513043).
 

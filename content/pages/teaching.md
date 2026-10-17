@@ -20,12 +20,15 @@ I teach students to apply statistical and machine learning methods to real-world
 
 ### Workshops
 
-* ["Practical Large Language Models: Foundations and Applications,"](https://mbswonline.com/program/) Midwest Biopharmaceutical Statistics Workshop (May 27, 2026, Carmel, Indiana)  
+* [Practical Large Language Models: Foundations and Applications](https://mbswonline.com/program/), Midwest Biopharmaceutical Statistics Workshop (May 27, 2026, Carmel, Indiana)  
     - A half-day short course on large language models for biomedical data analysis; co-designed and co-taught with Drs. Jiang Bian, Xing He, and Yuhang Jiang.
 
 <br>
 
 ### Open Materials
 
-* [*Who Wrote This? A Stylometry Lab*](/teaching/stylometry/), free and self-paced (2026)  
-    - Run Python in your browser, with no installation or login, on four real authorship cases: two translations of Confucius's *Analects*, the Unabomber, the Lu Xun brothers, and an anonymous reviewer in *Glassdoor v. Superior Court*, with B'lawd, a pixel cat, to answer questions along the way.
+* *Who Wrote This? Fingerprints and Disguises in the Age of LLMs*, a free public lecture (2026)  
+    - How writing reveals its author, and how writers can stay anonymous.
+    - [Video](https://youtu.be/JuK4hnNNmAE): 29 minutes, with chapters and captions, narrated with a synthetic clone of my voice.
+    - [Lab](/teaching/stylometry/): run Python in your browser, with no installation or login, on four real authorship cases: two translations of Confucius's *Analects*, the Unabomber, the Lu Xun brothers, and an anonymous reviewer in *Glassdoor v. Superior Court*, with B'lawd, a pixel cat, to answer questions along the way.
+    - [Slides](https://claude.ai/artifact/1dbZhF4BwfGHwRs6nkYbDF)
