@@ -10,8 +10,8 @@ I teach students to apply statistical and machine learning methods to real-world
 
 ### Courses Taught
 
-* *DSCI-D 590 Biomedical Data Science in Practice*, Indiana University (online, Summer and Fall 2025)  
-    - A new course applying AI and biostatistical methods using NIH *All of Us* data. Co-designed and co-taught with Drs. Haixu Tang and Jing Su in the summer; co-taught with Dr. Jingqiong Li in the fall.
+* *DSCI-D 590 Biomedical Data Science in Practice*, Indiana University (online, Summer 2025, Fall 2025, and Spring 2026)  
+    - A new course applying AI and biostatistical methods using NIH *All of Us* data. Co-designed and co-taught with Drs. Haixu Tang and Jing Su in the summer; co-taught with Dr. Jiangqiong Li in the fall and spring.
 
 * *ILS-Z 604 Music Data Mining*, Indiana University (in person, Fall 2022)  
     - Led lab sessions on machine and deep learning for audio and text analysis.
