@@ -256,7 +256,7 @@ venue = "bioRxiv"
 url = "https://doi.org/10.64898/2026.10.09.758109"
 tags = ["metasci", "health"]
 links = [
-  { kind = "pdf", url = "https://www.biorxiv.org/content/10.64898/2026.10.09.758109v1.full.pdf" },
+  { kind = "pdf", url = "https://www.biorxiv.org/content/10.64898/2026.10.09.758109v2.full.pdf" },
   { kind = "code", url = "https://github.com/Wang-Haining/k" },
 ]
 
