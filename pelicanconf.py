@@ -67,13 +67,15 @@ TRANSLATION_FEED_ATOM = None
 
 # ROBOTS = "index, follow"
 
-CUSTOM_CSS = "static/custom.css?v=10"
+CUSTOM_CSS = "static/custom.css?v=11"
 # CUSTOM_CSS = "../pelican-themes/Flex/static/stylesheet/dark-theme.min.css"
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
     "extra/favicon.ico": {"path": "favicon.ico"},
     "extra/chat-widget.js": {"path": "static/chat-widget.js"},
     "extra/site.js": {"path": "static/site.js"},
+    "extra/plates.js": {"path": "static/plates.js"},
+    "extra/plates-data.json": {"path": "static/plates-data.json"},
     "extra/.nojekyll": {"path": ".nojekyll"},  # GitHub Pages: serve every file as-is (no Jekyll)
     "extra/bolaud.js": {"path": "static/bolaud.js"},
     "extra/robots.txt": {"path": "robots.txt"},
@@ -138,6 +140,8 @@ STATIC_PATHS = [
     "extra/llms.txt",
     "extra/llms-full.txt",
     "extra/site.js",
+    "extra/plates.js",
+    "extra/plates-data.json",
     "extra/chat-widget.js",
     "extra/bolaud.js",
     "extra/custom.css",
