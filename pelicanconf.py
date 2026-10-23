@@ -67,7 +67,7 @@ TRANSLATION_FEED_ATOM = None
 
 # ROBOTS = "index, follow"
 
-CUSTOM_CSS = "static/custom.css?v=11"
+CUSTOM_CSS = "static/custom.css?v=12"
 # CUSTOM_CSS = "../pelican-themes/Flex/static/stylesheet/dark-theme.min.css"
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
