@@ -79,7 +79,8 @@ EXTRA_PATH_METADATA = {
     "extra/.nojekyll": {"path": ".nojekyll"},  # GitHub Pages: serve every file as-is (no Jekyll)
     "extra/bolaud.js": {"path": "static/bolaud.js"},
     "extra/robots.txt": {"path": "robots.txt"},
-    "extra/google6a4ae6271ad574af.html": {"path": "google6a4ae6271ad574af.html"},  # Google Search Console ownership; keep
+    "extra/google6a4ae6271ad574af.html": {"path": "google6a4ae6271ad574af.html"},
+    "extra/teaching-redirect.html": {"path": "teaching.html"},  # old URL of the Teaching page (moved to /teaching/ on 2026-10-11)  # Google Search Console ownership; keep
     "extra/llms.txt": {"path": "llms.txt"},
     "extra/llms-full.txt": {"path": "llms-full.txt"},
     "extra/custom.css": {"path": "static/custom.css"},
@@ -137,6 +138,7 @@ STATIC_PATHS = [
     'extra/CNAME',
     "extra/robots.txt",
     "extra/google6a4ae6271ad574af.html",
+    "extra/teaching-redirect.html",
     "extra/llms.txt",
     "extra/llms-full.txt",
     "extra/site.js",

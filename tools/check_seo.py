@@ -16,6 +16,7 @@ class P(HTMLParser):
 bad = 0
 for f in sorted(glob.glob(os.path.join(sys.argv[1], "*.html")) + glob.glob(os.path.join(sys.argv[1], "*", "index.html"))):  # site pages; the lab under teaching/stylometry/ is not a site page
     if os.path.basename(f).startswith("google"): continue  # Search Console verification file
+    if 'http-equiv="refresh"' in open(f).read(): continue  # redirect stub for an old URL (noindex, canonical to the new page)
     p = P(); p.feed(open(f).read()); T = p.tags
     meta = lambda k, v: [a for t, a in T if t == "meta" and a.get(k) == v]
     titles = [p.text.get(i, "").strip() for i, (t, a) in enumerate(T) if t == "title"]

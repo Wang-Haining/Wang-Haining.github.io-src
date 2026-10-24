@@ -8,4 +8,10 @@
     <priority>{{ '1.0' if p.save_as == 'index.html' else '0.8' }}</priority>
   </url>
 {%- endfor %}
+  <url>
+    <loc>{{ SITEURL }}/teaching/stylometry/</loc>
+    <lastmod>{{ BUILD_DATE }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
