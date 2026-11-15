@@ -147,6 +147,7 @@ STATIC_PATHS = [
     "extra/chat-widget.js",
     "extra/bolaud.js",
     "extra/custom.css",
+    "extra/fonts",
     "extra/.nojekyll",
     "teaching/stylometry",  # self-contained Pyodide lab, copied byte-for-byte to /teaching/stylometry/
 ]
@@ -213,3 +214,10 @@ PUB_LINK_KINDS = {  # kind: (label, icon classes)
     "poster": ("Poster", "fa-solid fa-image"),
     "preprint": ("Preprint", "fa-solid fa-file-lines"),
 }
+
+# Self-hosted Source Sans Pro / Source Code Pro (replaces the Google Fonts request, 2026-11-15).
+# Each file is mapped one by one: a directory key in EXTRA_PATH_METADATA collapses all files into one.
+import os as _os
+_FONT_DIR = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "content", "extra", "fonts")
+for _f in sorted(_os.listdir(_FONT_DIR)):
+    EXTRA_PATH_METADATA["extra/fonts/" + _f] = {"path": "static/fonts/" + _f}
