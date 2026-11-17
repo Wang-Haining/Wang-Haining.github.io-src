@@ -1,9 +1,9 @@
 Title:
 url:
 save_as: index.html
-Description: Haining Wang, PhD (Indiana University School of Medicine): NLP and large language models for real-world health data, research policy (NIH, NSF), AI fairness in libraries, and stylometry. News, papers, and projects.
+Description: Haining Wang, PhD (Indiana University School of Medicine) studies whom diagnosis codes, science indicators, and AI systems count and drop, using language models on clinical notes, NIH and NSF awards, and library AI. News, papers, and projects.
 
-Hi 👋, I'm a postdoctoral fellow in Biostatistics and Health Data Science at the Indiana University School of Medicine, with a PhD in Information Science from Indiana University. I study how AI and data shape care, access, and policy, and who gets left out. Institutions decide in words: prescriptions, grant abstracts, papers, answers to library patrons. I use language models to turn those words into measurements, and causal inference to test what changes them. That has meant finding [early signs of alcohol use disorder in medication lists](https://dualr.hainingwang.org), testing [whether AI serves library patrons fairly](https://doi.org/10.1057/s41599-026-08465-5), tracing [how NIH and NSF fund and count science](/research#metasci), and asking [whether writers can stay anonymous](https://hdl.handle.net/2022/33626).
+Hi 👋, I'm a postdoctoral fellow in Biostatistics and Health Data Science at the Indiana University School of Medicine, with a PhD in Information Science from Indiana University. Hospitals, libraries, and science agencies decide through diagnosis codes, indicators, and AI systems that someone else designed. I study whom those systems count, whom they drop, and who is in a position to check. I use language models, built with experts, to read clinical notes, award text, and AI answers at scale, and dated changes in policy to test what moves the count. That has meant [screening medication lists for alcohol use disorder that diagnosis codes miss](https://dualr.hainingwang.org), showing [whom NIH and NSF indicators stop counting](/research#metasci), and building checks an institution can run on its own: [a fairness audit for library AI assistants](https://doi.org/10.1057/s41599-026-08465-5) and [a small open model that keeps writers anonymous](https://hdl.handle.net/2022/33626).
 
 
 <br>
