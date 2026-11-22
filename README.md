@@ -9,3 +9,4 @@ Deploy: commit and push `output` (branch `master`) first, then commit the update
 Stage files by name here; the repo root holds local folders that should stay untracked.
 
 Publications live in `data/publications.toml`; `content/pages/research.md` only sets the template.
+News items go at the top of `### What's New` in `content/pages/home.md`, newest first.
