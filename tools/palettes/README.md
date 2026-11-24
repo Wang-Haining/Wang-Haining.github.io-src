@@ -1,6 +1,6 @@
-# Palette of the day
+# Palette of the hour
 
-The site rotates one painting palette per day (inline script in `templates/base.html`).
+The site rotates one painting palette per local hour (inline script in `templates/base.html`).
 
 - `lisa.json`: 133 palettes scraped from Color Lisa (https://colorlisa.com/).
 - `roles.py`: color math (WCAG contrast, lightness adjustment).
