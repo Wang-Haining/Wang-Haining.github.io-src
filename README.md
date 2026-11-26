@@ -16,3 +16,4 @@ Pages: `content/pages/` (home, research, resource, teaching, contact).
 The stylometry lab for the Under Five series is a static app in `content/teaching/stylometry/`.
 The hourly glyph plates at the foot of the sidebar come from `content/extra/plates.js` and `plates-data.json`; preview any with `?plate=N`.
 Fonts are self-hosted from `content/extra/fonts/` (Source Sans Pro, Source Code Pro); no Google Fonts request.
+`content/sitemap.xml` is a template page that lists every page.
