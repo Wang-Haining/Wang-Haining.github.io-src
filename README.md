@@ -17,3 +17,4 @@ The stylometry lab for the Under Five series is a static app in `content/teachin
 The hourly glyph plates at the foot of the sidebar come from `content/extra/plates.js` and `plates-data.json`; preview any with `?plate=N`.
 Fonts are self-hosted from `content/extra/fonts/` (Source Sans Pro, Source Code Pro); no Google Fonts request.
 `content/sitemap.xml` is a template page that lists every page.
+The Ask Haining chat widget (`content/extra/chat-widget.js`) talks to a Cloudflare Worker kept in a separate repo.
