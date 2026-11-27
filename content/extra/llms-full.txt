@@ -109,7 +109,7 @@ Hi 👋, I'm a postdoctoral fellow in Biostatistics and Health Data Science at t
 
 ### What's New
 
-* (Nov 27, 2026) Finally out! 🎉 My new preprint ["MedDx, a Training-Free AI Phenotyping Model, Identifies Alcohol Use Disorder in Cirrhosis with Hepatologist-Level Agreement"](https://doi.org/10.64898/2026.11.25.26368618) is on *medRxiv*: an open AI model reads clinical notes and agrees with hepatologists about as well as they agree with each other, and it finds the many patients with alcohol use disorder whose charts carry no diagnosis code 🩺
+* (Nov 27, 2026) Our new preprint ["MedDx, a Training-Free AI Phenotyping Model, Identifies Alcohol Use Disorder in Cirrhosis with Hepatologist-Level Agreement"](https://doi.org/10.64898/2026.11.25.26368618) is on *medRxiv*: a locally deployable language model reads clinical notes and identifies alcohol use disorder at hepatologist level (much more accurate than ICD codes). The skill and code are open on [GitHub](https://github.com/Su-informatics-lab/aud).
 
 * (Nov 19, 2026) I gave the ["Who Wrote This?"](https://claude.ai/artifact/1dbZhF4BwfGHwRs6nkYbDF) lecture again, this time online for Dr. Xiaojun Yuan's *Information in the 21st Century* course at the University at Albany.
 
