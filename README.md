@@ -3,6 +3,8 @@
 Source for my personal website, [hainingwang.org](https://hainingwang.org).
 Built with [Pelican](https://getpelican.com/); the rendered site lives in the `output` submodule.
 
+## Build and deploy
+
 Build (from `.venv`): `pelican content -o output -s publishconf.py`, then `python tools/check_seo.py output` (one title, description, canonical, robots and image alt text per page; it must report 0 failures).
 If `content/pages/home.md` or `about.md` changes, regenerate the agent-facing `llms.txt` and `llms-full.txt` with `python tools/build_llms.py`.
 Deploy: commit and push `output` (branch `master`) first, then commit the updated submodule pointer here on `main`.
