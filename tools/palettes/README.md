@@ -8,4 +8,4 @@ The site rotates one painting palette per local hour (inline script in `template
 - `pop.py`: adds the contrasting "pop" color (and its text color) used by the Ask Haining widget.
 
 To change palettes: edit the list in `curate.py`, run `python3 curate.py && python3 pop.py`, then regenerate the `var P = [...]` array in `templates/base.html` from `curated.json`
-(fields: work, artist, sidebar, chip, accent, hover, accentDark, selection, pop, popInk). Preview any palette with `?palette=N`.
+(fields: work, artist, sidebar, chip, accent, hover, accentDark, selection, pop, popInk). Preview any palette with `?palette=N` (N counts from 0 through the curated list).
