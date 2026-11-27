@@ -637,6 +637,44 @@
     return { cols: cols, rows: rows };
   }
 
+  // ── MedDx: a liver spelled from "clinical notes", traced from an anatomical front view: the right lobe about six times
+  //    the left, the falciform ligament between them (a seam of "|"), the gallbladder peeking out below. A reading line
+  //    sweeps across, and the cells it has read light up in the pop color: about six in ten, the share of patients with
+  //    alcohol use disorder who had no diagnosis code for it. ──
+  var LIVER = [12, 104, 15, 84, 20, 69, 27, 55, 35, 42, 47, 31, 62, 23, 80, 17, 104, 16, 118, 21, 131, 28, 160, 29, 177, 35,
+    248, 37, 264, 43, 272, 50, 280, 53, 286, 57, 288, 63, 287, 68, 283, 77, 279, 79, 264, 87, 249, 94, 235, 105, 220, 116,
+    205, 125, 190, 130, 175, 132, 160, 134, 146, 135, 131, 139, 116, 146, 101, 157, 87, 163, 72, 172, 57, 185, 50, 190,
+    42, 193, 35, 181, 27, 160, 20, 139, 12, 114];
+  var GALL = [80, 162, 118, 141, 117, 156, 106, 172, 89, 174, 80, 169];
+  function liver(svg, t) {
+    var cols = 30, rows = 21, LQ = 16, bg = el("g", {}, svg), g = el("g", {}, svg), f = frame(t); // LQ: the ligament's column
+    var sc = t ? (f * 0.5) % 54 - 2 : 1e9; // reading line, in columns; still frame: all read
+    function poly(x, pts) {
+      x.beginPath(); x.moveTo(pts[0], pts[1]);
+      for (var i = 2; i < pts.length; i += 2) x.lineTo(pts[i], pts[i + 1]);
+      x.closePath(); x.fill();
+    }
+    var body = coverage(cols, rows, function (x) { poly(x, LIVER); });
+    var gall = coverage(cols, rows, function (x) { poly(x, GALL); });
+    glow(bg, 150, 104, 150, 0.12);
+    if (t && sc < cols + 2) beam(bg, (sc * S - 26) + ",20 " + (sc * S + 4) + ",20 " + (sc * S + 4) + ",200 " + (sc * S - 26) + ",200", sc * S + 4, 0, sc * S - 26, 0, 0.32);
+    var read = [], rest = [];
+    for (var r = 0; r < rows; r++) {
+      read.push([]); rest.push([]);
+      for (var q = 0; q < cols; q++) {
+        var c = q === LQ ? 0 : body[r][q], lit = c >= 0.5 && q < sc && rnd(r, q, 197) < 0.61;
+        read[r].push(lit ? c : 0); rest[r].push(lit ? 0 : c);
+      }
+    }
+    mosaic(g, cols, rows, [
+      { cov: read, hi: true, edge: false, chars: "clinicalnotes", mix: [["tile", 56], ["disc", 28], ["dot", 16]] },
+      { cov: rest, chars: "clinicalnotes", mix: [["tile", 48], ["disc", 24], ["diamond", 10], ["plus", 8], ["dot", 10]] },
+      { cov: gall, mix: [["ring", 1]] } // rings only here, so the gallbladder reads apart from the liver
+    ], 97);
+    for (r = 0; r < rows; r++) if (body[r][LQ] >= 0.5) glyph(g, LQ, r, "char", "|", false);
+    return { cols: cols, rows: rows };
+  }
+
   var PLATES = [
     { draw: elephant, animate: true, label: "An elephant drawn in glyphs; its trunk wiggles",
       note: 'Four parameters fit an elephant; the fifth wiggles its trunk. <a href="/teaching/">Under Five</a>' },
@@ -671,7 +709,9 @@
     { draw: tortoiseHare, animate: true, label: "A hare and a tortoise, the tortoise's shell highlighted",
       note: 'Thinking, fast and slow: DualReasoning pulls clinical knowledge out of messy medication records with LLMs. A distinguished poster nominee at AMIA 2025. <a href="https://drive.google.com/file/d/1r9FAD9tLjCtWvCUjI-enLxQ4FxUeflFd/view?usp=sharing">Poster</a>' },
     { draw: calendar, animate: true, needs: "cal", label: "A year of bioRxiv preprints, one mark per day",
-      note: 'Every new bioRxiv preprint of 2025, one mark per day. Crosses: NIH R01 due dates. In the four weeks before each (bright), the US share of preprints ticks up. <a href="https://doi.org/10.64898/2026.10.10.758253">Zeitgeber</a>' }
+      note: 'Every new bioRxiv preprint of 2025, one mark per day. Crosses: NIH R01 due dates. In the four weeks before each (bright), the US share of preprints ticks up. <a href="https://doi.org/10.64898/2026.10.10.758253">Zeitgeber</a>' },
+    { draw: liver, animate: true, label: "A liver spelled in the letters of clinical notes; a reading line lights up about six in ten of its cells",
+      note: 'Among patients with cirrhosis, about six in ten with alcohol use disorder had no diagnosis code for it. Reading their clinical notes, MedDx found nearly all of them. <a href="https://doi.org/10.64898/2026.11.25.26368618">MedDx</a>' }
   ];
 
   function mount() {
