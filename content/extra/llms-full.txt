@@ -109,6 +109,8 @@ Hi 👋, I'm a postdoctoral fellow in Biostatistics and Health Data Science at t
 
 ### What's New
 
+* (Nov 27, 2026) Finally out! 🎉 My new preprint ["MedDx, a Training-Free AI Phenotyping Model, Identifies Alcohol Use Disorder in Cirrhosis with Hepatologist-Level Agreement"](https://doi.org/10.64898/2026.11.25.26368618) is on *medRxiv*: an open AI model reads clinical notes and agrees with hepatologists about as well as they agree with each other, and it finds the many patients with alcohol use disorder whose charts carry no diagnosis code 🩺
+
 * (Nov 19, 2026) I gave the ["Who Wrote This?"](https://claude.ai/artifact/1dbZhF4BwfGHwRs6nkYbDF) lecture again, this time online for Dr. Xiaojun Yuan's *Information in the 21st Century* course at the University at Albany.
 
 * (Nov 10, 2026) Our poster, ["Agentic Delphi for Phenotyping Immune-Related Acute Kidney Injury in Cancer Patients with Immunotherapies"](https://drive.google.com/file/d/1_7QAk8PAkIo2ASaMTJuSQrUSyqX8Kyd8/view?usp=sharing), was nominated as a distinguished poster at *AMIA 2026* in Dallas! 🎉 Seven AI agents debate like a cancer panel over whether immunotherapy caused a patient's kidney injury. Thanks to everyone who stopped by 👋
@@ -316,6 +318,7 @@ DualReasoning shows great promise in incorporating messy medication information 
 
 ## Preprints
 
+- Wang, H., Chen, Y., Arif, M., Pal, D., Xiong, C., Liu, H., Liangpunsakul, S., Desai, A. P., Tu, W., Gawrieh, S., & Su, J. (2026). MedDx, a training-free AI phenotyping model, identifies alcohol use disorder in cirrhosis with hepatologist-level agreement. *medRxiv*. https://doi.org/10.64898/2026.11.25.26368618 (pdf: https://www.medrxiv.org/content/10.64898/2026.11.25.26368618v1.full.pdf, code: https://github.com/Su-informatics-lab/aud) [topics: nlp, health]
 - Wang, H., & Su, J. (2026). Funding deadlines act as a zeitgeber for science. *bioRxiv*. https://doi.org/10.64898/2026.10.10.758253 (pdf: https://www.biorxiv.org/content/10.64898/2026.10.10.758253v1.full.pdf, code: https://github.com/Wang-Haining/zeitgeber) [topics: metasci]
 - Wang, H. (2026). The prestige precedes the prize: Top-journal papers and new federal grants. *SocArXiv*. https://doi.org/10.31235/osf.io/cf5u8_v1 (code: https://github.com/Wang-Haining/prestige-precedes-prize) [topics: metasci]
 - Wang, H., Fu, H., & Tian, Z. (2026). Leadership of supported and new clinical trials after the NIH K23 clinical trial pathway. *bioRxiv*. https://doi.org/10.64898/2026.10.09.758109 (pdf: https://www.biorxiv.org/content/10.64898/2026.10.09.758109v2.full.pdf, code: https://github.com/Wang-Haining/k) [topics: metasci, health]
@@ -403,6 +406,12 @@ Each entry: citation, link, and abstract or summary. Haining Wang is 'Wang, H.'.
 Link: (no public link yet)
 
 This study evaluates the ability of large language models (LLMs) to classify text according to the computer-mediated discourse analysis (CMDA) research paradigm developed by the first author. Three LLMs (ChatGPT-4o, Claude Sonnet 4, Gemini Pro 2.5) were prompted to apply three CMDA methods ((im)politeness, speech acts, and two meta-acts: non-bona fide communication and reported perspective) to two public Reddit threads, and the results were compared with coding by humans skilled in CMDA. LLM-human agreement was below the threshold expected of trained human coders but within the range of novice CMDA learners, especially considering the LLMs' reasoning and the subjectivity of some categories. Gemini did better on rarer, harder phenomena and somewhat worse on the most common categories, and all three models varied across the two threads. The paper discusses implications for using LLMs in qualitative discourse research and pedagogy.
+
+## Wang, Chen, Arif, Pal, Xiong, Liu, Liangpunsakul, Desai, Tu, Gawrieh & Su (2026), MedDx, a training-free AI phenotyping model, identifies alcohol use disorder in cirrhosis with hepatologist-level agreement, medRxiv
+Link: https://doi.org/10.64898/2026.11.25.26368618
+Code: https://github.com/Su-informatics-lab/aud
+
+Alcohol use disorder (AUD) is often under-documented in patients with cirrhosis, which delays treatment. Expert chart review of clinical notes can identify under-documented AUD, but is not scalable. We propose MedDx, an open-weight, training-free, and engine-agnostic language model, to phenotype AUD using clinical notes in patients with cirrhosis. We benchmarked MedDx on a 485-patient study cohort sampled from the 14,406-patient Indiana Cirrhosis Registry, using a chart-review-based reference as ground truth. MedDx agreed with the ground truth at three-class Cohen's kappa 0.92, against 0.67 for the AUD diagnosis code. It agreed with one hepatologist at 0.85 on all 485 charts and with a second at 0.82 on 186 charts, on which the two hepatologists agreed at 0.87. Weighted to the registry, its sensitivity was 98% and specificity 94%, against 63% and 96% for the AUD diagnosis code, and 61% of an estimated 6,223 patients with AUD had no AUD diagnosis by the first cirrhosis diagnosis. MedDx is openly available as an off-the-shelf, equitable, and auditable tool to identify AUD.
 
 ## Wang & Su (2026), Funding deadlines act as a zeitgeber for science, bioRxiv
 Link: https://doi.org/10.64898/2026.10.10.758253

@@ -10,6 +10,8 @@ Hi 👋, I'm a postdoctoral fellow in Biostatistics and Health Data Science at t
 
 ### What's New
 
+* (Nov 27, 2026) Finally out! 🎉 My new preprint ["MedDx, a Training-Free AI Phenotyping Model, Identifies Alcohol Use Disorder in Cirrhosis with Hepatologist-Level Agreement"](https://doi.org/10.64898/2026.11.25.26368618) is on *medRxiv*: an open AI model reads clinical notes and agrees with hepatologists about as well as they agree with each other, and it finds the many patients with alcohol use disorder whose charts carry no diagnosis code 🩺
+
 * (Nov 19, 2026) I gave the ["Who Wrote This?"](https://claude.ai/artifact/1dbZhF4BwfGHwRs6nkYbDF) lecture again, this time online for Dr. Xiaojun Yuan's *Information in the 21st Century* course at the University at Albany.
 
 * (Nov 10, 2026) Our poster, ["Agentic Delphi for Phenotyping Immune-Related Acute Kidney Injury in Cancer Patients with Immunotherapies"](https://drive.google.com/file/d/1_7QAk8PAkIo2ASaMTJuSQrUSyqX8Kyd8/view?usp=sharing), was nominated as a distinguished poster at *AMIA 2026* in Dallas! 🎉 Seven AI agents debate like a cancer panel over whether immunotherapy caused a patient's kidney injury. Thanks to everyone who stopped by 👋

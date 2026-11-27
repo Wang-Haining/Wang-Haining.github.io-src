@@ -226,6 +226,19 @@ links = []
 
 [[pub]]
 section = "preprint"
+authors = "Wang, H., Chen, Y., Arif, M., Pal, D., Xiong, C., Liu, H., Liangpunsakul, S., Desai, A. P., Tu, W., Gawrieh, S., & Su, J."
+year = "2026"
+title = "MedDx, a training-free AI phenotyping model, identifies alcohol use disorder in cirrhosis with hepatologist-level agreement"
+venue = "medRxiv"
+url = "https://doi.org/10.64898/2026.11.25.26368618"
+tags = ["nlp", "health"]
+links = [
+  { kind = "pdf", url = "https://www.medrxiv.org/content/10.64898/2026.11.25.26368618v1.full.pdf" },
+  { kind = "code", url = "https://github.com/Su-informatics-lab/aud" },
+]
+
+[[pub]]
+section = "preprint"
 authors = "Wang, H., & Su, J."
 year = "2026"
 title = "Funding deadlines act as a zeitgeber for science"
