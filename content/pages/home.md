@@ -16,6 +16,8 @@ Hi 👋, I'm a postdoctoral fellow in Biostatistics and Health Data Science at t
 
 * (Nov 10, 2026) Our poster, ["Agentic Delphi for Phenotyping Immune-Related Acute Kidney Injury in Cancer Patients with Immunotherapies"](https://drive.google.com/file/d/1_7QAk8PAkIo2ASaMTJuSQrUSyqX8Kyd8/view?usp=sharing), was nominated as a distinguished poster at *AMIA 2026* in Dallas! 🎉 Seven AI agents debate like a cancer panel over whether immunotherapy caused a patient's kidney injury. Thanks to everyone who stopped by 👋
 
+* (Nov 10, 2026) Also at *AMIA 2026*, Hao Wang presented our poster ["Agentic AI for Smart Analytical Visualization of Clinical Studies Using Graph Data Models on Research Data Commons"](https://amia.secure-platform.com/symposium/gallery/rounds/82037/details/31998): AI agents read a clinical study's protocol before they draw its charts 📊
+
 * (Oct 15, 2026) I gave a guest lecture on stylometry, ["Who Wrote This? Fingerprints and Disguises in the Age of LLMs"](https://claude.ai/artifact/1dbZhF4BwfGHwRs6nkYbDF), in Dr. Allen Riddell's *Digital Humanities* course at Indiana University. The [stylometry lab](/teaching/stylometry/) that goes with it is free and open to anyone: four real cases you can run in your browser 🔍 The full lecture is now [on YouTube](https://youtu.be/PBQCpIYYFSo) too 🎬
 
 * (Oct 14, 2026) Three more preprints on federal funding and research careers 📈
